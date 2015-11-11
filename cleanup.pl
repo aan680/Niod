@@ -1,8 +1,16 @@
- 
+clean_up:-
+    assign_missing_types,
+    handle_relatedpriority_triples,
+    assert_symmetric_relations,
+    add_conceptscheme_definitions,
+    define_literal_types,
+    remove_untyped_literals.
+    
 %not applicable but good to test anyways.
 infer_preflabel:-
     %forall(preflabel_implicit(S,L), replace_label_by_preflabel(S,L)),
-    forall(preflabel_implicit_2(S,L), replace_label_by_preflabel_2(S,L)).
+    forall(preflabel_implicit_2(S,L), replace_label_by_preflabel_2(S,L)),
+    clean_double_labels.
 
 assign_missing_types:-
    forall(conceptdef_missing(S), rdf_assert(S, rdf:type, skos:'Concept', 'niod')).     
@@ -21,8 +29,31 @@ add_conceptscheme_definitions:-
     rdf_assert(niod:'thesaurus', rdfs:label, literal(type(xsd:string, "Niod thesaurus"))),
     forall(concept(S), rdf_assert(S, skos:inScheme, niod:'thesaurus', 'niod')).
 
+clean_double_labels:
+	forall(rdf(S,P,literal(literal(O)), 'niod'), rdf_assert(S,P,literal(O), 'niod')),
+	rdf_retractall(S,P,literal(literal(O)), 'niod').
+
+define_literal_types:-
+    forall(literal_type_undefined(S,P,Label), rdf_assert(S,P,literal(type(xsd:string,Label)), 'niod')).
+
+remove_untyped_literals:-
+    forall(untyped_literal(Label), rdf_retractall(S,P,Label), 'niod').
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+
+untyped_literal(S,P,L):-
+    rdf(S,P,literal(type(Type,L)), 'niod'),
+    \+ rdf_equal(Type,'http://www.w3.org/2001/XMLSchema#string').                                                         
+                                                             
+literal_type_undefined(Label):-
+	rdf(S,P,literal(Label), 'niod'), \+ rdf(S,P,literal(type(xsd:string,Label)), 'niod').
+
+double_label(S,L):-
+   rdf(S, skos:prefLabel, literal(L), 'niod'),
+   rdf(S, skos:altLabel, literal(L), 'niod').
+
+        
+           
 concept(S):-
     rdf(S, rdf:type, skos:'Concept', 'niod').
 
