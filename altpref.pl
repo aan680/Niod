@@ -18,6 +18,12 @@ get_label_from_path(Path, Label):-
 	nth1(2, SubStrings, Label).
 
 
+get_label(URI, Label):-
+    stitch(Scheme, Authority, Path, URI),
+    get_label_from_path(Path, Label).
+
+
+
 number_in_use(Number):-
  %(rdf(URI, P, O, 'altPref_new'); rdf(URI, P, O, 'broader_new'); rdf(URI, P, O, 'narrower_new'); rdf(URI, P, O, 'related_new');rdf(URI, P, O, 'pref_new')),
    rdf(URI,_,_,'niod'),
@@ -47,21 +53,24 @@ correct(URI, Label):-
 	make_numerical_uri(NumericalURIStr),
    % atom_string(NumericalURI, NumericalURIStr),
     rdf_assert(NumericalURIStr, skos:'altLabel', literal(Label), 'niod'),
-    forall(rdf(URI, skos:'prefLabel', O, 'Test'),rdf_assert(NumericalURIStr, skos:'prefLabel', O, 'niod')).
+    forall(rdf(URI, skos:'prefLabel', O, 'Test'),rdf_assert(NumericalURIStr, skos:'prefLabel', literal(O), 'niod')).
     %rdf_retractall(URI, skos:'prefLabel', _, 'niod'). %remove old triples
 
 
 
 %remove altlabel if this is defined as the pref label
-postprocess:-
-    forall(concept_with_same_alt_pref(S,O), rdf_retractall( S, skos:'altLabel', O, 'niod')).
-               
-concept_with_same_alt_pref_test(S,O1,O2):-
-               rdf(S, skos:'prefLabel', O1, 'niod'),
-               rdf(S, skos:'altLabel', O2, 'niod').
+postprocess(URI):-
+    forall(rdf(S,P,literal(literal(L)), 'niod'), rdf_assert(S,P,literal(L)), 'niod'),
+    forall(concept_with_same_alt_pref(S,O), rdf_retractall( S, skos:'altLabel', O, 'niod')),
+    rdf_retractall(URI, skos:'prefLabel', _, 'niod').
     
 
-concept_with_same_alt_pref(S):-
+concept_with_same_alt_pref_test(S,L1,L2):-
+               rdf(S, skos:'prefLabel', literal(L1),'niod'),
+               rdf(S, skos:'altLabel', literal(L1), 'niod').
+    
+
+concept_with_same_alt_pref(S,O):-
                rdf(S, skos:'prefLabel', literal(O), 'niod'),
                rdf(S, skos:'altLabel', literal(O), 'niod').
   
@@ -75,6 +84,6 @@ altpref:-
     %forall(rdf(S, niod:uniquePrefLabel,_, 'Niod_encoded.ttl'), do_pref(S)).    
     rdf_register_prefix('niod', 'http://data.niod.nl/concept/'),
     forall(rdf(S, skos:'prefLabel',_, 'Test'), do_pref(S)).
-    %postprocess.
+    postprocess(S).
 
 
