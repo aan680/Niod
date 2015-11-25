@@ -1,0 +1,1350 @@
+@prefix skos:<http://www.w3.org/2004/02/skos/core#>.
+@prefix niod: <http://data.niod.nl/concept/> .
+
+niod:1	skos:prefLabel	'Aandelen' ; skos:hasalt	'Effectenhandel'.
+niod:2	skos:prefLabel	'Aankomst'.
+niod:3	skos:prefLabel	'Aanmeldingsplicht'.
+niod:4	skos:prefLabel	'Aanplakbiljetten' ; skos:hasalt	'Affiches'.
+niod:5	skos:prefLabel	'Aanslagen' ; skos:hasrel	'Moordaanslagen, Represailles'.
+niod:6	skos:prefLabel	'Aanvalsoorlogen' ; skos:hasalt	'Offensieven'.
+niod:7	skos:prefLabel	'Aanvalsplannen'.
+niod:8	skos:prefLabel	'Aardolie'.
+niod:9	skos:prefLabel	'Aartsbisschoppen' ; skos:hasalt	'Episcopaat'.
+niod:10	skos:prefLabel	'Abwehr' ; skos:hasrel	'Spionage'.
+niod:11	skos:prefLabel	'Adatrecht'.
+niod:12	skos:prefLabel	'Admiraliteit'.
+niod:13	skos:prefLabel	'Adoptie'.
+niod:14	skos:prefLabel	'Adreslijsten'.
+niod:15	skos:prefLabel	'Advertenties' ; skos:hasalt	'Reclame'.
+niod:16	skos:prefLabel	'Advocatuur' ; skos:hasrel	'Rechtspraak'.
+niod:17	skos:prefLabel	'Affiches' ; skos:hasrel	'Pamfletten'.
+niod:18	skos:prefLabel	'Afro-Amerikanen' ; skos:hasalt	'Zwarten'.
+niod:19	skos:prefLabel	'Afscheidsbrieven'.
+niod:20	skos:prefLabel	'Afstammingsonderzoek' ; skos:hasrel	'Sibbekunde'.
+niod:21	skos:prefLabel	'Aftocht'.
+niod:22	skos:prefLabel	'Afwikkelingsbureaus'.
+niod:23	skos:prefLabel	'Agenten'.
+niod:24	skos:prefLabel	'Agricultuur' ; skos:hasalt	'Landbouw'.
+niod:25	skos:prefLabel	'Ahnenerbe' ; skos:hasalt	'Afstammingsonderzoek'.
+niod:26	skos:prefLabel	'Alcoholische dranken'.
+niod:27	skos:prefLabel	'Ambassades' ; skos:hasrel	'Diplomatie'.
+niod:28	skos:prefLabel	'Ambtenaren'.
+niod:29	skos:prefLabel	'Ambulances'.
+niod:30	skos:prefLabel	'Amnestie'.
+niod:31	skos:prefLabel	'Amusement' ; skos:hasrel	'Dans, Muziek, Zang etc.'.
+niod:32	skos:prefLabel	'Anarchisme'.
+niod:33	skos:prefLabel	'Annexatie' ; skos:hasalt	'Gebiedsuitbreiding'.
+niod:34	skos:prefLabel	'Anschluss'.
+niod:35	skos:prefLabel	'Anti-Duitse houding'.
+niod:36	skos:prefLabel	'Antifascisme'.
+niod:37	skos:prefLabel	'Anti-joodse maatregelen'.
+niod:38	skos:prefLabel	'Antiquariaten' ; skos:hasalt	'Boekhandels, Boeken'.
+niod:39	skos:prefLabel	'Antisemitisme'.
+niod:40	skos:prefLabel	'Antitankwapens'.
+niod:41	skos:prefLabel	'Antropologie'.
+niod:42	skos:prefLabel	'Antroposofie'.
+niod:43	skos:prefLabel	'Apotheken' ; skos:hasrel	'Medicijnen'.
+niod:44	skos:prefLabel	'Appeasement'.
+niod:45	skos:prefLabel	'Arbeid'.
+niod:46	skos:prefLabel	'Arbeiders'.
+niod:47	skos:prefLabel	'Arbeidersbewegingen'.
+niod:48	skos:prefLabel	'Arbeidsbemiddeling'.
+niod:49	skos:prefLabel	'Arbeidsbureaus'.
+niod:50	skos:prefLabel	'Arbeidsdienst'.
+niod:51	skos:prefLabel	'Arbeidsinzet' ; skos:hasrel	'Dwangarbeid'.
+niod:52	skos:prefLabel	'Arbeidsvoorwaarden'.
+niod:53	skos:prefLabel	'Archeologie'.
+niod:54	skos:prefLabel	'Archieven'.
+niod:55	skos:prefLabel	'Architecten'.
+niod:56	skos:prefLabel	'Architectuur'.
+niod:57	skos:prefLabel	'Ariërverklaring'.
+niod:58	skos:prefLabel	'Arisering' ; skos:hasrel	'Nazificatie'.
+niod:59	skos:prefLabel	'Armenzorg'.
+niod:60	skos:prefLabel	'Armoede' ; skos:hasrel	'Schaarste'.
+niod:61	skos:prefLabel	'Arrestaties'.
+niod:62	skos:prefLabel	'Artiesten'.
+niod:63	skos:prefLabel	'Artillerie'.
+niod:64	skos:prefLabel	'Artsen' ; skos:hasrel	'Tandartsen'.
+niod:65	skos:prefLabel	'Artsenverzet'.
+niod:66	skos:prefLabel	'Asiel'.
+niod:67	skos:prefLabel	'Asielrecht'.
+niod:68	skos:prefLabel	'Asmogendheden'.
+niod:69	skos:prefLabel	'Asocialen'.
+niod:70	skos:prefLabel	'Assimilatie'.
+niod:71	skos:prefLabel	'Astrologie'.
+niod:72	skos:prefLabel	'Atlassen' ; skos:hasrel	'Kaartmateriaal'.
+niod:73	skos:prefLabel	'Atoomoorlog'.
+niod:74	skos:prefLabel	'Atoomwapens'.
+niod:75	skos:prefLabel	'Ausweise' ; skos:hasalt	'Persoonsbewijzen'.
+niod:76	skos:prefLabel	'Auteurs'.
+niod:77	skos:prefLabel	'Auto’s'.
+niod:78	skos:prefLabel	'Autobanen'.
+niod:79	skos:prefLabel	'Autobiografieën'.
+niod:80	skos:prefLabel	'Avondklok'.
+niod:81	skos:prefLabel	'Bacteriologische oorlogvoering' ; skos:hasrel	'Chemische oorlogvoering'.
+niod:82	skos:prefLabel	'Bakkerijen'.
+niod:83	skos:prefLabel	'Ballingschap'.
+niod:84	skos:prefLabel	'Bankbiljetten'.
+niod:85	skos:prefLabel	'Bankwezen'.
+niod:86	skos:prefLabel	'Barricades' ; skos:hasalt	'Versperringen'.
+niod:87	skos:prefLabel	'Bedrijfsorganisaties'.
+niod:88	skos:prefLabel	'Bedrijven'.
+niod:89	skos:prefLabel	'Beëdigingen' ; skos:hasalt	'Benoemingen'.
+niod:90	skos:prefLabel	'Beeldende kunst' ; skos:hasnar 'Zie ook bij kunsten afzonderlijk: Beeldhouwkunst, Fotografie, Schilderkunst'.
+niod:91	skos:prefLabel	'Beeldhouwkunst'.
+niod:92	skos:prefLabel	'Beeldmateriaal'.
+niod:93	skos:prefLabel	'Begraafplaatsen' ; skos:hasrel	'Oorlogsgraven'.
+niod:94	skos:prefLabel	'Begrafenissen'.
+niod:95	skos:prefLabel	'Bekendmakingen'.
+niod:96	skos:prefLabel	'Belastingen'.
+niod:97	skos:prefLabel	'Bellettrie'.
+niod:98	skos:prefLabel	'Beloningen'.
+niod:99	skos:prefLabel	'Benoemingen'.
+niod:100	skos:prefLabel	'Berechting'.
+niod:101	skos:prefLabel	'Berging'.
+niod:102	skos:prefLabel	'Beroepsgroepen'.
+niod:103	skos:prefLabel	'Berufsverbote'.
+niod:104	skos:prefLabel	'Besluiten'.
+niod:105	skos:prefLabel	'Besprekingen'.
+niod:106	skos:prefLabel	'Bestuur'.
+niod:107	skos:prefLabel	'Bestuursorganen'.
+niod:108	skos:prefLabel	'Betalingsverkeer'.
+niod:109	skos:prefLabel	'Beurswezen'.
+niod:110	skos:prefLabel	'Bevolking' ; skos:hasalt	'Burgerbevolking'.
+niod:111	skos:prefLabel	'Bevolkingsgroepen' ; skos:hasrel	'Demografie'.
+niod:112	skos:prefLabel	'Bevolkingspolitiek' ; skos:hasrel	'Demografie'.
+niod:113	skos:prefLabel	'Bevolkingsregisters' ; skos:hasrel	'Burgerlijke stand'.
+niod:114	skos:prefLabel	'Bevolkingssamenstelling'.
+niod:115	skos:prefLabel	'Bevolkingsvraagstuk'.
+niod:116	skos:prefLabel	'Bevoorrading' ; skos:hasalt	'Logistiek, Transport'.
+niod:117	skos:prefLabel	'Bevrijding'.
+niod:118	skos:prefLabel	'Bevrijdingskinderen'.
+niod:119	skos:prefLabel	'Bewaking'.
+niod:120	skos:prefLabel	'Bewapening'.
+niod:121	skos:prefLabel	'Bewapeningsindustrie'.
+niod:122	skos:prefLabel	'Bewaringskampen' ; skos:hasalt	'Interneringskampen'.
+niod:123	skos:prefLabel	'Bezette gebieden'.
+niod:124	skos:prefLabel	'Bezetting'.
+niod:125	skos:prefLabel	'Bezettingspolitiek'.
+niod:126	skos:prefLabel	'Bezit'.
+niod:127	skos:prefLabel	'Bezoldiging' ; skos:hasalt	'Lonen'.
+niod:128	skos:prefLabel	'Bibliografieën'.
+niod:129	skos:prefLabel	'Bibliotheken'.
+niod:130	skos:prefLabel	'Bijbel'.
+niod:131	skos:prefLabel	'Bijeenkomsten' ; skos:hasrel	'Manifestaties, Massabijeenkomsten, Ontmoetingen, Partijdagen'.
+niod:132	skos:prefLabel	'Bijltjesdag'.
+niod:133	skos:prefLabel	'Bijzondere rechtspleging'.
+niod:134	skos:prefLabel	'Binnenlandse politiek'.
+niod:135	skos:prefLabel	'Binnenvaart'.
+niod:136	skos:prefLabel	'Biografieën'.
+niod:137	skos:prefLabel	'Biologische oorlogvoering' ; skos:hasalt	'Bacteriologische oorlogvoering'.
+niod:138	skos:prefLabel	'Bioscoopjournaals'.
+niod:139	skos:prefLabel	'Bioscopen'.
+niod:140	skos:prefLabel	'Bisschoppen' ; skos:hasalt	'Episcopaat'.
+niod:141	skos:prefLabel	'Blitzkrieg'.
+niod:142	skos:prefLabel	'Bloembollen'.
+niod:143	skos:prefLabel	'Blokkades' ; skos:hasrel	'Versperringen'.
+niod:144	skos:prefLabel	'Boeddhisme'.
+niod:145	skos:prefLabel	'Boeken'.
+niod:146	skos:prefLabel	'Boekhandels'.
+niod:147	skos:prefLabel	'Boekverbrandingen'.
+niod:148	skos:prefLabel	'Boerderijen'.
+niod:149	skos:prefLabel	'Boeren'.
+niod:150	skos:prefLabel	'Boerenorganisaties'.
+niod:151	skos:prefLabel	'Bolsjewisme' ; skos:hasalt	'Communisme'.
+niod:152	skos:prefLabel	'Bombardementen'.
+niod:153	skos:prefLabel	'Bomen'.
+niod:154	skos:prefLabel	'Bommen'.
+niod:155	skos:prefLabel	'Bommenwerpers'.
+niod:156	skos:prefLabel	'Bonnen' ; skos:hasrel	'Distributie, Distributiestamkaarten'.
+niod:157	skos:prefLabel	'Bordelen'.
+niod:158	skos:prefLabel	'Borden'.
+niod:159	skos:prefLabel	'Bosbouw'.
+niod:160	skos:prefLabel	'Bouw'.
+niod:161	skos:prefLabel	'Bouwkunst' ; skos:hasalt	'Architectuur'.
+niod:162	skos:prefLabel	'Bouwnijverheid'.
+niod:163	skos:prefLabel	'Boycot'.
+niod:164	skos:prefLabel	'Branden'.
+niod:165	skos:prefLabel	'Brandkasten' ; skos:hasalt	'Kluizen'.
+niod:166	skos:prefLabel	'Brandstoffen' ; skos:hasrel	'Aardolie, Kolen'.
+niod:167	skos:prefLabel	'Brandweer'.
+niod:168	skos:prefLabel	'Brieven'.
+niod:169	skos:prefLabel	'Brochures' ; skos:hasrel	'Pamfletten'.
+niod:170	skos:prefLabel	'Bronnenuitgaven' ; skos:hasrel	'Documenten'.
+niod:171	skos:prefLabel	'Brood'.
+niod:172	skos:prefLabel	'Bruggen'.
+niod:173	skos:prefLabel	'Buitenkampers'.
+niod:174	skos:prefLabel	'Buitenlandse politiek'.
+niod:175	skos:prefLabel	'Bunkers'.
+niod:176	skos:prefLabel	'Burgemeesters'.
+niod:177	skos:prefLabel	'Burgerbescherming'.
+niod:178	skos:prefLabel	'Burgerbevolking'.
+niod:179	skos:prefLabel	'Burgerdoelen'.
+niod:180	skos:prefLabel	'Burgerlijke stand' ; skos:hasrel	'Bevolkingsregisters'.
+niod:181	skos:prefLabel	'Burgermannenkampen'.
+niod:182	skos:prefLabel	'Burgeroorlogen'.
+niod:183	skos:prefLabel	'Burgerrechten'.
+niod:184	skos:prefLabel	'Burgerwacht'.
+niod:185	skos:prefLabel	'Cabaret'.
+niod:186	skos:prefLabel	'Camouflage'.
+niod:187	skos:prefLabel	'Capitulatie'.
+niod:188	skos:prefLabel	'Cartografie' ; skos:hasalt	'Kaartmateriaal'.
+niod:189	skos:prefLabel	'Cartoons' ; skos:hasrel	'Stripverhalen'.
+niod:190	skos:prefLabel	'Castratie' ; skos:hasrel	'Sterilisatie'.
+niod:191	skos:prefLabel	'Catalogi'.
+niod:192	skos:prefLabel	'Cavalerie'.
+niod:193	skos:prefLabel	'Censuur' ; skos:hasrel	'Persvrijheid'.
+niod:194	skos:prefLabel	'Centrale keukens' ; skos:hasalt	'Gaarkeukens'.
+niod:195	skos:prefLabel	'Ceremonies' ; skos:hasalt	'Plechtigheden'.
+niod:196	skos:prefLabel	'Chemische oorlogvoering' ; skos:hasrel	'Bacteriologische oorlogvoering'.
+niod:197	skos:prefLabel	'Christendom'.
+niod:198	skos:prefLabel	'Christenen'.
+niod:199	skos:prefLabel	'Chronologieën'.
+niod:200	skos:prefLabel	'Circulaires' ; skos:hasrel	'Pamfletten'.
+niod:201	skos:prefLabel	'Clandestiene uitgaven'.
+niod:202	skos:prefLabel	'Codering' ; skos:hasrel	'Decodering'.
+niod:203	skos:prefLabel	'Collaborateurs' ; skos:hasrel	'Collaboratie'.
+niod:204	skos:prefLabel	'Collaboratie' ; skos:hasrel	'Collaborateurs'.
+niod:205	skos:prefLabel	'Collectes'.
+niod:206	skos:prefLabel	'Collecties'.
+niod:207	skos:prefLabel	'Colportage'.
+niod:208	skos:prefLabel	'Commando’s'.
+niod:209	skos:prefLabel	'Commissies'.
+niod:210	skos:prefLabel	'Communisme'.
+niod:211	skos:prefLabel	'Communisten'.
+niod:212	skos:prefLabel	'Concentratiekampen' ; skos:hasrel	'Gaskamers, Doorgangskampen, Vernietigingskampen'.
+niod:213	skos:prefLabel	'Concentratiekampsyndroom' ; skos:hasalt	'Oorlogstrauma\'s'.
+niod:214	skos:prefLabel	'Concerten'.
+niod:215	skos:prefLabel	'Confectie-industrie'.
+niod:216	skos:prefLabel	'Conferenties'.
+niod:217	skos:prefLabel	'Confiscatie' ; skos:hasalt	'Onteigening'.
+niod:218	skos:prefLabel	'Congressen'.
+niod:219	skos:prefLabel	'Conservatisme'.
+niod:220	skos:prefLabel	'Consulaten' ; skos:hasrel	'Diplomatie'.
+niod:221	skos:prefLabel	'Contraspionage'.
+niod:222	skos:prefLabel	'Coöperaties'.
+niod:223	skos:prefLabel	'Corporatisme'.
+niod:224	skos:prefLabel	'Correspondentie' ; skos:hasalt	'Brieven'.
+niod:225	skos:prefLabel	'Corruptie'.
+niod:226	skos:prefLabel	'Crashes' ; skos:hasrel	'Vernielingen, Wrakken'.
+niod:227	skos:prefLabel	'Crematoria' ; skos:hasalt	'Verbrandingsovens'.
+niod:228	skos:prefLabel	'Criminaliteit'.
+niod:229	skos:prefLabel	'Criminologie'.
+niod:230	skos:prefLabel	'Crisistijd'.
+niod:231	skos:prefLabel	'Crossings'.
+niod:232	skos:prefLabel	'Cultuur'.
+niod:233	skos:prefLabel	'Cultuurgeschiedenis'.
+niod:234	skos:prefLabel	'Cultuurkamer' ; skos:hasalt	'Kultuurkamer'.
+niod:235	skos:prefLabel	'Cultuurkritiek'.
+niod:236	skos:prefLabel	'Cultuurpolitiek'.
+niod:237	skos:prefLabel	'Dagbladen' ; skos:hasalt	'Kranten'.
+niod:238	skos:prefLabel	'Dagboeken'.
+niod:239	skos:prefLabel	'Dagelijks leven'.
+niod:240	skos:prefLabel	'Daklozen'.
+niod:241	skos:prefLabel	'Dans'.
+niod:242	skos:prefLabel	'Decodering' ; skos:hasrel	'Codering'.
+niod:243	skos:prefLabel	'Decoraties' ; skos:hasalt	'Onderscheidingen'.
+niod:244	skos:prefLabel	'Decreten' ; skos:hasrel	'Verordeningen'.
+niod:245	skos:prefLabel	'Defaitisme'.
+niod:246	skos:prefLabel	'Defensie'.
+niod:247	skos:prefLabel	'Defensiepolitiek'.
+niod:248	skos:prefLabel	'Dekolonisatie' ; skos:hasrel	'Kolonialisme'.
+niod:249	skos:prefLabel	'Delegaties' ; skos:hasrel	'Onderhandelingen'.
+niod:250	skos:prefLabel	'Delfstoffen' ; skos:hasrel	'Mijnbouw, Aardolie, Brandstoffen, Kolen'.
+niod:251	skos:prefLabel	'Deling' ; skos:hasalt	'Gebiedsverdeling'.
+niod:252	skos:prefLabel	'Demarcatielijnen' ; skos:hasalt	'Grenzen'.
+niod:253	skos:prefLabel	'Demilitarisering ' ; skos:hasrel	'Militarisering'.
+niod:254	skos:prefLabel	'Demobilisatie'.
+niod:255	skos:prefLabel	'Democratie'.
+niod:256	skos:prefLabel	'Demografie'.
+niod:257	skos:prefLabel	'Demonstraties'.
+niod:258	skos:prefLabel	'Denazificatie' ; skos:hasrel	'Nazificatie'.
+niod:259	skos:prefLabel	'Departementen' ; skos:hasrel	'Ministeries, Secretarissen-Generaal'.
+niod:260	skos:prefLabel	'Deportaties' ; skos:hasrel	'Transporten'.
+niod:261	skos:prefLabel	'Deserteurs'.
+niod:262	skos:prefLabel	'Desertie'.
+niod:263	skos:prefLabel	'Detailhandel' ; skos:hasalt	'Winkels'.
+niod:264	skos:prefLabel	'Deviezen'.
+niod:265	skos:prefLabel	'Diamanten'.
+niod:266	skos:prefLabel	'Dictaturen'.
+niod:267	skos:prefLabel	'Diefstal'.
+niod:268	skos:prefLabel	'Dienstplicht'.
+niod:269	skos:prefLabel	'Dienstregelingen'.
+niod:270	skos:prefLabel	'Dienstweigering' ; skos:hasrel	'Gewetensbezwaren'.
+niod:271	skos:prefLabel	'Dieren'.
+niod:272	skos:prefLabel	'Dierentuinen'.
+niod:273	skos:prefLabel	'Dijken'.
+niod:274	skos:prefLabel	'Diplomatie' ; skos:hasrel	'Internationale betrekkingen, Ambassades, Consulaten'.
+niod:275	skos:prefLabel	'Discriminatie' ; skos:hasrel	'Racisme'.
+niod:276	skos:prefLabel	'Displaced Persons' ; skos:hasrel	'Volksverhuizingen'.
+niod:277	skos:prefLabel	'Dissidenten'.
+niod:278	skos:prefLabel	'Distinctieven' ; skos:hasrel	'Emblemen'.
+niod:279	skos:prefLabel	'Distributie' ; skos:hasrel	'Bonnen'.
+niod:280	skos:prefLabel	'Distributiekantoren'.
+niod:281	skos:prefLabel	'Distributiestamkaarten'.
+niod:282	skos:prefLabel	'Documentaires'.
+niod:283	skos:prefLabel	'Documentatie'.
+niod:284	skos:prefLabel	'Documenten'.
+niod:285	skos:prefLabel	'Dodenherdenking'.
+niod:286	skos:prefLabel	'Dodenlijsten'.
+niod:287	skos:prefLabel	'Dodenmarsen'.
+niod:288	skos:prefLabel	'Doodstraf'.
+niod:289	skos:prefLabel	'Doodvonnissen' ; skos:hasrel	'Executies'.
+niod:290	skos:prefLabel	'Doorgangskampen' ; skos:hasrel	' Concentratiekampen'.
+niod:291	skos:prefLabel	'Dorpen' ; skos:hasrel	'Steden'.
+niod:292	skos:prefLabel	'Douane' ; skos:hasalt	'Grenscontrole'.
+niod:293	skos:prefLabel	'DP’s' ; skos:hasalt	'Displaced Persons'.
+niod:294	skos:prefLabel	'Dranken' ; skos:hasrel	'Alcoholische dranken'.
+niod:295	skos:prefLabel	'Drenkelingen'.
+niod:296	skos:prefLabel	'Drinkwatervoorziening'.
+niod:297	skos:prefLabel	'Droppings' ; skos:hasrel	'Voedseldroppings, Wapendroppings'.
+niod:298	skos:prefLabel	'Drukkerijen'.
+niod:299	skos:prefLabel	'Duikboten'.
+niod:300	skos:prefLabel	'Dwangarbeid' ; skos:hasrel	'Arbeidsinzet, Tewerkstelling'.
+niod:301	skos:prefLabel	'Dwangarbeiders'.
+niod:302	skos:prefLabel	'Echtscheidingen'.
+niod:303	skos:prefLabel	'Economie'.
+niod:304	skos:prefLabel	'Economische geschiedenis'.
+niod:305	skos:prefLabel	'Economische politiek' ; skos:hasrel	'Planeconomie'.
+niod:306	skos:prefLabel	'Educatie' ; skos:hasalt	'Opvoeding'.
+niod:307	skos:prefLabel	'Eedsaflegging' ; skos:hasrel	'Zwijgplicht'.
+niod:308	skos:prefLabel	'Eerste hulp'.
+niod:309	skos:prefLabel	'Eerste Wereldoorlog'.
+niod:310	skos:prefLabel	'Effectenhandel'.
+niod:311	skos:prefLabel	'Egodocumenten' ; skos:hasnar 'Zie ook bij soorten afzonderlijk: Autobiografieën, Brieven, Dagboeken, Herinneringen, Poëzie'.
+niod:312	skos:prefLabel	'Eindstrijd'.
+niod:313	skos:prefLabel	'Elektriciteit'.
+niod:314	skos:prefLabel	'Elites'.
+niod:315	skos:prefLabel	'Emancipatie'.
+niod:316	skos:prefLabel	'Emblemen' ; skos:hasrel	'Distinctieven'.
+niod:317	skos:prefLabel	'Emigranten'.
+niod:318	skos:prefLabel	'Emigratie' ; skos:hasrel	'Immigratie, Exil'.
+niod:319	skos:prefLabel	'Emoties'.
+niod:320	skos:prefLabel	'Encyclopedieën'.
+niod:321	skos:prefLabel	'Endlösung' ; skos:hasalt	'Jodenvervolging'.
+niod:322	skos:prefLabel	'Energie' ; skos:hasrel	'Verlichting, Verwarming, Gasgeneratoren, Electriciteit'.
+niod:323	skos:prefLabel	'Engelandvaarders'.
+niod:324	skos:prefLabel	'Entartete Kunst'.
+niod:325	skos:prefLabel	'Episcopaat' ; skos:hasrel	'Pausen'.
+niod:326	skos:prefLabel	'Erediensten' ; skos:hasrel	'Aalmoezeniers'.
+niod:327	skos:prefLabel	'Ereraden' ; skos:hasrel	'Zuivering'.
+niod:328	skos:prefLabel	'Ereschulden' ; skos:hasalt	'Schadeloosstellingen'.
+niod:329	skos:prefLabel	'Erevelden'.
+niod:330	skos:prefLabel	'Erfelijkheidsleer' ; skos:hasrel	'Rassenkunde'.
+niod:331	skos:prefLabel	'Erfenissen' ; skos:hasalt	'Nalatenschappen'.
+niod:332	skos:prefLabel	'Essays'.
+niod:333	skos:prefLabel	'Eten' ; skos:hasalt	'Maaltijden, Voedsel'.
+niod:334	skos:prefLabel	'Ethiek'.
+niod:335	skos:prefLabel	'Etniciteit' ; skos:hasrel	'Minderheden'.
+niod:336	skos:prefLabel	'Etnische zuiveringen' ; skos:hasrel	'Genocide'.
+niod:337	skos:prefLabel	'Eugenetica' ; skos:hasrel	'Rassenkunde'.
+niod:338	skos:prefLabel	'Euthanasie'.
+niod:339	skos:prefLabel	'Evacuaties' ; skos:hasrel	'Spergebieden'.
+niod:340	skos:prefLabel	'Executies' ; skos:hasrel	'Massa-executies'.
+niod:341	skos:prefLabel	'Exercities' ; skos:hasalt	'Militaire oefeningen'.
+niod:342	skos:prefLabel	'Exil' ; skos:hasrel	'Emigratie'.
+niod:343	skos:prefLabel	'Exilliteratuur'.
+niod:344	skos:prefLabel	'Expansie' ; skos:hasrel	'Lebensraum'.
+niod:345	skos:prefLabel	'Experimenten' ; skos:hasalt	'Medische experimenten'.
+niod:346	skos:prefLabel	'Explosieven'.
+niod:347	skos:prefLabel	'Export'.
+niod:348	skos:prefLabel	'Extremisme' ; skos:hasrel	'Rechts-extremisme'.
+niod:349	skos:prefLabel	'Faillissementen'.
+niod:350	skos:prefLabel	'Familieleven'.
+niod:351	skos:prefLabel	'Fascisme'.
+niod:352	skos:prefLabel	'Fascistengroet' ; skos:hasalt	'Hitlergroet'.
+niod:353	skos:prefLabel	'Feestdagen'.
+niod:354	skos:prefLabel	'Feesten'.
+niod:355	skos:prefLabel	'Fietsen' ; skos:hasalt	'Rijwielen'.
+niod:356	skos:prefLabel	'Film'.
+niod:357	skos:prefLabel	'Films'.
+niod:358	skos:prefLabel	'Filosofie'.
+niod:359	skos:prefLabel	'Financiën'.
+niod:360	skos:prefLabel	'Firma’s' ; skos:hasalt	'Bedrijven'.
+niod:361	skos:prefLabel	'Folklore'.
+niod:362	skos:prefLabel	'Fondsen'.
+niod:363	skos:prefLabel	'Fortificaties' ; skos:hasalt	'Verdedigingswerken'.
+niod:364	skos:prefLabel	'Foto’s'.
+niod:365	skos:prefLabel	'Fotoboeken'.
+niod:366	skos:prefLabel	'Fotografie'.
+niod:367	skos:prefLabel	'Fraude'.
+niod:368	skos:prefLabel	'Frontervaringen' ; skos:hasalt	'Frontlinies'.
+niod:369	skos:prefLabel	'Frontlinies' ; skos:hasrel	'Oostfront, Westfront'.
+niod:370	skos:prefLabel	'Führerprincipe'.
+niod:371	skos:prefLabel	'Führerstaat'.
+niod:372	skos:prefLabel	'Fusillades' ; skos:hasalt	'Executies'.
+niod:373	skos:prefLabel	'Gaarkeukens'.
+niod:374	skos:prefLabel	'Gasgeneratoren'.
+niod:375	skos:prefLabel	'Gaskamers'.
+niod:376	skos:prefLabel	'Gasmaskers' ; skos:hasalt	'Uitrusting'.
+niod:377	skos:prefLabel	'Geallieerden'.
+niod:378	skos:prefLabel	'Gebiedsuitbreiding' ; skos:hasrel	'Expansie'.
+niod:379	skos:prefLabel	'Gebiedsverdeling'.
+niod:380	skos:prefLabel	'Gebouwen' ; skos:hasrel	'Paleizen, Stadhuizen'.
+niod:381	skos:prefLabel	'Gedenkboeken'.
+niod:382	skos:prefLabel	'Gedenkplaatsen' ; skos:hasrel	'Monumenten'.
+niod:383	skos:prefLabel	'Gedichten' ; skos:hasalt	'Poëzie'.
+niod:384	skos:prefLabel	'Gedragswetenschappen' ; skos:hasalt	'Psychologie'.
+niod:385	skos:prefLabel	'Gedwongen prostitutie' ; skos:hasrel	'Troostmeisjes'.
+niod:386	skos:prefLabel	'Geestelijk gehandicapten' ; skos:hasrel	'Psychiatrische inrichtingen'.
+niod:387	skos:prefLabel	'Geestelijken' ; skos:hasrel	'Aalmoezeniers, Episcopaat, Predikanten, Priesters'.
+niod:388	skos:prefLabel	'Geesteswetenschappen' ; skos:hasrel	'Filosofie, Religie'.
+niod:389	skos:prefLabel	'Geheime diensten' ; skos:hasalt	' Inlichtingendiensten'.
+niod:390	skos:prefLabel	'Geheugen' ; skos:hasalt	'Herinnering'.
+niod:391	skos:prefLabel	'Geïnterneerden' ; skos:hasrel	'Interneringskampen, Gevangenen'.
+niod:392	skos:prefLabel	'Geld' ; skos:hasrel	'Bankbiljetten,  Muntgeld,  Noodgeld'.
+niod:393	skos:prefLabel	'Geldinzamelingen' ; skos:hasalt	'Collectes'.
+niod:394	skos:prefLabel	'Geldwezen' ; skos:hasalt	'Financiën'.
+niod:395	skos:prefLabel	'Geldzuivering'.
+niod:396	skos:prefLabel	'Gelijkschakeling'.
+niod:397	skos:prefLabel	'Gemachtigden'.
+niod:398	skos:prefLabel	'Gemeenten'.
+niod:399	skos:prefLabel	'Gemengd gehuwden'.
+niod:400	skos:prefLabel	'Gender'.
+niod:401	skos:prefLabel	'Genealogie' ; skos:hasrel	'Sibbekunde'.
+niod:402	skos:prefLabel	'Geneeskunde'.
+niod:403	skos:prefLabel	'Geneesmiddelen' ; skos:hasalt	'Medicijnen'.
+niod:404	skos:prefLabel	'Generale staven'.
+niod:405	skos:prefLabel	'Generatoren' ; skos:hasrel	'Gasgeneratoren'.
+niod:406	skos:prefLabel	'Genietroepen'.
+niod:407	skos:prefLabel	'Genocide'.
+niod:408	skos:prefLabel	'Geografie'.
+niod:409	skos:prefLabel	'Geopolitiek'.
+niod:410	skos:prefLabel	'Georganiseerd verzet'.
+niod:411	skos:prefLabel	'Gerechtelijke onderzoeken'.
+niod:412	skos:prefLabel	'Gerepatrieerden' ; skos:hasrel	'Repatriëring'.
+niod:413	skos:prefLabel	'Germanisering'.
+niod:414	skos:prefLabel	'Geruchten'.
+niod:415	skos:prefLabel	'Geschenken'.
+niod:416	skos:prefLabel	'Geschiedschrijving' ; skos:hasrel	'Historiografie'.
+niod:417	skos:prefLabel	'Geschiedvervalsing'.
+niod:418	skos:prefLabel	'Geschut' ; skos:hasrel	'Machinegeweren'.
+niod:419	skos:prefLabel	'Geslachtsziekten'.
+niod:420	skos:prefLabel	'Gestapo'.
+niod:421	skos:prefLabel	'Getto’s'.
+niod:422	skos:prefLabel	'Getuigenissen'.
+niod:423	skos:prefLabel	'Gevallenen'.
+niod:424	skos:prefLabel	'Gevangenen' ; skos:hasrel	'Geïnterneerden'.
+niod:425	skos:prefLabel	'Gevangenissen'.
+niod:426	skos:prefLabel	'Gevechtshandelingen'.
+niod:427	skos:prefLabel	'Gevechtslinies'.
+niod:428	skos:prefLabel	'Gevechtsvliegtuigen'.
+niod:429	skos:prefLabel	'Gevoelsleven: Zie: Emoties'.
+niod:430	skos:prefLabel	'Gevolmachtigden'.
+niod:431	skos:prefLabel	'Gewapend verzet'.
+niod:432	skos:prefLabel	'Geweldpleging'.
+niod:433	skos:prefLabel	'Gewetensbezwaren' ; skos:hasrel	'Dienstweigering'.
+niod:434	skos:prefLabel	'Gewonden'.
+niod:435	skos:prefLabel	'Gezinnen'.
+niod:436	skos:prefLabel	'Gezinshereniging'.
+niod:437	skos:prefLabel	'Gezondheidszorg'.
+niod:438	skos:prefLabel	'Gifgassen' ; skos:hasalt	'Chemische oorlogsvoering'.
+niod:439	skos:prefLabel	'Gijzelaars'.
+niod:440	skos:prefLabel	'Gijzelaarskampen' ; skos:hasrel	'Interneringskampen'.
+niod:441	skos:prefLabel	'Godsdienst' ; skos:hasalt	'Religie'.
+niod:442	skos:prefLabel	'Goederenvervoer'.
+niod:443	skos:prefLabel	'Goelags'.
+niod:444	skos:prefLabel	'Goud'.
+niod:445	skos:prefLabel	'Goudroof'.
+niod:446	skos:prefLabel	'Grafische industrie'.
+niod:447	skos:prefLabel	'Grafschennis'.
+niod:448	skos:prefLabel	'Grammofoonplaten'.
+niod:449	skos:prefLabel	'Gratiebeleid'.
+niod:450	skos:prefLabel	'Graven' ; skos:hasrel	'Massagraven, Oorlogsgraven'.
+niod:451	skos:prefLabel	'Grensbewaking'.
+niod:452	skos:prefLabel	'Grenscontrole'.
+niod:453	skos:prefLabel	'Grenscorrecties' ; skos:hasrel	'Gebiedsuitbreiding, Gebiedsverdeling'.
+niod:454	skos:prefLabel	'Grensverkeer'.
+niod:455	skos:prefLabel	'Grenzen'.
+niod:456	skos:prefLabel	'Groenten'.
+niod:457	skos:prefLabel	'Groepsportretten'.
+niod:458	skos:prefLabel	'Grondstoffen'.
+niod:459	skos:prefLabel	'Grondwet'.
+niod:460	skos:prefLabel	'Guerrilla\'s' ; skos:hasrel	'Partizanen'.
+niod:461	skos:prefLabel	'Hagespraken'.
+niod:462	skos:prefLabel	'Hakenkruis'.
+niod:463	skos:prefLabel	'Halfjoden'.
+niod:464	skos:prefLabel	'Hamsteren'.
+niod:465	skos:prefLabel	'Handel'.
+niod:466	skos:prefLabel	'Handelsvloot' ; skos:hasalt	'Koopvaardij'.
+niod:467	skos:prefLabel	'Handschriften'.
+niod:468	skos:prefLabel	'Havens'.
+niod:469	skos:prefLabel	'Heemkunde'.
+niod:470	skos:prefLabel	'Helikopters'.
+niod:471	skos:prefLabel	'Heraldiek'.
+niod:472	skos:prefLabel	'Herbewapening'.
+niod:473	skos:prefLabel	'Herbezetting'.
+niod:474	skos:prefLabel	'Herdenkingen' ; skos:hasrel	'Dodenherdenking'.
+niod:475	skos:prefLabel	'Herinnering'.
+niod:476	skos:prefLabel	'Herinneringen'.
+niod:477	skos:prefLabel	'Herstel'.
+niod:478	skos:prefLabel	'Herstelbetalingen'.
+niod:479	skos:prefLabel	'Herstelwerkzaamheden' ; skos:hasalt	'Wederopbouw'.
+niod:480	skos:prefLabel	'Historikerstreit'.
+niod:481	skos:prefLabel	'Historiografie' ; skos:hasrel	'Geschiedschrijving'.
+niod:482	skos:prefLabel	'Hitlergroet'.
+niod:483	skos:prefLabel	'Hogescholen' ; skos:hasrel	'Universiteiten'.
+niod:484	skos:prefLabel	'Holocaust' ; skos:hasalt	'Jodenvervolging'.
+niod:485	skos:prefLabel	'Homoseksuelen'.
+niod:486	skos:prefLabel	'Honger'.
+niod:487	skos:prefLabel	'Hongertochten'.
+niod:488	skos:prefLabel	'Hongerwinter'.
+niod:489	skos:prefLabel	'Hoofdkwartier' ; skos:hasrel	'Legerleiding'.
+niod:490	skos:prefLabel	'Hoogleraren'.
+niod:491	skos:prefLabel	'Hoogverraad'.
+niod:492	skos:prefLabel	'Horeca'.
+niod:493	skos:prefLabel	'Hospitaalschepen'.
+niod:494	skos:prefLabel	'Hospitalen' ; skos:hasalt	'Ziekenhuizen'.
+niod:495	skos:prefLabel	'Hout'.
+niod:496	skos:prefLabel	'Huishoudens'.
+niod:497	skos:prefLabel	'Huisvesting' ; skos:hasrel	'Volkshuisvesting, Noodwoningen'.
+niod:498	skos:prefLabel	'Huiszoekingen'.
+niod:499	skos:prefLabel	'Huizen'.
+niod:500	skos:prefLabel	'Huldigingen'.
+niod:501	skos:prefLabel	'Hulp'.
+niod:502	skos:prefLabel	'Hulporganisaties'.
+niod:503	skos:prefLabel	'Hulpverlening'.
+niod:504	skos:prefLabel	'Humanisme'.
+niod:505	skos:prefLabel	'Humor'.
+niod:506	skos:prefLabel	'Huwelijk' ; skos:hasrel	'Gemengd gehuwden'.
+niod:507	skos:prefLabel	'Ideeëngeschiedenis'.
+niod:508	skos:prefLabel	'Identificatie'.
+niod:509	skos:prefLabel	'Identiteit'.
+niod:510	skos:prefLabel	'Identiteitspapieren' ; skos:hasrel	'Persoonsbewijzen'.
+niod:511	skos:prefLabel	'Ideologieën' ; skos:hasnar 'Zie ook bij ideologieën afzonderlijk: Communisme, Conservatisme, Fascisme, Imperialisme, Liberalisme, Marxisme, Nationaal-Socialisme, Neofascisme, Neonazisme, Pacifisme, Rechts-extremisme, Socialisme, Totalitarisme'.
+niod:512	skos:prefLabel	'Illegale pers'.
+niod:513	skos:prefLabel	'Illegaliteit' ; skos:hasrel	'Verzet'.
+niod:514	skos:prefLabel	'Illustraties' ; skos:hasnar 'Zie ook bij soorten afzonderlijk: Foto\'s, Groepsportretten, Kaartmateriaal, Plattegronden, Portretten, Stafkaarten, Tekeningen'.
+niod:515	skos:prefLabel	'Immigratie' ; skos:hasrel	'Emigratie'.
+niod:516	skos:prefLabel	'Imperialisme'.
+niod:517	skos:prefLabel	'Import'.
+niod:518	skos:prefLabel	'Inbeslagneming'.
+niod:519	skos:prefLabel	'Inboedels' ; skos:hasrel	'Meubelen'.
+niod:520	skos:prefLabel	'Industrialisatie'.
+niod:521	skos:prefLabel	'Industrieën' ; skos:hasrel	'Bedrijven'.
+niod:522	skos:prefLabel	'Infanterie'.
+niod:523	skos:prefLabel	'Inflatie'.
+niod:524	skos:prefLabel	'Infrastructuur' ; skos:hasrel	'Wegen, Waterwegen'.
+niod:525	skos:prefLabel	'Ingenieurs'.
+niod:526	skos:prefLabel	'Inkwartiering'.
+niod:527	skos:prefLabel	'Inlichtingendiensten' ; skos:hasrel	'Spionage, Intelligence'.
+niod:528	skos:prefLabel	'Insignes' ; skos:hasalt	'Distinctieven'.
+niod:529	skos:prefLabel	'Inspectie'.
+niod:530	skos:prefLabel	'Installatie' ; skos:hasalt	'Benoemingen'.
+niod:531	skos:prefLabel	'Integratie'.
+niod:532	skos:prefLabel	'Intellectuelen'.
+niod:533	skos:prefLabel	'Intelligence' ; skos:hasrel	'Spionage, Inlichtingendiensten'.
+niod:534	skos:prefLabel	'Intelligentsia'.
+niod:535	skos:prefLabel	'Interbellum'.
+niod:536	skos:prefLabel	'Internationale betrekkingen' ; skos:hasrel	'Buitenlandse politiek, Diplomatie'.
+niod:537	skos:prefLabel	'Internationale brigades'.
+niod:538	skos:prefLabel	'Internering'.
+niod:539	skos:prefLabel	'Interneringskampen' ; skos:hasrel	'Burgermannenkampen, Gijzelaarskampen, Jongenskampen, Vrouwenkampen, Geïnterneerden'.
+niod:540	skos:prefLabel	'Internet'.
+niod:541	skos:prefLabel	'Interventies'.
+niod:542	skos:prefLabel	'Interviews'.
+niod:543	skos:prefLabel	'Intochten'.
+niod:544	skos:prefLabel	'Inundaties' ; skos:hasrel	'Dijken'.
+niod:545	skos:prefLabel	'Invaliden' ; skos:hasalt	'Oorlogsinvaliden'.
+niod:546	skos:prefLabel	'Invasie'.
+niod:547	skos:prefLabel	'Inventarissen'.
+niod:548	skos:prefLabel	'Invoer' ; skos:hasalt	'Import'.
+niod:549	skos:prefLabel	'Inzamelingen' ; skos:hasalt	'Collectes'.
+niod:550	skos:prefLabel	'Islam'.
+niod:551	skos:prefLabel	'Isolationisme'.
+niod:552	skos:prefLabel	'Jaarboeken'.
+niod:553	skos:prefLabel	'Jaarverslagen'.
+niod:554	skos:prefLabel	'Jacht'.
+niod:555	skos:prefLabel	'Jazz'.
+niod:556	skos:prefLabel	'Jeugd'.
+niod:557	skos:prefLabel	'Jeugdliteratuur' ; skos:hasrel	'Kinderboeken'.
+niod:558	skos:prefLabel	'Jeugdorganisaties'.
+niod:559	skos:prefLabel	'Joden' ; skos:hasrel	'Gemengd gehuwden, Halfjoden'.
+niod:560	skos:prefLabel	'Jodendom'.
+niod:561	skos:prefLabel	'Jodenhaat' ; skos:hasalt	'Antisemitisme'.
+niod:562	skos:prefLabel	'Jodenster'.
+niod:563	skos:prefLabel	'Jodenvervolging'.
+niod:564	skos:prefLabel	'Jodenvraagstuk' ; skos:hasrel	'Antisemitisme, Jodenvervolging'.
+niod:565	skos:prefLabel	'Jongenskampen'.
+niod:566	skos:prefLabel	'Joodse Raden'.
+niod:567	skos:prefLabel	'Journalistiek'.
+niod:568	skos:prefLabel	'Justitie'.
+niod:569	skos:prefLabel	'Kaartmateriaal' ; skos:hasrel	'Atlassen, Plattegronden, Stafkaarten'.
+niod:570	skos:prefLabel	'Kabinetten'.
+niod:571	skos:prefLabel	'Kalenders'.
+niod:572	skos:prefLabel	'Kampadministratie'.
+niod:573	skos:prefLabel	'Kampcommandanten'.
+niod:574	skos:prefLabel	'Kampementen' ; skos:hasalt	'Legerbases'.
+niod:575	skos:prefLabel	'Kampen' ; skos:hasnar 'Zie ook bij diverse soorten kampen zoals interneringskampen'.
+niod:576	skos:prefLabel	'Kampgeld'.
+niod:577	skos:prefLabel	'Kampkranten'.
+niod:578	skos:prefLabel	'Kanonneerboten'.
+niod:579	skos:prefLabel	'Karikaturen' ; skos:hasrel	'Cartoons'.
+niod:580	skos:prefLabel	'Kartelvorming'.
+niod:581	skos:prefLabel	'Katholicisme' ; skos:hasalt	'Rooms-katholicisme'.
+niod:582	skos:prefLabel	'Kazernes' ; skos:hasalt	'Legerbases'.
+niod:583	skos:prefLabel	'Kerken'.
+niod:584	skos:prefLabel	'Kernwapens' ; skos:hasalt	'Atoomwapens'.
+niod:585	skos:prefLabel	'Kinderboeken'.
+niod:586	skos:prefLabel	'Kinderen'.
+niod:587	skos:prefLabel	'Kindertransporten'.
+niod:588	skos:prefLabel	'Kinderuitzending'.
+niod:589	skos:prefLabel	'Kindsoldaten'.
+niod:590	skos:prefLabel	'Klederdrachten'.
+niod:591	skos:prefLabel	'Kleding'.
+niod:592	skos:prefLabel	'Kleinkunst' ; skos:hasrel	'Cabaret, Variété'.
+niod:593	skos:prefLabel	'Klokken'.
+niod:594	skos:prefLabel	'Klokkenroof'.
+niod:595	skos:prefLabel	'Klokkenvordering'.
+niod:596	skos:prefLabel	'Kloosterorden'.
+niod:597	skos:prefLabel	'Kloosters'.
+niod:598	skos:prefLabel	'Kluizen'.
+niod:599	skos:prefLabel	'Knokploegen'.
+niod:600	skos:prefLabel	'Koeriers'.
+niod:601	skos:prefLabel	'Kolen'.
+niod:602	skos:prefLabel	'Koloniale geschiedenis'.
+niod:603	skos:prefLabel	'Kolonialisme' ; skos:hasrel	'Dekolonisatie'.
+niod:604	skos:prefLabel	'Koloniën'.
+niod:605	skos:prefLabel	'Koningsgezindheid'.
+niod:606	skos:prefLabel	'Koningshuizen'.
+niod:607	skos:prefLabel	'Koningskwestie'.
+niod:608	skos:prefLabel	'Koninklijk Huis'.
+niod:609	skos:prefLabel	'Koninklijke besluiten'.
+niod:610	skos:prefLabel	'Konvooien'.
+niod:611	skos:prefLabel	'Kookboeken'.
+niod:612	skos:prefLabel	'Koopvaardij'.
+niod:613	skos:prefLabel	'Koopvaardijschepen'.
+niod:614	skos:prefLabel	'Kranten' ; skos:hasrel	'Illegale pers, Kampkranten, Periodieken'.
+niod:615	skos:prefLabel	'Krijgsgeschiedenis' ; skos:hasalt	'Militaire geschiedenis'.
+niod:616	skos:prefLabel	'Krijgsgevangenen'.
+niod:617	skos:prefLabel	'Krijgsgevangenkampen'.
+niod:618	skos:prefLabel	'Kruisers'.
+niod:619	skos:prefLabel	'Kultuurkamer'.
+niod:620	skos:prefLabel	'Kunst'.
+niod:621	skos:prefLabel	'Kunstenaars'.
+niod:622	skos:prefLabel	'Kunstenaarsverzet'.
+niod:623	skos:prefLabel	'Kunstgeschiedenis'.
+niod:624	skos:prefLabel	'Kunsthandel'.
+niod:625	skos:prefLabel	'Kunstroof'.
+niod:626	skos:prefLabel	'Kustgebied' ; skos:hasrel	'Spergebieden'.
+niod:627	skos:prefLabel	'Kustverdediging'.
+niod:628	skos:prefLabel	'KZ-syndroom' ; skos:hasalt	'Oorlogstrauma\'s'.
+niod:629	skos:prefLabel	'Laboratoria'.
+niod:630	skos:prefLabel	'Landbouw'.
+niod:631	skos:prefLabel	'Landbouwproducten'.
+niod:632	skos:prefLabel	'Landdagen'.
+niod:633	skos:prefLabel	'Landingen' ; skos:hasrel	'Ontschepingen'.
+niod:634	skos:prefLabel	'Landingsvaartuigen'.
+niod:635	skos:prefLabel	'Landmacht'.
+niod:636	skos:prefLabel	'Landmijnen' ; skos:hasalt	'Mijnen (wapen)'.
+niod:637	skos:prefLabel	'Landschappen' ; skos:hasrel	'Bomen, Parken'.
+niod:638	skos:prefLabel	'Landstrijdkrachten' ; skos:hasalt	'Landmacht'.
+niod:639	skos:prefLabel	'Landwacht'.
+niod:640	skos:prefLabel	'Leaflets' ; skos:hasalt	'Luchtpamfletten'.
+niod:641	skos:prefLabel	'Lebensborn'.
+niod:642	skos:prefLabel	'Lebensraum' ; skos:hasrel	'Expansie'.
+niod:643	skos:prefLabel	'Ledenlijsten' ; skos:hasalt	'Namenlijsten'.
+niod:644	skos:prefLabel	'Leger' ; skos:hasrel	'Militairen'.
+niod:645	skos:prefLabel	'Legerbases'.
+niod:646	skos:prefLabel	'Legerleiding'.
+niod:647	skos:prefLabel	'Legitimatieplicht' ; skos:hasalt	'Persoonsbewijzen'.
+niod:648	skos:prefLabel	'Leidersbeginsel' ; skos:hasalt	'Führerprincipe'.
+niod:649	skos:prefLabel	'Leraren' ; skos:hasalt	'Onderwijs'.
+niod:650	skos:prefLabel	'Lerarenverzet' ; skos:hasalt	'Schoolverzet'.
+niod:651	skos:prefLabel	'Lesmateriaal'.
+niod:652	skos:prefLabel	'Letterkunde'.
+niod:653	skos:prefLabel	'Leuzen' ; skos:hasalt	'Straatpropaganda'.
+niod:654	skos:prefLabel	'Levensmiddelen' ; skos:hasrel	'Voedselvoorziening, Zuivelproducten'.
+niod:655	skos:prefLabel	'Levensonderhoud'.
+niod:656	skos:prefLabel	'Liberalisme'.
+niod:657	skos:prefLabel	'Lichaamscultuur' ; skos:hasrel	'Masculiniteit, Seksualiteit'.
+niod:658	skos:prefLabel	'Lichaamsverzorging'.
+niod:659	skos:prefLabel	'Lichamelijk gehandicapten'.
+niod:660	skos:prefLabel	'Licht' ; skos:hasalt	'Verlichting'.
+niod:661	skos:prefLabel	'Liedboeken' ; skos:hasalt	'Zangbundels'.
+niod:662	skos:prefLabel	'Liederen'.
+niod:663	skos:prefLabel	'Liefde'.
+niod:664	skos:prefLabel	'Lieux de mémoire' ; skos:hasalt	'Gedenkplaatsen'.
+niod:665	skos:prefLabel	'Lijfwachten' ; skos:hasalt	'Bewaking'.
+niod:666	skos:prefLabel	'Lijken'.
+niod:667	skos:prefLabel	'Liquidaties'.
+niod:668	skos:prefLabel	'Literatuur' ; skos:hasalt	'Letterkunde'.
+niod:669	skos:prefLabel	'Logistiek'.
+niod:670	skos:prefLabel	'Lokale geschiedenis'.
+niod:671	skos:prefLabel	'Lonen'.
+niod:672	skos:prefLabel	'Loopgraven'.
+niod:673	skos:prefLabel	'Loyaliteitsverklaring'.
+niod:674	skos:prefLabel	'Luchtaanvallen'.
+niod:675	skos:prefLabel	'Luchtafweer'.
+niod:676	skos:prefLabel	'Luchtbescherming'.
+niod:677	skos:prefLabel	'Luchtfotografie'.
+niod:678	skos:prefLabel	'Luchtlandingen'.
+niod:679	skos:prefLabel	'Luchtmacht'.
+niod:680	skos:prefLabel	'Luchtoorlog' ; skos:hasrel	'Crashes'.
+niod:681	skos:prefLabel	'Luchtpamfletten'.
+niod:682	skos:prefLabel	'Luchtschepen'.
+niod:683	skos:prefLabel	'Luchtstrijdkrachten' ; skos:hasalt	'Luchtmacht'.
+niod:684	skos:prefLabel	'Luchtvaart'.
+niod:685	skos:prefLabel	'Luisterrapporten'.
+niod:686	skos:prefLabel	'Maaltijden'.
+niod:687	skos:prefLabel	'Maatschappijwetenschappen' ; skos:hasalt	'Sociale wetenschappen'.
+niod:688	skos:prefLabel	'Machinegeweren' ; skos:hasrel	'Geschut'.
+niod:689	skos:prefLabel	'Machines'.
+niod:690	skos:prefLabel	'Machtsovername'.
+niod:691	skos:prefLabel	'Manifestaties' ; skos:hasrel	'Bijeenkomsten'.
+niod:692	skos:prefLabel	'Manifesten'.
+niod:693	skos:prefLabel	'Mantelorganisaties'.
+niod:694	skos:prefLabel	'Maquettes'.
+niod:695	skos:prefLabel	'Marechaussee'.
+niod:696	skos:prefLabel	'Marine' ; skos:hasrel	'Admiraliteit'.
+niod:697	skos:prefLabel	'Mariniers'.
+niod:698	skos:prefLabel	'Maritieme geschiedenis' ; skos:hasrel	'Scheepvaart'.
+niod:699	skos:prefLabel	'Markten'.
+niod:700	skos:prefLabel	'Marxisme'.
+niod:701	skos:prefLabel	'Masculiniteit' ; skos:hasrel	'Lichaamscultuur, Seksualiteit'.
+niod:702	skos:prefLabel	'Massabijeenkomsten'.
+niod:703	skos:prefLabel	'Massa-executies'.
+niod:704	skos:prefLabel	'Massagraven'.
+niod:705	skos:prefLabel	'Massamoorden'.
+niod:706	skos:prefLabel	'Massapsychologie'.
+niod:707	skos:prefLabel	'Medailles' ; skos:hasalt	'Onderscheidingen'.
+niod:708	skos:prefLabel	'Media'.
+niod:709	skos:prefLabel	'Medici' ; skos:hasalt	'Artsen'.
+niod:710	skos:prefLabel	'Medicijnen'.
+niod:711	skos:prefLabel	'Medische experimenten'.
+niod:712	skos:prefLabel	'Medische verzorging'.
+niod:713	skos:prefLabel	'Memoires' ; skos:hasalt	'Herinneringen'.
+niod:714	skos:prefLabel	'Mensenrechten'.
+niod:715	skos:prefLabel	'Mentaliteitsgeschiedenis'.
+niod:716	skos:prefLabel	'Metalen'.
+niod:717	skos:prefLabel	'Meteorologie'.
+niod:718	skos:prefLabel	'Meubelen' ; skos:hasrel	'Inboedels'.
+niod:719	skos:prefLabel	'Middenstand'.
+niod:720	skos:prefLabel	'Migratie' ; skos:hasrel	'Emigratie, Immigratie, Volksverhuizingen'.
+niod:721	skos:prefLabel	'Mijnbouw' ; skos:hasrel	'Delfstoffen'.
+niod:722	skos:prefLabel	'Mijnen (wapens)'.
+niod:723	skos:prefLabel	'Mijnenleggers'.
+niod:724	skos:prefLabel	'Mijnenvegers'.
+niod:725	skos:prefLabel	'Militair gezag'.
+niod:726	skos:prefLabel	'Militaire geschiedenis'.
+niod:727	skos:prefLabel	'Militaire oefeningen'.
+niod:728	skos:prefLabel	'Militaire operaties'.
+niod:729	skos:prefLabel	'Militairen' ; skos:hasrel	'Officieren, Soldaten'.
+niod:730	skos:prefLabel	'Militarisering' ; skos:hasrel	'Demilitarisering'.
+niod:731	skos:prefLabel	'Militarisme'.
+niod:732	skos:prefLabel	'Minderheden' ; skos:hasrel	'Nationaliteiten, Etniciteit'.
+niod:733	skos:prefLabel	'Miniatuurboekjes'.
+niod:734	skos:prefLabel	'Ministeries' ; skos:hasrel	'Departementen'.
+niod:735	skos:prefLabel	'Ministers' ; skos:hasrel	'Kabinetten'.
+niod:736	skos:prefLabel	'Misdrijven'.
+niod:737	skos:prefLabel	'Mishandeling'.
+niod:738	skos:prefLabel	'Mitrailleurs' ; skos:hasalt	'Machinegeweren'.
+niod:739	skos:prefLabel	'Mobilisatie' ; skos:hasrel	'Demobilisatie'.
+niod:740	skos:prefLabel	'Modder'.
+niod:741	skos:prefLabel	'Mode'.
+niod:742	skos:prefLabel	'Modernisme'.
+niod:743	skos:prefLabel	'Moderniteit' ; skos:hasalt	'Cultuurkritiek'.
+niod:744	skos:prefLabel	'Moffenmeisjes'.
+niod:745	skos:prefLabel	'Molens'.
+niod:746	skos:prefLabel	'Monarchieën' ; skos:hasrel	'Koningshuizen'.
+niod:747	skos:prefLabel	'Monetaire politiek' ; skos:hasalt	'Prijspolitiek'.
+niod:748	skos:prefLabel	'Monumenten' ; skos:hasrel	'Oorlogsmonumenten, Gedenkplaatsen'.
+niod:749	skos:prefLabel	'Moordaanslagen'.
+niod:750	skos:prefLabel	'Moordpartijen'.
+niod:751	skos:prefLabel	'Moraal' ; skos:hasrel	'Zedelijkheid'.
+niod:752	skos:prefLabel	'Moreel'.
+niod:753	skos:prefLabel	'Moslims'.
+niod:754	skos:prefLabel	'Mosterdgas' ; skos:hasalt	'Chemische oorlogsvoering'.
+niod:755	skos:prefLabel	'Motorfietsen'.
+niod:756	skos:prefLabel	'Muiterij' ; skos:hasalt	'Opstanden'.
+niod:757	skos:prefLabel	'Munitie' ; skos:hasrel	'Wapens'.
+niod:758	skos:prefLabel	'Muntgeld'.
+niod:759	skos:prefLabel	'Musea'.
+niod:760	skos:prefLabel	'Musici' ; skos:hasrel	'Orkesten'.
+niod:761	skos:prefLabel	'Muziek' ; skos:hasrel	'Jazz, Opera'.
+niod:762	skos:prefLabel	'Muziekinstrumenten'.
+niod:763	skos:prefLabel	'Mystiek ' ; skos:hasrel	' Occultisme'.
+niod:764	skos:prefLabel	'Mythevorming'.
+niod:765	skos:prefLabel	'Nacht und Nebel'.
+niod:766	skos:prefLabel	'Nalatenschappen'.
+niod:767	skos:prefLabel	'Namenlijsten' ; skos:hasrel	'Kampadministratie'.
+niod:768	skos:prefLabel	'Naoorlogse periode'.
+niod:769	skos:prefLabel	'Naslagwerken'.
+niod:770	skos:prefLabel	'Nationaal-Socialisme' ; skos:hasrel	'Neonazisme'.
+niod:771	skos:prefLabel	'Nationalisme'.
+niod:772	skos:prefLabel	'Nationaliteiten' ; skos:hasrel	'Minderheden'.
+niod:773	skos:prefLabel	'Natuurbescherming'.
+niod:774	skos:prefLabel	'Natuurrampen' ; skos:hasalt	'Rampen'.
+niod:775	skos:prefLabel	'Natuurwetenschappen'.
+niod:776	skos:prefLabel	'Nazi’s'.
+niod:777	skos:prefLabel	'Nazificatie' ; skos:hasrel	'Denazificatie, Arisering'.
+niod:778	skos:prefLabel	'Nazipublicaties'.
+niod:779	skos:prefLabel	'Nazisme' ; skos:hasalt	'Nationaal-Socialisme'.
+niod:780	skos:prefLabel	'Negationisme' ; skos:hasrel	'Revisionisme'.
+niod:781	skos:prefLabel	'Negers' ; skos:hasalt	'Zwarten'.
+niod:782	skos:prefLabel	'Neofascisme'.
+niod:783	skos:prefLabel	'Neonazisme'.
+niod:784	skos:prefLabel	'Neutraliteit'.
+niod:785	skos:prefLabel	'Nieuwsberichten'.
+niod:786	skos:prefLabel	'Nieuwsvoorziening'.
+niod:787	skos:prefLabel	'Noodgeld'.
+niod:788	skos:prefLabel	'Noodkacheltjes'.
+niod:789	skos:prefLabel	'Noodwoningen'.
+niod:790	skos:prefLabel	'Notariaat'.
+niod:791	skos:prefLabel	'Occultisme' ; skos:hasrel	'Mystiek'.
+niod:792	skos:prefLabel	'Offensieven'.
+niod:793	skos:prefLabel	'Officieren'.
+niod:794	skos:prefLabel	'Olie' ; skos:hasalt	'Aardolie'.
+niod:795	skos:prefLabel	'Olympische Spelen'.
+niod:796	skos:prefLabel	'Omroep'.
+niod:797	skos:prefLabel	'Omstanders'.
+niod:798	skos:prefLabel	'Onafhankelijkheidsverklaringen' ; skos:hasrel	'Soevereiniteitsoverdracht'.
+niod:799	skos:prefLabel	'Onderdrukking' ; skos:hasalt	'Repressie'.
+niod:800	skos:prefLabel	'Onderduik' ; skos:hasrel	'Onderduikers'.
+niod:801	skos:prefLabel	'Onderduikers' ; skos:hasrel	'Onderduik'.
+niod:802	skos:prefLabel	'Onderhandelingen' ; skos:hasrel	'Delegaties'.
+niod:803	skos:prefLabel	'Ondernemingen' ; skos:hasalt	'Bedrijven'.
+niod:804	skos:prefLabel	'Onderscheidingen'.
+niod:805	skos:prefLabel	'Onderscheidingstekenen' ; skos:hasalt	'Distinctieven'.
+niod:806	skos:prefLabel	'Ondervragingen' ; skos:hasalt	'Verhoren'.
+niod:807	skos:prefLabel	'Onderwijs' ; skos:hasrel	'Scholen'.
+niod:808	skos:prefLabel	'Onderwijsverzet' ; skos:hasalt	'Schoolverzet'.
+niod:809	skos:prefLabel	'Onderzoek'.
+niod:810	skos:prefLabel	'Onroerend goed' ; skos:hasalt	'Gebouwen, Huizen'.
+niod:811	skos:prefLabel	'Onteigening'.
+niod:812	skos:prefLabel	'Ontheemden' ; skos:hasalt	'Displaced Persons'.
+niod:813	skos:prefLabel	'Ontmoetingen'.
+niod:814	skos:prefLabel	'Ontruimingen'.
+niod:815	skos:prefLabel	'Ontschepingen'.
+niod:816	skos:prefLabel	'Ontsnappingen' ; skos:hasalt	'Ontvluchtingen'.
+niod:817	skos:prefLabel	'Ontspanning' ; skos:hasrel	'Amusement, Recreatie'.
+niod:818	skos:prefLabel	'Ontvluchtingen'.
+niod:819	skos:prefLabel	'Ontwapening'.
+niod:820	skos:prefLabel	'Oorlogen'.
+niod:821	skos:prefLabel	'Oorlogsbuit'.
+niod:822	skos:prefLabel	'Oorlogscorrespondenten'.
+niod:823	skos:prefLabel	'Oorlogseconomie'.
+niod:824	skos:prefLabel	'Oorlogsfondsen'.
+niod:825	skos:prefLabel	'Oorlogsgetroffenen' ; skos:hasrel	'Oorlogsslachtoffers'.
+niod:826	skos:prefLabel	'Oorlogsgraven'.
+niod:827	skos:prefLabel	'Oorlogsindustrie'.
+niod:828	skos:prefLabel	'Oorlogsinvaliden'.
+niod:829	skos:prefLabel	'Oorlogsmisdaden' ; skos:hasrel	'Tribunalen'.
+niod:830	skos:prefLabel	'Oorlogsmisdadigers'.
+niod:831	skos:prefLabel	'Oorlogsmonumenten'.
+niod:832	skos:prefLabel	'Oorlogsmusea' ; skos:hasrel	'Verzetsmusea'.
+niod:833	skos:prefLabel	'Oorlogspleegkinderen'.
+niod:834	skos:prefLabel	'Oorlogsrecht'.
+niod:835	skos:prefLabel	'Oorlogsschade'.
+niod:836	skos:prefLabel	'Oorlogsschepen'.
+niod:837	skos:prefLabel	'Oorlogsschulden'.
+niod:838	skos:prefLabel	'Oorlogsslachtoffers' ; skos:hasrel	'Oorlogsgetroffenen'.
+niod:839	skos:prefLabel	'Oorlogstrauma’s' ; skos:hasrel	'Verwerking'.
+niod:840	skos:prefLabel	'Oorlogsverklaringen'.
+niod:841	skos:prefLabel	'Oorlogsvrijwilligers'.
+niod:842	skos:prefLabel	'Oorlogsweeskinderen'.
+niod:843	skos:prefLabel	'Oorlogswetgeving' ; skos:hasalt	'Wetgeving, Oorlogsrecht'.
+niod:844	skos:prefLabel	'Oorlogswinst'.
+niod:845	skos:prefLabel	'Oorlogvoering' ; skos:hasrel	'Bacteriologische oorlogvoering, Strategie, Psychologische oorlogvoering, Gevechtshandelingen'.
+niod:846	skos:prefLabel	'Oorlogvoorbereiding'.
+niod:847	skos:prefLabel	'Oostfront' ; skos:hasrel	'Westfront'.
+niod:848	skos:prefLabel	'Oostinzet'.
+niod:849	skos:prefLabel	'Oostkolonisatie'.
+niod:850	skos:prefLabel	'Oostpolitiek'.
+niod:851	skos:prefLabel	'Openbaar vervoer'.
+niod:852	skos:prefLabel	'Openbare orde'.
+niod:853	skos:prefLabel	'Opera'.
+niod:854	skos:prefLabel	'Opgravingen'.
+niod:855	skos:prefLabel	'Opleidingen'.
+niod:856	skos:prefLabel	'Opleidingskampen'.
+niod:857	skos:prefLabel	'Opmars'.
+niod:858	skos:prefLabel	'Opperbevel' ; skos:hasalt	'Legerleiding'.
+niod:859	skos:prefLabel	'Opslag'.
+niod:860	skos:prefLabel	'Opsporing'.
+niod:861	skos:prefLabel	'Opstanden'.
+niod:862	skos:prefLabel	'Opvangkampen'.
+niod:863	skos:prefLabel	'Opvoeding'.
+niod:864	skos:prefLabel	'Oral History'.
+niod:865	skos:prefLabel	'Oranjegezindheid' ; skos:hasalt	'Koningsgezindheid'.
+niod:866	skos:prefLabel	'Ordediensten'.
+niod:867	skos:prefLabel	'Organisaties'.
+niod:868	skos:prefLabel	'Orkesten'.
+niod:869	skos:prefLabel	'Oud-strijders' ; skos:hasalt	'Veteranen'.
+niod:870	skos:prefLabel	'Overgangsbewind'.
+niod:871	skos:prefLabel	'Overheden'.
+niod:872	skos:prefLabel	'Overheidsinstellingen'.
+niod:873	skos:prefLabel	'Overheidspublicaties'.
+niod:874	skos:prefLabel	'Overledenen' ; skos:hasrel	'Sterftecijfers'.
+niod:875	skos:prefLabel	'Overlevenden'.
+niod:876	skos:prefLabel	'Overlijdensadvertenties'.
+niod:877	skos:prefLabel	'Overlopers' ; skos:hasalt	'Deserteurs'.
+niod:878	skos:prefLabel	'Overvallen'.
+niod:879	skos:prefLabel	'Paarden'.
+niod:880	skos:prefLabel	'Pacific-Oorlog'.
+niod:881	skos:prefLabel	'Pacifisme'.
+niod:882	skos:prefLabel	'Padvinderij'.
+niod:883	skos:prefLabel	'Paleizen'.
+niod:884	skos:prefLabel	'Pamfletten' ; skos:hasrel	'Circulaires, Brochures, Affiches'.
+niod:885	skos:prefLabel	'Pangermanisme'.
+niod:886	skos:prefLabel	'Pantservoertuigen'.
+niod:887	skos:prefLabel	'Papier'.
+niod:888	skos:prefLabel	'Parachutisten'.
+niod:889	skos:prefLabel	'Parades'.
+niod:890	skos:prefLabel	'Paramilitairen'.
+niod:891	skos:prefLabel	'Parken'.
+niod:892	skos:prefLabel	'Parlement'.
+niod:893	skos:prefLabel	'Parlementaire geschiedenis'.
+niod:894	skos:prefLabel	'Partijdagen'.
+niod:895	skos:prefLabel	'Partijleiding'.
+niod:896	skos:prefLabel	'Partijprogramma’s'.
+niod:897	skos:prefLabel	'Partizanen' ; skos:hasrel	'Guerrilla\'s'.
+niod:898	skos:prefLabel	'Paspoorten' ; skos:hasalt	'Identiteitspapieren'.
+niod:899	skos:prefLabel	'Patrouilles' ; skos:hasalt	'Gevechtshandelingen'.
+niod:900	skos:prefLabel	'Pausen' ; skos:hasrel	'Episcopaat'.
+niod:901	skos:prefLabel	'Pensioenen' ; skos:hasrel	'Uitkeringen'.
+niod:902	skos:prefLabel	'Periodieken' ; skos:hasrel	'Kranten'.
+niod:903	skos:prefLabel	'Pers' ; skos:hasrel	'Illegale Pers, Nieuwsberichten'.
+niod:904	skos:prefLabel	'Persberichten'.
+niod:905	skos:prefLabel	'Personalia'.
+niod:906	skos:prefLabel	'Personeel'.
+niod:907	skos:prefLabel	'Persoonsbewijzen' ; skos:hasrel	'Identiteitspapieren'.
+niod:908	skos:prefLabel	'Persoonskaarten' ; skos:hasalt	'Bevolkingsregisters'.
+niod:909	skos:prefLabel	'Persvrijheid' ; skos:hasrel	'Censuur, Publicatieverboden'.
+niod:910	skos:prefLabel	'Perszuivering'.
+niod:911	skos:prefLabel	'Piloten'.
+niod:912	skos:prefLabel	'Pilotenhulp'.
+niod:913	skos:prefLabel	'Planeconomie' ; skos:hasrel	'Economische politiek'.
+niod:914	skos:prefLabel	'Planning'.
+niod:915	skos:prefLabel	'Planologie' ; skos:hasalt	'Ruimtelijke ordening'.
+niod:916	skos:prefLabel	'Plattegronden' ; skos:hasrel	'Kaartmateriaal'.
+niod:917	skos:prefLabel	'Plechtigheden'.
+niod:918	skos:prefLabel	'Pleegkinderen' ; skos:hasrel	'Oorlogspleegkinderen'.
+niod:919	skos:prefLabel	'Plunderingen' ; skos:hasrel	'Roof'.
+niod:920	skos:prefLabel	'Poëzie'.
+niod:921	skos:prefLabel	'Pogroms'.
+niod:922	skos:prefLabel	'Polemologie'.
+niod:923	skos:prefLabel	'Politicologie'.
+niod:924	skos:prefLabel	'Politie'.
+niod:925	skos:prefLabel	'Politiek'.
+niod:926	skos:prefLabel	'Politieke geschiedenis'.
+niod:927	skos:prefLabel	'Politieke gevangenen'.
+niod:928	skos:prefLabel	'Politieke partijen'.
+niod:929	skos:prefLabel	'Politionele acties'.
+niod:930	skos:prefLabel	'Ponten'.
+niod:931	skos:prefLabel	'Portretten' ; skos:hasrel	'Groepsportretten'.
+niod:932	skos:prefLabel	'Postduiven'.
+niod:933	skos:prefLabel	'Posterijen'.
+niod:934	skos:prefLabel	'Postverkeer'.
+niod:935	skos:prefLabel	'Postzegels'.
+niod:936	skos:prefLabel	'Predikanten'.
+niod:937	skos:prefLabel	'Preken'.
+niod:938	skos:prefLabel	'Priesters'.
+niod:939	skos:prefLabel	'Prijspolitiek'.
+niod:940	skos:prefLabel	'Processen'.
+niod:941	skos:prefLabel	'Proclamaties'.
+niod:942	skos:prefLabel	'Propaganda' ; skos:hasrel	'Straatpropaganda'.
+niod:943	skos:prefLabel	'Prostitutie' ; skos:hasrel	'Gedwongen prostitutie, Troostmeisjes, Geslachtsziekten'.
+niod:944	skos:prefLabel	'Protestantisme'.
+niod:945	skos:prefLabel	'Provincies'.
+niod:946	skos:prefLabel	'Proza'.
+niod:947	skos:prefLabel	'Psychiatrie'.
+niod:948	skos:prefLabel	'Psychiatrische inrichtingen' ; skos:hasrel	'Geestelijk gehandicapten'.
+niod:949	skos:prefLabel	'Psychologie' ; skos:hasrel	'Massapsychologie'.
+niod:950	skos:prefLabel	'Psychologische oorlogvoering'.
+niod:951	skos:prefLabel	'Publicatieverboden' ; skos:hasrel	'Persvrijheid'.
+niod:952	skos:prefLabel	'Publieke opinie'.
+niod:953	skos:prefLabel	'Rabbijnen'.
+niod:954	skos:prefLabel	'Racisme'.
+niod:955	skos:prefLabel	'Radar'.
+niod:956	skos:prefLabel	'Radicalisme'.
+niod:957	skos:prefLabel	'Radio' ; skos:hasrel	'Omroep'.
+niod:958	skos:prefLabel	'Radiotoestellen'.
+niod:959	skos:prefLabel	'Radiozenders'.
+niod:960	skos:prefLabel	'Raketten'.
+niod:961	skos:prefLabel	'Rampen' ; skos:hasrel	'Scheepsrampen'.
+niod:962	skos:prefLabel	'Rantsoenering'.
+niod:963	skos:prefLabel	'Rapporten'.
+niod:964	skos:prefLabel	'Rassendiscriminatie' ; skos:hasalt	'Racisme'.
+niod:965	skos:prefLabel	'Rassenkunde' ; skos:hasrel	'Sibbekunde'.
+niod:966	skos:prefLabel	'Rassenpolitiek'.
+niod:967	skos:prefLabel	'Razzia’s'.
+niod:968	skos:prefLabel	'Recensies'.
+niod:969	skos:prefLabel	'Recht' ; skos:hasrel	'Staatsrecht, Strafrecht, Rechterlijke macht'.
+niod:970	skos:prefLabel	'Rechterlijke macht'.
+niod:971	skos:prefLabel	'Rechts-extremisme'.
+niod:972	skos:prefLabel	'Rechtsherstel'.
+niod:973	skos:prefLabel	'Rechtspositie'.
+niod:974	skos:prefLabel	'Rechtspraak' ; skos:hasrel	'Advocatuur'.
+niod:975	skos:prefLabel	'Rechtswetenschap'.
+niod:976	skos:prefLabel	'Rechtszaken' ; skos:hasalt	'Processen'.
+niod:977	skos:prefLabel	'Reclame'.
+niod:978	skos:prefLabel	'Reclassering'.
+niod:979	skos:prefLabel	'Recreatie' ; skos:hasrel	'Ontspanning, Spellen, Amusement'.
+niod:980	skos:prefLabel	'Reddingswezen'.
+niod:981	skos:prefLabel	'Rederijen'.
+niod:982	skos:prefLabel	'Redevoeringen'.
+niod:983	skos:prefLabel	'Re-enactment'.
+niod:984	skos:prefLabel	'Referenda'.
+niod:985	skos:prefLabel	'Regering'.
+niod:986	skos:prefLabel	'Regionale geschiedenis'.
+niod:987	skos:prefLabel	'Registratie'.
+niod:988	skos:prefLabel	'Reisverslagen'.
+niod:989	skos:prefLabel	'Reizen'.
+niod:990	skos:prefLabel	'Religie' ; skos:hasnar 'Zie ook bij soorten afzonderlijk: Boeddhisme, Christendom, Islam, Jodendom, Occultisme, Protestantisme, Rooms-Katholicisme'.
+niod:991	skos:prefLabel	'Repatriëring' ; skos:hasrel	'Gerepatrieerden, Terugkeer'.
+niod:992	skos:prefLabel	'Represailles'.
+niod:993	skos:prefLabel	'Repressie'.
+niod:994	skos:prefLabel	'Republikeinen'.
+niod:995	skos:prefLabel	'Republikeinse kampen'.
+niod:996	skos:prefLabel	'Restitutie' ; skos:hasrel	'Roof, Schadeloosstellingen'.
+niod:997	skos:prefLabel	'Reünies'.
+niod:998	skos:prefLabel	'Revisionisme' ; skos:hasrel	'Negationisme'.
+niod:999	skos:prefLabel	'Revoluties'.
+niod:1000	skos:prefLabel	'Ridderorden' ; skos:hasalt	'Onderscheidingen'.
+niod:1001	skos:prefLabel	'Rijksdag'.
+niod:1002	skos:prefLabel	'Rijksdiensten'.
+niod:1003	skos:prefLabel	'Rijksduitsers'.
+niod:1004	skos:prefLabel	'Rijkskanselarij'.
+niod:1005	skos:prefLabel	'Rijwielen'.
+niod:1006	skos:prefLabel	'Rijwielvordering'.
+niod:1007	skos:prefLabel	'Ritueel slachten' ; skos:hasalt	'Slachten'.
+niod:1008	skos:prefLabel	'Romans'.
+niod:1009	skos:prefLabel	'Ronselarij' ; skos:hasalt	'Werving'.
+niod:1010	skos:prefLabel	'Roof' ; skos:hasrel	'Plunderingen, Restitutie'.
+niod:1011	skos:prefLabel	'Rookwaren'.
+niod:1012	skos:prefLabel	'Rooms-katholicisme'.
+niod:1013	skos:prefLabel	'Ruimtelijke ordening'.
+niod:1014	skos:prefLabel	'Ruimtevaart'.
+niod:1015	skos:prefLabel	'Sabotage'.
+niod:1016	skos:prefLabel	'Salarissen' ; skos:hasalt	'Lonen'.
+niod:1017	skos:prefLabel	'Schaarste' ; skos:hasrel	'Armoede'.
+niod:1018	skos:prefLabel	'Schadeloosstelling' ; skos:hasrel	'Restitutie'.
+niod:1019	skos:prefLabel	'Schadevergoeding'.
+niod:1020	skos:prefLabel	'Scheepsrampen'.
+niod:1021	skos:prefLabel	'Scheepswerven'.
+niod:1022	skos:prefLabel	'Scheepvaart' ; skos:hasrel	'Binnenvaart'.
+niod:1023	skos:prefLabel	'Scheikunde' ; skos:hasrel	'Natuurwetenschappen'.
+niod:1024	skos:prefLabel	'Schepen' ; skos:hasnar 'Zie ook bij soorten afzonderlijk: Duikboten, Hospitaalschepen, Kanonneerboten, Kruisers, Landingsvaartuigen, Mijnenleggers, Mijnenvegers, Oorlogsschepen, Ponten, Slagschepen, Torpedoboten, Transportschepen, Vliegboten, Vliegdekschepen'.
+niod:1025	skos:prefLabel	'Schilderkunst'.
+niod:1026	skos:prefLabel	'Schoeisel' ; skos:hasalt	'Kleding'.
+niod:1027	skos:prefLabel	'Scholen'.
+niod:1028	skos:prefLabel	'Schoolboeken' ; skos:hasalt	'Lesmateriaal'.
+niod:1029	skos:prefLabel	'Schoolverzet'.
+niod:1030	skos:prefLabel	'Schuilkelders'.
+niod:1031	skos:prefLabel	'Schuilplaatsen'.
+niod:1032	skos:prefLabel	'Schulden' ; skos:hasrel	'Oorlogsschulden'.
+niod:1033	skos:prefLabel	'Schuldvraag'.
+niod:1034	skos:prefLabel	'Secretarissen-Generaal' ; skos:hasrel	'Departementen'.
+niod:1035	skos:prefLabel	'Seksualiteit' ; skos:hasrel	'Homoseksuelen'.
+niod:1036	skos:prefLabel	'Shoah' ; skos:hasalt	'Jodenvervolging'.
+niod:1037	skos:prefLabel	'Sibbekunde' ; skos:hasrel	'Genealogie, Afstammingsonderzoek, Rassenkunde'.
+niod:1038	skos:prefLabel	'Sieraden'.
+niod:1039	skos:prefLabel	'Sinti en Roma' ; skos:hasrel	'Woonwagenbewoners'.
+niod:1040	skos:prefLabel	'Slachten'.
+niod:1041	skos:prefLabel	'Slachtoffers' ; skos:hasalt	'Oorlogsslachtoffers'.
+niod:1042	skos:prefLabel	'Slagschepen'.
+niod:1043	skos:prefLabel	'Slagveld'.
+niod:1044	skos:prefLabel	'Slavernij'.
+niod:1045	skos:prefLabel	'Sleepvaart'.
+niod:1046	skos:prefLabel	'Sloop'.
+niod:1047	skos:prefLabel	'Sluizen'.
+niod:1048	skos:prefLabel	'Smokkel'.
+niod:1049	skos:prefLabel	'Sociale geschiedenis'.
+niod:1050	skos:prefLabel	'Sociale politiek'.
+niod:1051	skos:prefLabel	'Sociale voorzieningen'.
+niod:1052	skos:prefLabel	'Sociale wetenschappen'.
+niod:1053	skos:prefLabel	'Socialisme'.
+niod:1054	skos:prefLabel	'Sociologie'.
+niod:1055	skos:prefLabel	'Soevereiniteitsoverdracht' ; skos:hasrel	'Onafhankelijkheidsverklaringen'.
+niod:1056	skos:prefLabel	'Soldaten'.
+niod:1057	skos:prefLabel	'Speelgoed'.
+niod:1058	skos:prefLabel	'Spellen'.
+niod:1059	skos:prefLabel	'Spergebieden' ; skos:hasrel	'Evacuaties'.
+niod:1060	skos:prefLabel	'Sperren' ; skos:hasalt	'Vrijstellingen'.
+niod:1061	skos:prefLabel	'Spertijd' ; skos:hasalt	'Avondklok'.
+niod:1062	skos:prefLabel	'Spionage' ; skos:hasrel	'Contraspionage, Inlichtingendiensten, Abwehr'.
+niod:1063	skos:prefLabel	'Spoorwegen' ; skos:hasrel	'Stations, Treinen'.
+niod:1064	skos:prefLabel	'Sport' ; skos:hasrel	'Olympische spelen'.
+niod:1065	skos:prefLabel	'Spotprenten' ; skos:hasrel	'Karikaturen'.
+niod:1066	skos:prefLabel	'Staatsbezoeken'.
+niod:1067	skos:prefLabel	'Staatsgrepen' ; skos:hasalt	'Machtsovername'.
+niod:1068	skos:prefLabel	'Staatshoofden'.
+niod:1069	skos:prefLabel	'Staatsinrichting'.
+niod:1070	skos:prefLabel	'Staatsrecht'.
+niod:1071	skos:prefLabel	'Stadhuizen'.
+niod:1072	skos:prefLabel	'Stafkaarten'.
+niod:1073	skos:prefLabel	'Stakingen'.
+niod:1074	skos:prefLabel	'Stalinisme'.
+niod:1075	skos:prefLabel	'Stamkaarten' ; skos:hasalt	'Distributiestamkaarten'.
+niod:1076	skos:prefLabel	'Standbeelden'.
+niod:1077	skos:prefLabel	'Standrecht'.
+niod:1078	skos:prefLabel	'Staten-Generaal' ; skos:hasalt	'Parlement'.
+niod:1079	skos:prefLabel	'Statenlozen'.
+niod:1080	skos:prefLabel	'Stations'.
+niod:1081	skos:prefLabel	'Statistieken'.
+niod:1082	skos:prefLabel	'Steden' ; skos:hasrel	'Ruimtelijke ordening, Wederopbouw, Dorpen'.
+niod:1083	skos:prefLabel	'Steenkolen'.
+niod:1084	skos:prefLabel	'Ster' ; skos:hasalt	'Jodenster'.
+niod:1085	skos:prefLabel	'Sterftecijfers' ; skos:hasrel	'Overledenen'.
+niod:1086	skos:prefLabel	'Sterilisatie' ; skos:hasrel	'Castratie'.
+niod:1087	skos:prefLabel	'Steunverlening'.
+niod:1088	skos:prefLabel	'Stichtingen'.
+niod:1089	skos:prefLabel	'Stimmungsberichte'.
+niod:1090	skos:prefLabel	'Stoottroepen'.
+niod:1091	skos:prefLabel	'Straatbeelden'.
+niod:1092	skos:prefLabel	'Straatnamen'.
+niod:1093	skos:prefLabel	'Straatpropaganda'.
+niod:1094	skos:prefLabel	'Straffen'.
+niod:1095	skos:prefLabel	'Strafrecht'.
+niod:1096	skos:prefLabel	'Strategie'.
+niod:1097	skos:prefLabel	'Strijdkrachten' ; skos:hasnar 'Zie ook bij onderdelen afzonderlijk: Landmacht, Luchtmacht, Marine'.
+niod:1098	skos:prefLabel	'Stripverhalen' ; skos:hasrel	'Cartoons'.
+niod:1099	skos:prefLabel	'Studenten'.
+niod:1100	skos:prefLabel	'Studentenverzet'.
+niod:1101	skos:prefLabel	'Sultanaten'.
+niod:1102	skos:prefLabel	'Surrogaten'.
+niod:1103	skos:prefLabel	'Swastika' ; skos:hasalt	'Hakenkruis'.
+niod:1104	skos:prefLabel	'Symboliek'.
+niod:1105	skos:prefLabel	'Synagogen'.
+niod:1106	skos:prefLabel	'Taalgebruik'.
+niod:1107	skos:prefLabel	'Taalwetenschap'.
+niod:1108	skos:prefLabel	'Tabak' ; skos:hasalt	'Rookwaren'.
+niod:1109	skos:prefLabel	'Tandartsen'.
+niod:1110	skos:prefLabel	'Tanks'.
+niod:1111	skos:prefLabel	'Tatoeëring'.
+niod:1112	skos:prefLabel	'Techniek'.
+niod:1113	skos:prefLabel	'Technologie'.
+niod:1114	skos:prefLabel	'Tekeningen'.
+niod:1115	skos:prefLabel	'Telefonie'.
+niod:1116	skos:prefLabel	'Telefoonboeken'.
+niod:1117	skos:prefLabel	'Telegrafie'.
+niod:1118	skos:prefLabel	'Televisie'.
+niod:1119	skos:prefLabel	'Tentoonstellingen'.
+niod:1120	skos:prefLabel	'Terreur'.
+niod:1121	skos:prefLabel	'Terrorisme'.
+niod:1122	skos:prefLabel	'Terugkeer' ; skos:hasrel	'Repatriëring'.
+niod:1123	skos:prefLabel	'Testamenten' ; skos:hasalt	'Nalatenschappen'.
+niod:1124	skos:prefLabel	'Tewerkstelling' ; skos:hasrel	'Dwangarbeid, Werkverschaffing'.
+niod:1125	skos:prefLabel	'Textiel'.
+niod:1126	skos:prefLabel	'Theater'.
+niod:1127	skos:prefLabel	'Theologie'.
+niod:1128	skos:prefLabel	'Theoretische geschiedschrijving'.
+niod:1129	skos:prefLabel	'Thuisfront'.
+niod:1130	skos:prefLabel	'Tijdschriften' ; skos:hasalt	'Periodieken'.
+niod:1131	skos:prefLabel	'Toerisme'.
+niod:1132	skos:prefLabel	'Toespraken' ; skos:hasalt	'Redevoeringen'.
+niod:1133	skos:prefLabel	'Tolken'.
+niod:1134	skos:prefLabel	'Toneel'.
+niod:1135	skos:prefLabel	'Toneelstukken'.
+niod:1136	skos:prefLabel	'Torpederingen'.
+niod:1137	skos:prefLabel	'Torpedobootjagers'.
+niod:1138	skos:prefLabel	'Torpedoboten'.
+niod:1139	skos:prefLabel	'Totalitarisme'.
+niod:1140	skos:prefLabel	'Trams' ; skos:hasrel	'Openbaar vervoer'.
+niod:1141	skos:prefLabel	'Transitional justice'.
+niod:1142	skos:prefLabel	'Transport' ; skos:hasrel	'Aankomst, Vertrek'.
+niod:1143	skos:prefLabel	'Transporten' ; skos:hasrel	'Deportaties'.
+niod:1144	skos:prefLabel	'Transportschepen'.
+niod:1145	skos:prefLabel	'Transportvliegtuigen'.
+niod:1146	skos:prefLabel	'Trauma\'s' ; skos:hasalt	'Oorlogstrauma\'s'.
+niod:1147	skos:prefLabel	'Treinen'.
+niod:1148	skos:prefLabel	'Tribunalen' ; skos:hasrel	'Oorlogsmisdaden'.
+niod:1149	skos:prefLabel	'Troepen' ; skos:hasalt	'Strijdkrachten'.
+niod:1150	skos:prefLabel	'Troepenbewegingen' ; skos:hasrel	'Aftocht, Intochten, Opmars'.
+niod:1151	skos:prefLabel	'Troostmeisjes' ; skos:hasrel	'Gedwongen prostitutie'.
+niod:1152	skos:prefLabel	'Tuchthuizen'.
+niod:1153	skos:prefLabel	'Tuinbouw'.
+niod:1154	skos:prefLabel	'Tweede generatie'.
+niod:1155	skos:prefLabel	'Tweede Wereldoorlog'.
+niod:1156	skos:prefLabel	'U-Boten' ; skos:hasalt	'Duikboten'.
+niod:1157	skos:prefLabel	'Uitgaansverboden'.
+niod:1158	skos:prefLabel	'Uitgeverijen'.
+niod:1159	skos:prefLabel	'Uitkeringen' ; skos:hasrel	'Pensioenen'.
+niod:1160	skos:prefLabel	'Uitleveringen'.
+niod:1161	skos:prefLabel	'Uitroeiing' ; skos:hasalt	'Massamoorden'.
+niod:1162	skos:prefLabel	'Uitrusting' ; skos:hasrel	'Uniformen, Wapens'.
+niod:1163	skos:prefLabel	'Uitvoer' ; skos:hasalt	'Export'.
+niod:1164	skos:prefLabel	'Uitzetting'.
+niod:1165	skos:prefLabel	'Uniformen' ; skos:hasrel	'Uitrusting'.
+niod:1166	skos:prefLabel	'Universiteiten' ; skos:hasrel	'Hogescholen, Hoogleraren'.
+niod:1167	skos:prefLabel	'Vaandels' ; skos:hasrel	'Vlaggen'.
+niod:1168	skos:prefLabel	'Vaartuigen' ; skos:hasalt	'Schepen'.
+niod:1169	skos:prefLabel	'Vakantie'.
+niod:1170	skos:prefLabel	'Vakbeweging'.
+niod:1171	skos:prefLabel	'Vakverenigingen'.
+niod:1172	skos:prefLabel	'Variété'.
+niod:1173	skos:prefLabel	'Vechtpartijen'.
+niod:1174	skos:prefLabel	'Veeteelt'.
+niod:1175	skos:prefLabel	'Veiligheidsbeleid'.
+niod:1176	skos:prefLabel	'Veilingen' ; skos:hasrel	'Inboedels'.
+niod:1177	skos:prefLabel	'Veldpost'.
+niod:1178	skos:prefLabel	'Veldslagen'.
+niod:1179	skos:prefLabel	'Verbindingsdiensten'.
+niod:1180	skos:prefLabel	'Verboden'.
+niod:1181	skos:prefLabel	'Verbrandingsovens'.
+niod:1182	skos:prefLabel	'Verdedigingswerken' ; skos:hasrel	'Loopgraven'.
+niod:1183	skos:prefLabel	'Verdragen'.
+niod:1184	skos:prefLabel	'Verduistering' ; skos:hasrel	'Verlichting'.
+niod:1185	skos:prefLabel	'Veren' ; skos:hasalt	'Ponten'.
+niod:1186	skos:prefLabel	'Verenigingen'.
+niod:1187	skos:prefLabel	'Vergaderingen' ; skos:hasalt	'Bijeenkomsten'.
+niod:1188	skos:prefLabel	'Vergeldingsacties' ; skos:hasalt	'Represailles'.
+niod:1189	skos:prefLabel	'Vergelijkende studies'.
+niod:1190	skos:prefLabel	'Verhoren'.
+niod:1191	skos:prefLabel	'Verhuizingen' ; skos:hasrel	'Inboedels'.
+niod:1192	skos:prefLabel	'Verjaring'.
+niod:1193	skos:prefLabel	'Verkeer'.
+niod:1194	skos:prefLabel	'Verkiezingen'.
+niod:1195	skos:prefLabel	'Verkrachtingen'.
+niod:1196	skos:prefLabel	'Verlichting' ; skos:hasrel	'Verduistering'.
+niod:1197	skos:prefLabel	'Verliezen'.
+niod:1198	skos:prefLabel	'Verlofgangers'.
+niod:1199	skos:prefLabel	'Vermisten'.
+niod:1200	skos:prefLabel	'Vermogens'.
+niod:1201	skos:prefLabel	'Vermommingen'.
+niod:1202	skos:prefLabel	'Vernielingen' ; skos:hasrel	'Crashes, Wrakken'.
+niod:1203	skos:prefLabel	'Vernietigingskampen' ; skos:hasrel	'Concentratiekampen'.
+niod:1204	skos:prefLabel	'Verordeningen' ; skos:hasrel	'Decreten'.
+niod:1205	skos:prefLabel	'Verordeningenbladen'.
+niod:1206	skos:prefLabel	'Verpleging'.
+niod:1207	skos:prefLabel	'Verraad' ; skos:hasrel	'Hoogverraad'.
+niod:1208	skos:prefLabel	'Verschijningsverboden' ; skos:hasalt	'Publicatieverboden'.
+niod:1209	skos:prefLabel	'Verslaggevers' ; skos:hasalt	'Journalistiek'.
+niod:1210	skos:prefLabel	'Versperringen' ; skos:hasrel	'Blokkades'.
+niod:1211	skos:prefLabel	'Vertrek'.
+niod:1212	skos:prefLabel	'Vertrouwensmannen'.
+niod:1213	skos:prefLabel	'Vervalsingen'.
+niod:1214	skos:prefLabel	'Vervoer' ; skos:hasalt	'Transport'.
+niod:1215	skos:prefLabel	'Vervoermiddelen' ; skos:hasnar 'Zie ook bij soorten afzonderlijk: Ambulances, Auto\'s, Luchtschepen, Motorfietsen, Pantservoertuigen, Ponten, Rijwielen, Schepen, Tanks, Trams, Vliegtuigen, Voertuigen'.
+niod:1216	skos:prefLabel	'Vervolging'.
+niod:1217	skos:prefLabel	'Verwalters'.
+niod:1218	skos:prefLabel	'Verwarming' ; skos:hasrel	'Noodkacheltjes'.
+niod:1219	skos:prefLabel	'Verwerking' ; skos:hasrel	'Oorlogstrauma\'s'.
+niod:1220	skos:prefLabel	'Verwoestingen'.
+niod:1221	skos:prefLabel	'Verzamelingen' ; skos:hasalt	'Collecties'.
+niod:1222	skos:prefLabel	'Verzekeringen'.
+niod:1223	skos:prefLabel	'Verzet' ; skos:hasrel	'Widerstand, Georganiseerd verzet, Illegaliteit'.
+niod:1224	skos:prefLabel	'Verzetsgroepen'.
+niod:1225	skos:prefLabel	'Verzetsliteratuur'.
+niod:1226	skos:prefLabel	'Verzetsmusea' ; skos:hasrel	'Oorlogsmusea'.
+niod:1227	skos:prefLabel	'Verzoening'.
+niod:1228	skos:prefLabel	'Verzuiling'.
+niod:1229	skos:prefLabel	'Vestingen'.
+niod:1230	skos:prefLabel	'Veteranen'.
+niod:1231	skos:prefLabel	'Vierjarenplannen' ; skos:hasalt	'Planeconomie'.
+niod:1232	skos:prefLabel	'Vijfde Colonne'.
+niod:1233	skos:prefLabel	'Vijfjarenplannen' ; skos:hasalt	'Planeconomie'.
+niod:1234	skos:prefLabel	'Visserij'.
+niod:1235	skos:prefLabel	'Vlaggen' ; skos:hasrel	'Vaandels'.
+niod:1236	skos:prefLabel	'Vlagverbod'.
+niod:1237	skos:prefLabel	'Vlammenwerpers'.
+niod:1238	skos:prefLabel	'Vleeswaren'.
+niod:1239	skos:prefLabel	'Vliegboten'.
+niod:1240	skos:prefLabel	'Vliegdekschepen'.
+niod:1241	skos:prefLabel	'Vliegtuigen' ; skos:hasrel	'Gevechtsvliegtuigen, Transportvliegtuigen,  Zweefvliegtuigen'.
+niod:1242	skos:prefLabel	'Vliegvelden'.
+niod:1243	skos:prefLabel	'Vloot'.
+niod:1244	skos:prefLabel	'Vluchtelingen'.
+niod:1245	skos:prefLabel	'Vluchtelingenkampen'.
+niod:1246	skos:prefLabel	'Vluchtroutes'.
+niod:1247	skos:prefLabel	'Voeding'.
+niod:1248	skos:prefLabel	'Voedseldroppings'.
+niod:1249	skos:prefLabel	'Voedselvoorziening' ; skos:hasrel	'Levensmiddelen'.
+niod:1250	skos:prefLabel	'Voertuigen'.
+niod:1251	skos:prefLabel	'Volkenmoord' ; skos:hasalt	'Genocide'.
+niod:1252	skos:prefLabel	'Volkenrecht'.
+niod:1253	skos:prefLabel	'Volkscultuur' ; skos:hasalt	'Folklore'.
+niod:1254	skos:prefLabel	'Volksdienst'.
+niod:1255	skos:prefLabel	'Volksduitsers'.
+niod:1256	skos:prefLabel	'Volksgezondheid'.
+niod:1257	skos:prefLabel	'Volkshuisvesting'.
+niod:1258	skos:prefLabel	'Volkskunde'.
+niod:1259	skos:prefLabel	'Volksliederen'.
+niod:1260	skos:prefLabel	'Volksmilities' ; skos:hasalt	'Paramilitairen'.
+niod:1261	skos:prefLabel	'Volksraadplegingen' ; skos:hasalt	'Referenda'.
+niod:1262	skos:prefLabel	'Volksverhuizingen' ; skos:hasrel	'Migratie, Displaced Persons'.
+niod:1263	skos:prefLabel	'Volksvertegenwoordiging'.
+niod:1264	skos:prefLabel	'Vonnissen'.
+niod:1265	skos:prefLabel	'Voogdij'.
+niod:1266	skos:prefLabel	'Voorlichting'.
+niod:1267	skos:prefLabel	'Vooroorlogse periode' ; skos:hasrel	'Interbellum'.
+niod:1268	skos:prefLabel	'Voorschriften'.
+niod:1269	skos:prefLabel	'Vorderingen'.
+niod:1270	skos:prefLabel	'Vracht' ; skos:hasalt	'Transport'.
+niod:1271	skos:prefLabel	'Vrede'.
+niod:1272	skos:prefLabel	'Vrederechtspraak'.
+niod:1273	skos:prefLabel	'Vredesbewegingen' ; skos:hasalt	'Pacifisme'.
+niod:1274	skos:prefLabel	'Vredesonderhandelingen'.
+niod:1275	skos:prefLabel	'Vredesvraagstukken' ; skos:hasalt	'Polemologie'.
+niod:1276	skos:prefLabel	'Vreemdelingen'.
+niod:1277	skos:prefLabel	'Vreemdelingenhaat'.
+niod:1278	skos:prefLabel	'Vrijlating'.
+niod:1279	skos:prefLabel	'Vrijmetselarij'.
+niod:1280	skos:prefLabel	'Vrijstellingen'.
+niod:1281	skos:prefLabel	'Vrijwilligers' ; skos:hasrel	'Oorlogsvrijwilligers'.
+niod:1282	skos:prefLabel	'Vrouwen'.
+niod:1283	skos:prefLabel	'Vrouwengeschiedenis'.
+niod:1284	skos:prefLabel	'Vrouwenkampen'.
+niod:1285	skos:prefLabel	'Vrouwenorganisaties'.
+niod:1286	skos:prefLabel	'V-wapens'.
+niod:1287	skos:prefLabel	'Waarschuwingen'.
+niod:1288	skos:prefLabel	'Wachtgeldregelingen' ; skos:hasalt	'Uitkeringen'.
+niod:1289	skos:prefLabel	'Wapendroppings'.
+niod:1290	skos:prefLabel	'Wapenkunde' ; skos:hasalt	'Heraldiek'.
+niod:1291	skos:prefLabel	'Wapens' ; skos:hasrel	'Atoomwapens, Munitie, Uitrusting, Geschut'.
+niod:1292	skos:prefLabel	'Wapenstilstanden'.
+niod:1293	skos:prefLabel	'Watervoorziening'.
+niod:1294	skos:prefLabel	'Waterwegen'.
+niod:1295	skos:prefLabel	'Wederopbouw'.
+niod:1296	skos:prefLabel	'Wedstrijden' ; skos:hasalt	'Sport'.
+niod:1297	skos:prefLabel	'Weduwen'.
+niod:1298	skos:prefLabel	'Weerkorpsen' ; skos:hasalt	'Paramilitairen'.
+niod:1299	skos:prefLabel	'Weeskinderen' ; skos:hasrel	'Oorlogsweeskinderen'.
+niod:1300	skos:prefLabel	'Wegen'.
+niod:1301	skos:prefLabel	'Wehrmacht'.
+niod:1302	skos:prefLabel	'Wereldbeschouwingen' ; skos:hasalt	'Ideologieën'.
+niod:1303	skos:prefLabel	'Wereldoorlogen' ; skos:hasalt	'Eerste Wereldoorlog, Tweede Wereldoorlog'.
+niod:1304	skos:prefLabel	'Werkgeversorganisaties'.
+niod:1305	skos:prefLabel	'Werkkampen'.
+niod:1306	skos:prefLabel	'Werkloosheid'.
+niod:1307	skos:prefLabel	'Werkverschaffing' ; skos:hasrel	'Tewerkstelling'.
+niod:1308	skos:prefLabel	'Werving'.
+niod:1309	skos:prefLabel	'Westfront' ; skos:hasrel	'Oostfront'.
+niod:1310	skos:prefLabel	'Wetboeken'.
+niod:1311	skos:prefLabel	'Wetenschappen'.
+niod:1312	skos:prefLabel	'Wetgeving' ; skos:hasrel	'Grondwet, Koninklijke besluiten, Verordeningen'.
+niod:1313	skos:prefLabel	'Widerstand' ; skos:hasrel	'Verzet'.
+niod:1314	skos:prefLabel	'Wiedergutmachung'.
+niod:1315	skos:prefLabel	'Winkels'.
+niod:1316	skos:prefLabel	'Winter'.
+niod:1317	skos:prefLabel	'Winterhulp'.
+niod:1318	skos:prefLabel	'Wiskunde' ; skos:hasrel	'Natuurwetenschappen'.
+niod:1319	skos:prefLabel	'Woestijnoorlogen'.
+niod:1320	skos:prefLabel	'Woningen'.
+niod:1321	skos:prefLabel	'Woonwagenbewoners' ; skos:hasrel	'Sinti en Roma'.
+niod:1322	skos:prefLabel	'Woordenboeken'.
+niod:1323	skos:prefLabel	'Wraakneming' ; skos:hasalt	'Represailles'.
+niod:1324	skos:prefLabel	'Wrakken' ; skos:hasrel	'Crashes, Vernielingen'.
+niod:1325	skos:prefLabel	'Wreedheden'.
+niod:1326	skos:prefLabel	'Zang'.
+niod:1327	skos:prefLabel	'Zangbundels'.
+niod:1328	skos:prefLabel	'Zedelijkheid' ; skos:hasrel	'Moraal'.
+niod:1329	skos:prefLabel	'Zeeoorlog'.
+niod:1330	skos:prefLabel	'Zeeslagen'.
+niod:1331	skos:prefLabel	'Zeestrijdkrachten' ; skos:hasalt	'Marine'.
+niod:1332	skos:prefLabel	'Zeevarenden'.
+niod:1333	skos:prefLabel	'Zelfmoorden'.
+niod:1334	skos:prefLabel	'Zenders' ; skos:hasrel	'Radiozenders'.
+niod:1335	skos:prefLabel	'Zeppelins' ; skos:hasalt	'Luchtschepen'.
+niod:1336	skos:prefLabel	'Ziekenfondsen'.
+niod:1337	skos:prefLabel	'Ziekenhuizen'.
+niod:1338	skos:prefLabel	'Ziekten'.
+niod:1339	skos:prefLabel	'Zigeuners' ; skos:hasalt	'Sinti en Roma'.
+niod:1340	skos:prefLabel	'Zilver'.
+niod:1341	skos:prefLabel	'Zionisme'.
+niod:1342	skos:prefLabel	'Zuivelproducten'.
+niod:1343	skos:prefLabel	'Zuivering' ; skos:hasrel	'Ereraden'.
+niod:1344	skos:prefLabel	'Zwarten'.
+niod:1345	skos:prefLabel	'Zwarthandel'.
+niod:1346	skos:prefLabel	'Zweefvliegtuigen'.
+niod:1347	skos:prefLabel	'Zwijgplicht' ; skos:hasrel	'Eedsaflegging'.

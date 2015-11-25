@@ -1,0 +1,17 @@
+relprio('niod:Aanslagen','Represailles').
+relprio('Abwehr','Spionage').
+relprio('Advocatuur','Rechtspraak').
+relprio('Affiches','Pamfletten').
+relprio('Ambassades','Diplomatie').
+relprio('Apotheken','Medicijnen').
+relprio('Arbeidsinzet','Dwangarbeid').
+relprio('Arisering','Nazificatie').
+relprio('Armoede','Schaarste').
+relprio('Bacteriologische_oorlogvoering','Chemische%20oorlogvoering').
+relprio('Begraafplaatsen','Oorlogsgraven').
+relprio('Bevolkingsgroepen','Demografie').
+relprio('Bevolkingspolitiek','Demografie').
+relprio('Bevolkingsregisters','Burgerlijke%20stand').
+relprio('Bijeenkomsten','Manifestaties').
+relprio('Bijeenkomsten','Ontmoetingen').
+relprio('Blokkades','Versperringen').

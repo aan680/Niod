@@ -1,0 +1,173 @@
+load input_vb.ttl
+
+13 ?- rdf_load('./input_vb.ttl',[graph(niod)]).
+
+14 ?- forall((rdf(A,skos:hasalt,P),rdf(A,skos:prefLabel,Alt),rdf(B,skos:prefLabel,P)),(rdf_assert(B,skos:altLabel,Alt,niod),rdf_retractall(A,_,_,_))).
+
+
+Fix deze
+
+Subject	Object
+?:Antiquariaten	"Boekhandels, Boeken"
+?:Bevoorrading	"Logistiek, Transport"
+?:Concentratiekampsyndroom	"Oorlogstrauma's"
+?:Ereschulden	"Schadeloosstellingen"
+?:Eten	"Maaltijden, Voedsel"
+?:Geheime diensten	" Inlichtingendiensten"
+?:Gifgassen	"Chemische oorlogsvoering"
+?:KZ-syndroom	"Oorlogstrauma's"
+?:Landmijnen	"Mijnen (wapen)"
+?:Mosterdgas	"Chemische oorlogsvoering"
+?:Onroerend goed	"Gebouwen, Huizen"
+?:Oorlogswetgeving	"Wetgeving, Oorlogsrecht"
+?:Trauma's	"Oorlogstrauma's"
+?:Wereldoorlogen	"Eerste Wereldoorlog, Tweede Wereldoorlog"
+
+19 ?- rdf_assert('http://data.niod.nl/concept/146',skos:altLabel, literal('Antiquariaten'),temp).
+true.
+
+20 ?- rdf_assert('http://data.niod.nl/concept/145',skos:altLabel, literal('Antiquariaten'),temp).
+
+
+21 ?- rdf_assert('http://data.niod.nl/concept/669',skos:altLabel, literal('Bevoorrading'),temp).
+true.
+
+22 ?- rdf_assert('http://data.niod.nl/concept/1142',skos:altLabel, literal('Bevoorrading'),temp).
+true.
+
+23 ?- rdf_assert('http://data.niod.nl/concept/839',skos:altLabel, literal('Concentratiekampsyndroom'),temp).
+true.
+
+24 ?- rdf_assert('http://data.niod.nl/concept/1018',skos:altLabel, literal('Ereschulden'),temp).
+true.
+
+25 ?- rdf_assert('http://data.niod.nl/concept/686',skos:altLabel, literal('Eten'),temp).
+true.
+
+26 ?- rdf_assert('http://data.niod.nl/concept/527',skos:altLabel, literal('Geheime Diensten'),temp).
+true.
+
+27 ?- rdf_assert('http://data.niod.nl/concept/196',skos:altLabel, literal('Gifgassen'),temp).
+true.
+
+28 ?- rdf_assert('http://data.niod.nl/concept/839',skos:altLabel, literal('KZ-syndroom'),temp).
+true.
+
+29 ?- rdf_assert('http://data.niod.nl/concept/722',skos:altLabel, literal('Landmijnen'),temp).
+true.
+
+30 ?- rdf_assert('http://data.niod.nl/concept/196',skos:altLabel, literal('Mosterdgas'),temp).
+true.
+
+31 ?- rdf_assert('http://data.niod.nl/concept/810',skos:altLabel, literal('Onroerend goed'),temp).
+true.
+
+32 ?- rdf_assert('http://data.niod.nl/concept/499',skos:altLabel, literal('Onroerend goed'),temp).
+true.
+
+33 ?- rdf_assert('http://data.niod.nl/concept/1312',skos:altLabel, literal('Oorlogswetgeving'),temp).
+true.
+
+34 ?- rdf_assert('http://data.niod.nl/concept/834',skos:altLabel, literal('Oorlogswetgeving'),temp).
+true.
+
+35 ?- rdf_assert('http://data.niod.nl/concept/839',skos:altLabel, literal('Trauma\'s'),temp).
+true.
+
+36 ?- rdf_assert('http://data.niod.nl/concept/309',skos:altLabel, literal('Wereldoorlogen'),temp).
+true.
+
+37 ?- rdf_assert('http://data.niod.nl/concept/1155',skos:altLabel, literal('Wereldoorlogen'),temp).
+true.
+
+
+REMOVE ALL hasalt
+38 ?- forall(rdf(A,skos:hasalt,_P),rdf_retractall(A,_,_,_)).
+
+LOAD BROADER.PL AND NARROWER.PL AND RELATED.PL AND GENERATE RDF RELATIONS (RELPRIO DOES NOT APPEAR TO BE NECESSARY)
+
+50 ?- forall((broad(A,B),rdf(U1,skos:prefLabel,literal(A)),rdf(U2,skos:prefLabel,literal(B))),rdf_assert(U1,skos:broader,U2,broader)).
+
+
+'51 ?- 
+|    [narrower].true.
+
+52 ?- forall((narrow(A,B),rdf(U1,skos:prefLabel,literal(A)),rdf(U2,skos:prefLabel,literal(B))),rdf_assert(U1,skos:narrower,U2,narrower)).
+
+54 ?- [related].
+true.
+
+55 ?- forall((related(A,B),rdf(U1,skos:prefLabel,literal(A)),rdf(U2,skos:prefLabel,literal(B))),rdf_assert(U1,skos:related,U2,related)).
+
+GENERATE TYPE AND INSCHEME TRIPLES, ADD SCHEME
+
+
+65 ?- forall(rdf(A,skos:prefLabel,_),(rdf_assert(A,rdf:type,skos:'Concept'),rdf_assert(A,skos:inScheme,'http://data.niod.nl/concept/thesaurus',schema))).
+true.
+
+66 ?- rdf_assert('http://data.niod.nl/concept/thesaurus',rdf:type,skos:'ConceptScheme').
+true.
+
+67 ?- rdf_assert('http://data.niod.nl/concept/thesaurus',rdfs:label,skos:'Niod Thesaurus').
+
+
+CLEAN rels
+
+forall((rdf(A,skos:hasrel,literal(B)),rdf(A,skos:related,X),rdf(X,skos:prefLabel,literal(B))),(rdf_assert(A,skos:related,B,rel),rdf_retractall(A,skos:hasrel,literal(B)))).
+
+CLEAN 'Concentratiekampen'
+
+COMPOUND RELATED TERMS
+forall((rdf(A,skos:hasrel,literal(Lit2)),rdf(X,skos:prefLabel,literal(B)),rdf_tokenize_literal(Lit2,Tok),memberchk(B,Tok)),rdf_assert(A,skos:related,X,related)).
+
+INTERMEDIARY4
+
+CLEAN SOME WEIRD RELATEDS
+
+52 ?- forall((rdf(A,skos:related,B),sub_atom(B,_,_,_,'werkbak')),rdf_retractall(A,skos:related,B)).
+true.
+
+SOME MISSING RELATEDS
+
+25 ?- rdf_assert('http://data.niod.nl/concept/1064',skos:related,'http://data.niod.nl/concept/795',morerel).
+true.
+
+26 ?- rdf_assert('http://data.niod.nl/concept/1219',skos:related,'http://data.niod.nl/concept/839',morerel).
+true.
+
+27 ?- rdf_assert('http://data.niod.nl/concept/730',skos:related,'http://data.niod.nl/concept/253',morerel).true.
+
+28 ?- rdf_assert('http://data.niod.nl/concept/791',skos:related,'http://data.niod.nl/concept/763',morerel).
+true.
+
+29 ?- rdf_retractall(_,skos:hasrel,_,_).
+true.
+
+
+REVERSES (MAybe not)
+
+
+31 ?- forall((rdf(A,skos:related,B),not(rdf(B,skos:related,A))),rdf_assert(B,skos:related,A,reverse)).
+true.
+
+32 ?- forall((rdf(A,skos:broader,B),not(rdf(B,skos:narrower,A))),rdf_assert(B,skos:narrower,A,reverse)).
+true.
+
+33 ?- forall((rdf(A,skos:narrower,B),not(rdf(B,skos:broader,A))),rdf_assert(B,skos:broader,A,reverse)).
+
+INTERMEDIARY5
+
+
+clean hasnar
+
+35 ?- rdf_retractall(_,skos:hasnar,_,_).
+
+
+INTERMEDIARY6
+
+LOAD NEW LIST and add broaders for KNOWNS
+ forall((bla(A,B),rdf(X,skos:prefLabel,literal(A)),rdf(Y,skos:prefLabel,literal(B))),rdf_assert(X,skos:broader,Y,nieuw1))
+ 
+ 
+ 
+ 

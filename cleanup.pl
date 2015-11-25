@@ -29,7 +29,7 @@ add_conceptscheme_definitions:-
     rdf_assert(niod:'thesaurus', rdfs:label, literal(type(xsd:string, "Niod thesaurus"))),
     forall(concept(S), rdf_assert(S, skos:inScheme, niod:'thesaurus', 'niod')).
 
-clean_double_labels:
+clean_double_labels:-
 	forall(rdf(S,P,literal(literal(O)), 'niod'), rdf_assert(S,P,literal(O), 'niod')),
 	rdf_retractall(S,P,literal(literal(O)), 'niod').
 
@@ -37,7 +37,7 @@ define_literal_types:-
     forall(literal_type_undefined(S,P,Label), rdf_assert(S,P,literal(type(xsd:string,Label)), 'niod')).
 
 remove_untyped_literals:-
-    forall(untyped_literal(Label), rdf_retractall(S,P,Label), 'niod').
+    forall(untyped_literal(S,P,Label), rdf_retractall(S,P,Label, 'niod')).
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
@@ -45,7 +45,7 @@ untyped_literal(S,P,L):-
     rdf(S,P,literal(type(Type,L)), 'niod'),
     \+ rdf_equal(Type,'http://www.w3.org/2001/XMLSchema#string').                                                         
                                                              
-literal_type_undefined(Label):-
+literal_type_undefined(S,P,Label):-
 	rdf(S,P,literal(Label), 'niod'), \+ rdf(S,P,literal(type(xsd:string,Label)), 'niod').
 
 double_label(S,L):-

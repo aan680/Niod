@@ -1307,7 +1307,7 @@ niod:Denazificatie skos:related niod:Nazificatie.
 niod:Deportaties skos:related niod:Transporten.
 niod:Dienstweigering skos:related niod:Gewetensbezwaren.
 niod:Discriminatie skos:related niod:Racisme.
-niod:Displaced Persons skos:related niod:Volksverhuizingen.
+niod:Displaced%20Persons skos:related niod:Volksverhuizingen.
 niod:Distinctieven skos:related niod:Emblemen.
 niod:Distributie skos:related niod:Bonnen.
 niod:Doodvonnissen skos:related niod:Executies.
@@ -1346,7 +1346,7 @@ niod:Herdenkingen skos:related niod:Dodenherdenking.
 niod:Historiografie skos:related niod:Geschiedschrijving.
 niod:Hogescholen skos:related niod:Universiteiten.
 niod:Hoofdkwartier skos:related niod:Legerleiding.
-niod:Huwelijk skos:related niod:Gemengd gehuwden.
+niod:Huwelijk skos:related niod:Gemengd%20gehuwden.
 niod:Identiteitspapieren skos:related niod:Persoonsbewijzen.
 niod:Illegaliteit skos:related niod:Verzet.
 niod:Immigratie skos:related niod:Emigratie.
