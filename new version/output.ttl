@@ -9,12 +9,13 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Abwehr" ;
-	skos:related <Spionage> .
+	skos:related <http://data.niod.nl/concept/1062> .
 
 <http://data.niod.nl/concept/100>
 	a skos:Concept ;
 	skos:broader <http://data.niod.nl/concept/974> ;
 	skos:inScheme concept:thesaurus ;
+	skos:narrower <http://data.niod.nl/concept/1077> ;
 	skos:prefLabel "Berechting" .
 
 <http://data.niod.nl/concept/1001>
@@ -101,16 +102,14 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Schaarste" ;
-	skos:related <Armoede> ,
-		     <http://data.niod.nl/concept/60> .
+	skos:related <http://data.niod.nl/concept/60> .
 
 <http://data.niod.nl/concept/1018>
 	a skos:Concept ;
 	skos:altLabel "Ereschulden" ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Schadeloosstelling" ;
-	skos:related <Restitutie> ,
-		     <http://data.niod.nl/concept/996> .
+	skos:related <http://data.niod.nl/concept/996> .
 
 <http://data.niod.nl/concept/1019>
 	a skos:Concept ;
@@ -125,7 +124,8 @@
 <http://data.niod.nl/concept/1020>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Scheepsrampen" .
+	skos:prefLabel "Scheepsrampen" ;
+	skos:related <http://data.niod.nl/concept/961> .
 
 <http://data.niod.nl/concept/1021>
 	a skos:Concept ;
@@ -135,16 +135,17 @@
 <http://data.niod.nl/concept/1022>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
+	skos:narrower <http://data.niod.nl/concept/1045> ,
+		      <http://data.niod.nl/concept/135> ;
 	skos:prefLabel "Scheepvaart" ;
-	skos:related <Binnenvaart> ,
-		     <http://data.niod.nl/concept/135> .
+	skos:related <http://data.niod.nl/concept/135> ,
+		     <http://data.niod.nl/concept/698> .
 
 <http://data.niod.nl/concept/1023>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Scheikunde" ;
-	skos:related <Natuurwetenschappen> ,
-		     <http://data.niod.nl/concept/775> .
+	skos:related <http://data.niod.nl/concept/775> .
 
 <http://data.niod.nl/concept/1024>
 	a skos:Concept ;
@@ -152,6 +153,20 @@
 	skos:broader <http://data.niod.nl/concept/1215> ;
 	skos:hasnar "Zie ook bij soorten afzonderlijk: Duikboten, Hospitaalschepen, Kanonneerboten, Kruisers, Landingsvaartuigen, Mijnenleggers, Mijnenvegers, Oorlogsschepen, Ponten, Slagschepen, Torpedoboten, Transportschepen, Vliegboten, Vliegdekschepen" ;
 	skos:inScheme concept:thesaurus ;
+	skos:narrower <http://data.niod.nl/concept/1042> ,
+		      <http://data.niod.nl/concept/1138> ,
+		      <http://data.niod.nl/concept/1144> ,
+		      <http://data.niod.nl/concept/1239> ,
+		      <http://data.niod.nl/concept/1240> ,
+		      <http://data.niod.nl/concept/299> ,
+		      <http://data.niod.nl/concept/493> ,
+		      <http://data.niod.nl/concept/578> ,
+		      <http://data.niod.nl/concept/618> ,
+		      <http://data.niod.nl/concept/634> ,
+		      <http://data.niod.nl/concept/723> ,
+		      <http://data.niod.nl/concept/724> ,
+		      <http://data.niod.nl/concept/836> ,
+		      <http://data.niod.nl/concept/930> ;
 	skos:prefLabel "Schepen" .
 
 <http://data.niod.nl/concept/1025>
@@ -162,7 +177,8 @@
 <http://data.niod.nl/concept/1027>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Scholen" .
+	skos:prefLabel "Scholen" ;
+	skos:related <http://data.niod.nl/concept/807> .
 
 <http://data.niod.nl/concept/1029>
 	a skos:Concept ;
@@ -190,8 +206,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Schulden" ;
-	skos:related <Oorlogsschulden> ,
-		     <http://data.niod.nl/concept/837> .
+	skos:related <http://data.niod.nl/concept/837> .
 
 <http://data.niod.nl/concept/1033>
 	a skos:Concept ;
@@ -202,18 +217,19 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Secretarissen-Generaal" ;
-	skos:related <Departementen> ,
-		     <http://data.niod.nl/concept/259> .
+	skos:related <http://data.niod.nl/concept/259> .
 
 <http://data.niod.nl/concept/1035>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Seksualiteit" ;
-	skos:related <Homoseksuelen> ,
-		     <http://data.niod.nl/concept/485> .
+	skos:related <http://data.niod.nl/concept/485> ,
+		     <http://data.niod.nl/concept/657> ,
+		     <http://data.niod.nl/concept/701> .
 
 <http://data.niod.nl/concept/1037>
 	a skos:Concept ;
+	skos:broader <http://data.niod.nl/concept/20> ;
 	skos:hasrel "Genealogie, Afstammingsonderzoek, Rassenkunde" ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Sibbekunde" ;
@@ -231,8 +247,7 @@
 	skos:altLabel "Zigeuners" ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Sinti en Roma" ;
-	skos:related <Woonwagenbewoners> ,
-		     <http://data.niod.nl/concept/1321> .
+	skos:related <http://data.niod.nl/concept/1321> .
 
 <http://data.niod.nl/concept/104>
 	a skos:Concept ;
@@ -322,13 +337,13 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Soevereiniteitsoverdracht" ;
-	skos:related <Onafhankelijkheidsverklaringen> ,
-		     <http://data.niod.nl/concept/798> .
+	skos:related <http://data.niod.nl/concept/798> .
 
 <http://data.niod.nl/concept/1056>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Soldaten" .
+	skos:prefLabel "Soldaten" ;
+	skos:related <http://data.niod.nl/concept/729> .
 
 <http://data.niod.nl/concept/1057>
 	a skos:Concept ;
@@ -338,14 +353,15 @@
 <http://data.niod.nl/concept/1058>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Spellen" .
+	skos:prefLabel "Spellen" ;
+	skos:related <http://data.niod.nl/concept/979> .
 
 <http://data.niod.nl/concept/1059>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Spergebieden" ;
-	skos:related <Evacuaties> ,
-		     <http://data.niod.nl/concept/339> .
+	skos:related <http://data.niod.nl/concept/339> ,
+		     <http://data.niod.nl/concept/626> .
 
 <http://data.niod.nl/concept/106>
 	a skos:Concept ;
@@ -356,10 +372,12 @@
 	a skos:Concept ;
 	skos:hasrel "Contraspionage, Inlichtingendiensten, Abwehr" ;
 	skos:inScheme concept:thesaurus ;
+	skos:narrower <http://data.niod.nl/concept/221> ;
 	skos:prefLabel "Spionage" ;
 	skos:related <http://data.niod.nl/concept/10> ,
 		     <http://data.niod.nl/concept/221> ,
-		     <http://data.niod.nl/concept/527> .
+		     <http://data.niod.nl/concept/527> ,
+		     <http://data.niod.nl/concept/533> .
 
 <http://data.niod.nl/concept/1063>
 	a skos:Concept ;
@@ -374,15 +392,15 @@
 	skos:altLabel "Wedstrijden" ;
 	skos:hasrel "Olympische spelen" ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Sport" .
+	skos:prefLabel "Sport" ;
+	skos:related <http://data.niod.nl/concept/795> .
 
 <http://data.niod.nl/concept/1065>
 	a skos:Concept ;
 	skos:broader <http://data.niod.nl/concept/514> ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Spotprenten" ;
-	skos:related <Karikaturen> ,
-		     <http://data.niod.nl/concept/579> .
+	skos:related <http://data.niod.nl/concept/579> .
 
 <http://data.niod.nl/concept/1066>
 	a skos:Concept ;
@@ -397,6 +415,7 @@
 <http://data.niod.nl/concept/1069>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
+	skos:narrower <http://data.niod.nl/concept/223> ;
 	skos:prefLabel "Staatsinrichting" .
 
 <http://data.niod.nl/concept/107>
@@ -407,18 +426,21 @@
 <http://data.niod.nl/concept/1070>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Staatsrecht" .
+	skos:prefLabel "Staatsrecht" ;
+	skos:related <http://data.niod.nl/concept/969> .
 
 <http://data.niod.nl/concept/1071>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Stadhuizen" .
+	skos:prefLabel "Stadhuizen" ;
+	skos:related <http://data.niod.nl/concept/380> .
 
 <http://data.niod.nl/concept/1072>
 	a skos:Concept ;
 	skos:broader <http://data.niod.nl/concept/514> ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Stafkaarten" .
+	skos:prefLabel "Stafkaarten" ;
+	skos:related <http://data.niod.nl/concept/569> .
 
 <http://data.niod.nl/concept/1073>
 	a skos:Concept ;
@@ -454,7 +476,8 @@
 <http://data.niod.nl/concept/1080>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Stations" .
+	skos:prefLabel "Stations" ;
+	skos:related <http://data.niod.nl/concept/1063> .
 
 <http://data.niod.nl/concept/1081>
 	a skos:Concept ;
@@ -479,15 +502,13 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Sterftecijfers" ;
-	skos:related <Overledenen> ,
-		     <http://data.niod.nl/concept/874> .
+	skos:related <http://data.niod.nl/concept/874> .
 
 <http://data.niod.nl/concept/1086>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Sterilisatie" ;
-	skos:related <Castratie> ,
-		     <http://data.niod.nl/concept/190> .
+	skos:related <http://data.niod.nl/concept/190> .
 
 <http://data.niod.nl/concept/1087>
 	a skos:Concept ;
@@ -528,7 +549,8 @@
 	a skos:Concept ;
 	skos:altLabel "Leuzen" ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Straatpropaganda" .
+	skos:prefLabel "Straatpropaganda" ;
+	skos:related <http://data.niod.nl/concept/942> .
 
 <http://data.niod.nl/concept/1094>
 	a skos:Concept ;
@@ -538,26 +560,30 @@
 <http://data.niod.nl/concept/1095>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Strafrecht" .
+	skos:prefLabel "Strafrecht" ;
+	skos:related <http://data.niod.nl/concept/969> .
 
 <http://data.niod.nl/concept/1096>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Strategie" .
+	skos:prefLabel "Strategie" ;
+	skos:related <http://data.niod.nl/concept/845> .
 
 <http://data.niod.nl/concept/1097>
 	a skos:Concept ;
 	skos:altLabel "Troepen" ;
 	skos:hasnar "Zie ook bij onderdelen afzonderlijk: Landmacht, Luchtmacht, Marine" ;
 	skos:inScheme concept:thesaurus ;
+	skos:narrower <http://data.niod.nl/concept/635> ,
+		      <http://data.niod.nl/concept/679> ,
+		      <http://data.niod.nl/concept/696> ;
 	skos:prefLabel "Strijdkrachten" .
 
 <http://data.niod.nl/concept/1098>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Stripverhalen" ;
-	skos:related <Cartoons> ,
-		     <http://data.niod.nl/concept/189> .
+	skos:related <http://data.niod.nl/concept/189> .
 
 <http://data.niod.nl/concept/1099>
 	a skos:Concept ;
@@ -606,15 +632,16 @@
 
 <http://data.niod.nl/concept/1109>
 	a skos:Concept ;
+	skos:broader <http://data.niod.nl/concept/64> ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Tandartsen" .
+	skos:prefLabel "Tandartsen" ;
+	skos:related <http://data.niod.nl/concept/64> .
 
 <http://data.niod.nl/concept/111>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Bevolkingsgroepen" ;
-	skos:related <Demografie> ,
-		     <http://data.niod.nl/concept/256> .
+	skos:related <http://data.niod.nl/concept/256> .
 
 <http://data.niod.nl/concept/1110>
 	a skos:Concept ;
@@ -672,8 +699,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Bevolkingspolitiek" ;
-	skos:related <Demografie> ,
-		     <http://data.niod.nl/concept/256> .
+	skos:related <http://data.niod.nl/concept/256> .
 
 <http://data.niod.nl/concept/1120>
 	a skos:Concept ;
@@ -684,13 +710,14 @@
 <http://data.niod.nl/concept/1121>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
+	skos:narrower <http://data.niod.nl/concept/1120> ;
 	skos:prefLabel "Terrorisme" .
 
 <http://data.niod.nl/concept/1122>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Terugkeer" ;
-	skos:related <Repatri�ring> .
+	skos:related <http://data.niod.nl/concept/991> .
 
 <http://data.niod.nl/concept/1124>
 	a skos:Concept ;
@@ -783,8 +810,7 @@
 	skos:broader <http://data.niod.nl/concept/1215> ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Trams" ;
-	skos:related 
-		     <http://data.niod.nl/concept/851> .
+	skos:related <http://data.niod.nl/concept/851> .
 
 <http://data.niod.nl/concept/1141>
 	a skos:Concept ;
@@ -806,8 +832,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Transporten" ;
-	skos:related <Deportaties> ,
-		     <http://data.niod.nl/concept/260> .
+	skos:related <http://data.niod.nl/concept/260> .
 
 <http://data.niod.nl/concept/1144>
 	a skos:Concept ;
@@ -818,20 +843,21 @@
 <http://data.niod.nl/concept/1145>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Transportvliegtuigen" .
+	skos:prefLabel "Transportvliegtuigen" ;
+	skos:related <http://data.niod.nl/concept/1241> .
 
 <http://data.niod.nl/concept/1147>
 	a skos:Concept ;
 	skos:broader <http://data.niod.nl/concept/1215> ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Treinen" .
+	skos:prefLabel "Treinen" ;
+	skos:related <http://data.niod.nl/concept/1063> .
 
 <http://data.niod.nl/concept/1148>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Tribunalen" ;
-	skos:related <Oorlogsmisdaden> ,
-		     <http://data.niod.nl/concept/829> .
+	skos:related <http://data.niod.nl/concept/829> .
 
 <http://data.niod.nl/concept/115>
 	a skos:Concept ;
@@ -842,6 +868,7 @@
 	a skos:Concept ;
 	skos:hasrel "Aftocht, Intochten, Opmars" ;
 	skos:inScheme concept:thesaurus ;
+	skos:narrower <http://data.niod.nl/concept/21> ;
 	skos:prefLabel "Troepenbewegingen" ;
 	skos:related <http://data.niod.nl/concept/21> ,
 		     <http://data.niod.nl/concept/543> ,
@@ -851,8 +878,8 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Troostmeisjes" ;
-	skos:related
-		     <http://data.niod.nl/concept/385> .
+	skos:related <http://data.niod.nl/concept/385> ,
+		     <http://data.niod.nl/concept/943> .
 
 <http://data.niod.nl/concept/1152>
 	a skos:Concept ;
@@ -890,8 +917,7 @@
 	skos:altLabel "Wachtgeldregelingen" ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Uitkeringen" ;
-	skos:related <Pensioenen> ,
-		     <http://data.niod.nl/concept/901> .
+	skos:related <http://data.niod.nl/concept/901> .
 
 <http://data.niod.nl/concept/1160>
 	a skos:Concept ;
@@ -916,8 +942,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Uniformen" ;
-	skos:related <Uitrusting> ,
-		     <http://data.niod.nl/concept/1162> .
+	skos:related <http://data.niod.nl/concept/1162> .
 
 <http://data.niod.nl/concept/1166>
 	a skos:Concept ;
@@ -931,8 +956,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Vaandels" ;
-	skos:related <Vlaggen> ,
-		     <http://data.niod.nl/concept/1235> .
+	skos:related <http://data.niod.nl/concept/1235> .
 
 <http://data.niod.nl/concept/1169>
 	a skos:Concept ;
@@ -978,8 +1002,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Veilingen" ;
-	skos:related <Inboedels> ,
-		     <http://data.niod.nl/concept/519> .
+	skos:related <http://data.niod.nl/concept/519> .
 
 <http://data.niod.nl/concept/1177>
 	a skos:Concept ;
@@ -1017,8 +1040,7 @@
 	skos:altLabel "Fortificaties" ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Verdedigingswerken" ;
-	skos:related <Loopgraven> ,
-		     <http://data.niod.nl/concept/672> .
+	skos:related <http://data.niod.nl/concept/672> .
 
 <http://data.niod.nl/concept/1183>
 	a skos:Concept ;
@@ -1029,8 +1051,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Verduistering" ;
-	skos:related <Verlichting> ,
-		     <http://data.niod.nl/concept/1196> .
+	skos:related <http://data.niod.nl/concept/1196> .
 
 <http://data.niod.nl/concept/1186>
 	a skos:Concept ;
@@ -1058,8 +1079,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Verhuizingen" ;
-	skos:related <Inboedels> ,
-		     <http://data.niod.nl/concept/519> .
+	skos:related <http://data.niod.nl/concept/519> .
 
 <http://data.niod.nl/concept/1192>
 	a skos:Concept ;
@@ -1086,8 +1106,8 @@
 	skos:altLabel "Licht" ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Verlichting" ;
-	skos:related <Verduistering> ,
-		     <http://data.niod.nl/concept/1184> .
+	skos:related <http://data.niod.nl/concept/1184> ,
+		     <http://data.niod.nl/concept/322> .
 
 <http://data.niod.nl/concept/1197>
 	a skos:Concept ;
@@ -1107,7 +1127,8 @@
 <http://data.niod.nl/concept/12>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Admiraliteit" .
+	skos:prefLabel "Admiraliteit" ;
+	skos:related <http://data.niod.nl/concept/696> .
 
 <http://data.niod.nl/concept/120>
 	a skos:Concept ;
@@ -1137,14 +1158,13 @@
 	skos:broader <http://data.niod.nl/concept/575> ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Vernietigingskampen" ;
-	skos:related <Concentratiekampen> ,
-		     <http://data.niod.nl/concept/212> .
+	skos:related <http://data.niod.nl/concept/212> .
 
 <http://data.niod.nl/concept/1204>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Verordeningen" ;
-	skos:related <Decreten> ,
+	skos:related <http://data.niod.nl/concept/1312> ,
 		     <http://data.niod.nl/concept/244> .
 
 <http://data.niod.nl/concept/1205>
@@ -1160,9 +1180,9 @@
 <http://data.niod.nl/concept/1207>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
+	skos:narrower <http://data.niod.nl/concept/491> ;
 	skos:prefLabel "Verraad" ;
-	skos:related <Hoogverraad> ,
-		     <http://data.niod.nl/concept/491> .
+	skos:related <http://data.niod.nl/concept/491> .
 
 <http://data.niod.nl/concept/121>
 	a skos:Concept ;
@@ -1174,13 +1194,13 @@
 	skos:altLabel "Barricades" ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Versperringen" ;
-	skos:related <Blokkades> ,
-		     <http://data.niod.nl/concept/143> .
+	skos:related <http://data.niod.nl/concept/143> .
 
 <http://data.niod.nl/concept/1211>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Vertrek" .
+	skos:prefLabel "Vertrek" ;
+	skos:related <http://data.niod.nl/concept/1142> .
 
 <http://data.niod.nl/concept/1212>
 	a skos:Concept ;
@@ -1197,6 +1217,19 @@
 	skos:broader <http://data.niod.nl/concept/1215> ;
 	skos:hasnar "Zie ook bij soorten afzonderlijk: Ambulances, Auto's, Luchtschepen, Motorfietsen, Pantservoertuigen, Ponten, Rijwielen, Schepen, Tanks, Trams, Vliegtuigen, Voertuigen" ;
 	skos:inScheme concept:thesaurus ;
+	skos:narrower <http://data.niod.nl/concept/1005> ,
+		      <http://data.niod.nl/concept/1024> ,
+		      <http://data.niod.nl/concept/1110> ,
+		      <http://data.niod.nl/concept/1140> ,
+		      <http://data.niod.nl/concept/1147> ,
+		      <http://data.niod.nl/concept/1215> ,
+		      <http://data.niod.nl/concept/1241> ,
+		      <http://data.niod.nl/concept/1250> ,
+		      <http://data.niod.nl/concept/29> ,
+		      <http://data.niod.nl/concept/682> ,
+		      <http://data.niod.nl/concept/755> ,
+		      <http://data.niod.nl/concept/886> ,
+		      <http://data.niod.nl/concept/930> ;
 	skos:prefLabel "Vervoermiddelen" .
 
 <http://data.niod.nl/concept/1216>
@@ -1213,14 +1246,15 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Verwarming" ;
-	skos:related <Noodkacheltjes> ,
+	skos:related <http://data.niod.nl/concept/322> ,
 		     <http://data.niod.nl/concept/788> .
 
 <http://data.niod.nl/concept/1219>
 	a skos:Concept ;
 	skos:hasrel "Oorlogstrauma's" ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Verwerking" .
+	skos:prefLabel "Verwerking" ;
+	skos:related <http://data.niod.nl/concept/839> .
 
 <http://data.niod.nl/concept/1220>
 	a skos:Concept ;
@@ -1254,8 +1288,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Verzetsmusea" ;
-	skos:related <Oorlogsmusea> ,
-		     <http://data.niod.nl/concept/832> .
+	skos:related <http://data.niod.nl/concept/832> .
 
 <http://data.niod.nl/concept/1227>
 	a skos:Concept ;
@@ -1297,8 +1330,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Vlaggen" ;
-	skos:related <Vaandels> ,
-		     <http://data.niod.nl/concept/1167> .
+	skos:related <http://data.niod.nl/concept/1167> .
 
 <http://data.niod.nl/concept/1236>
 	a skos:Concept ;
@@ -1338,6 +1370,7 @@
 	skos:broader <http://data.niod.nl/concept/1215> ;
 	skos:hasrel "Gevechtsvliegtuigen, Transportvliegtuigen,  Zweefvliegtuigen" ;
 	skos:inScheme concept:thesaurus ;
+	skos:narrower <http://data.niod.nl/concept/428> ;
 	skos:prefLabel "Vliegtuigen" ;
 	skos:related <http://data.niod.nl/concept/1145> ,
 		     <http://data.niod.nl/concept/1346> ,
@@ -1376,14 +1409,14 @@
 <http://data.niod.nl/concept/1248>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Voedseldroppings" .
+	skos:prefLabel "Voedseldroppings" ;
+	skos:related <http://data.niod.nl/concept/297> .
 
 <http://data.niod.nl/concept/1249>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Voedselvoorziening" ;
-	skos:related <Levensmiddelen> ,
-		     <http://data.niod.nl/concept/654> .
+	skos:related <http://data.niod.nl/concept/654> .
 
 <http://data.niod.nl/concept/125>
 	a skos:Concept ;
@@ -1419,7 +1452,8 @@
 <http://data.niod.nl/concept/1257>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Volkshuisvesting" .
+	skos:prefLabel "Volkshuisvesting" ;
+	skos:related <http://data.niod.nl/concept/497> .
 
 <http://data.niod.nl/concept/1258>
 	a skos:Concept ;
@@ -1441,11 +1475,13 @@
 	skos:hasrel "Migratie, Displaced Persons" ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Volksverhuizingen" ;
-	skos:related <http://data.niod.nl/concept/720> .
+	skos:related <http://data.niod.nl/concept/276> ,
+		     <http://data.niod.nl/concept/720> .
 
 <http://data.niod.nl/concept/1263>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
+	skos:narrower <http://data.niod.nl/concept/1001> ;
 	skos:prefLabel "Volksvertegenwoordiging" .
 
 <http://data.niod.nl/concept/1264>
@@ -1467,8 +1503,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Vooroorlogse periode" ;
-	skos:related <Interbellum> ,
-		     <http://data.niod.nl/concept/535> .
+	skos:related <http://data.niod.nl/concept/535> .
 
 <http://data.niod.nl/concept/1268>
 	a skos:Concept ;
@@ -1530,8 +1565,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Vrijwilligers" ;
-	skos:related <Oorlogsvrijwilligers> ,
-		     <http://data.niod.nl/concept/841> .
+	skos:related <http://data.niod.nl/concept/841> .
 
 <http://data.niod.nl/concept/1282>
 	a skos:Concept ;
@@ -1547,7 +1581,8 @@
 	a skos:Concept ;
 	skos:broader <http://data.niod.nl/concept/575> ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Vrouwenkampen" .
+	skos:prefLabel "Vrouwenkampen" ;
+	skos:related <http://data.niod.nl/concept/539> .
 
 <http://data.niod.nl/concept/1285>
 	a skos:Concept ;
@@ -1567,7 +1602,8 @@
 <http://data.niod.nl/concept/1289>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Wapendroppings" .
+	skos:prefLabel "Wapendroppings" ;
+	skos:related <http://data.niod.nl/concept/297> .
 
 <http://data.niod.nl/concept/129>
 	a skos:Concept ;
@@ -1578,6 +1614,8 @@
 	a skos:Concept ;
 	skos:hasrel "Atoomwapens, Munitie, Uitrusting, Geschut" ;
 	skos:inScheme concept:thesaurus ;
+	skos:narrower <http://data.niod.nl/concept/418> ,
+		      <http://data.niod.nl/concept/74> ;
 	skos:prefLabel "Wapens" ;
 	skos:related <http://data.niod.nl/concept/1162> ,
 		     <http://data.niod.nl/concept/418> ,
@@ -1593,18 +1631,21 @@
 	a skos:Concept ;
 	skos:broader <http://data.niod.nl/concept/296> ;
 	skos:inScheme concept:thesaurus ;
+	skos:narrower <http://data.niod.nl/concept/296> ;
 	skos:prefLabel "Watervoorziening" .
 
 <http://data.niod.nl/concept/1294>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Waterwegen" .
+	skos:prefLabel "Waterwegen" ;
+	skos:related <http://data.niod.nl/concept/524> .
 
 <http://data.niod.nl/concept/1295>
 	a skos:Concept ;
 	skos:altLabel "Herstelwerkzaamheden" ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Wederopbouw" .
+	skos:prefLabel "Wederopbouw" ;
+	skos:related <http://data.niod.nl/concept/1082> .
 
 <http://data.niod.nl/concept/1297>
 	a skos:Concept ;
@@ -1615,8 +1656,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Weeskinderen" ;
-	skos:related <Oorlogsweeskinderen> ,
-		     <http://data.niod.nl/concept/842> .
+	skos:related <http://data.niod.nl/concept/842> .
 
 <http://data.niod.nl/concept/13>
 	a skos:Concept ;
@@ -1631,7 +1671,8 @@
 <http://data.niod.nl/concept/1300>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Wegen" .
+	skos:prefLabel "Wegen" ;
+	skos:related <http://data.niod.nl/concept/524> .
 
 <http://data.niod.nl/concept/1301>
 	a skos:Concept ;
@@ -1659,8 +1700,7 @@
 	skos:broader <http://data.niod.nl/concept/45> ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Werkverschaffing" ;
-	skos:related <Tewerkstelling> ,
-		     <http://data.niod.nl/concept/1124> .
+	skos:related <http://data.niod.nl/concept/1124> .
 
 <http://data.niod.nl/concept/1308>
 	a skos:Concept ;
@@ -1672,7 +1712,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Westfront" ;
-	skos:related <Oostfront> ,
+	skos:related <http://data.niod.nl/concept/369> ,
 		     <http://data.niod.nl/concept/847> .
 
 <http://data.niod.nl/concept/131>
@@ -1702,6 +1742,7 @@
 	skos:altLabel "Oorlogswetgeving" ;
 	skos:hasrel "Grondwet, Koninklijke besluiten, Verordeningen" ;
 	skos:inScheme concept:thesaurus ;
+	skos:narrower <http://data.niod.nl/concept/459> ;
 	skos:prefLabel "Wetgeving" ;
 	skos:related <http://data.niod.nl/concept/1204> ,
 		     <http://data.niod.nl/concept/459> .
@@ -1710,8 +1751,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Widerstand" ;
-	skos:related <Verzet> ,
-		     <http://data.niod.nl/concept/1223> .
+	skos:related <http://data.niod.nl/concept/1223> .
 
 <http://data.niod.nl/concept/1314>
 	a skos:Concept ;
@@ -1738,8 +1778,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Wiskunde" ;
-	skos:related <Natuurwetenschappen> ,
-		     <http://data.niod.nl/concept/775> .
+	skos:related <http://data.niod.nl/concept/775> .
 
 <http://data.niod.nl/concept/1319>
 	a skos:Concept ;
@@ -1760,8 +1799,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Woonwagenbewoners" ;
-	skos:related 
-		     <http://data.niod.nl/concept/1039> .
+	skos:related <http://data.niod.nl/concept/1039> .
 
 <http://data.niod.nl/concept/1322>
 	a skos:Concept ;
@@ -1784,7 +1822,8 @@
 <http://data.niod.nl/concept/1326>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Zang" .
+	skos:prefLabel "Zang" ;
+	skos:related <http://data.niod.nl/concept/31> .
 
 <http://data.niod.nl/concept/1327>
 	a skos:Concept ;
@@ -1796,8 +1835,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Zedelijkheid" ;
-	skos:related <Moraal> ,
-		     <http://data.niod.nl/concept/751> .
+	skos:related <http://data.niod.nl/concept/751> .
 
 <http://data.niod.nl/concept/1329>
 	a skos:Concept ;
@@ -1828,8 +1866,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Zenders" ;
-	skos:related <Radiozenders> ,
-		     <http://data.niod.nl/concept/959> .
+	skos:related <http://data.niod.nl/concept/959> .
 
 <http://data.niod.nl/concept/1336>
 	a skos:Concept ;
@@ -1865,14 +1902,14 @@
 <http://data.niod.nl/concept/1342>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Zuivelproducten" .
+	skos:prefLabel "Zuivelproducten" ;
+	skos:related <http://data.niod.nl/concept/654> .
 
 <http://data.niod.nl/concept/1343>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Zuivering" ;
-	skos:related <Ereraden> ,
-		     <http://data.niod.nl/concept/327> .
+	skos:related <http://data.niod.nl/concept/327> .
 
 <http://data.niod.nl/concept/1344>
 	a skos:Concept ;
@@ -1889,20 +1926,21 @@
 <http://data.niod.nl/concept/1346>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Zweefvliegtuigen" .
+	skos:prefLabel "Zweefvliegtuigen" ;
+	skos:related <http://data.niod.nl/concept/1241> .
 
 <http://data.niod.nl/concept/1347>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Zwijgplicht" ;
-	skos:related <Eedsaflegging> ,
-		     <http://data.niod.nl/concept/307> .
+	skos:related <http://data.niod.nl/concept/307> .
 
 <http://data.niod.nl/concept/135>
 	a skos:Concept ;
 	skos:broader <http://data.niod.nl/concept/1022> ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Binnenvaart" .
+	skos:prefLabel "Binnenvaart" ;
+	skos:related <http://data.niod.nl/concept/1022> .
 
 <http://data.niod.nl/concept/136>
 	a skos:Concept ;
@@ -1938,8 +1976,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Blokkades" ;
-	skos:related <Versperringen> ,
-		     <http://data.niod.nl/concept/1210> .
+	skos:related <http://data.niod.nl/concept/1210> .
 
 <http://data.niod.nl/concept/144>
 	a skos:Concept ;
@@ -1987,7 +2024,8 @@
 <http://data.niod.nl/concept/153>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Bomen" .
+	skos:prefLabel "Bomen" ;
+	skos:related <http://data.niod.nl/concept/637> .
 
 <http://data.niod.nl/concept/154>
 	a skos:Concept ;
@@ -2026,8 +2064,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Advocatuur" ;
-	skos:related <Rechtspraak> ,
-		     <http://data.niod.nl/concept/974> .
+	skos:related <http://data.niod.nl/concept/974> .
 
 <http://data.niod.nl/concept/160>
 	a skos:Concept ;
@@ -2053,8 +2090,11 @@
 	a skos:Concept ;
 	skos:hasrel "Aardolie, Kolen" ;
 	skos:inScheme concept:thesaurus ;
+	skos:narrower <http://data.niod.nl/concept/601> ,
+		      <http://data.niod.nl/concept/8> ;
 	skos:prefLabel "Brandstoffen" ;
-	skos:related <http://data.niod.nl/concept/601> ,
+	skos:related <http://data.niod.nl/concept/250> ,
+		     <http://data.niod.nl/concept/601> ,
 		     <http://data.niod.nl/concept/8> .
 
 <http://data.niod.nl/concept/167>
@@ -2073,23 +2113,20 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Brochures" ;
-	skos:related <Pamfletten> ,
-		     <http://data.niod.nl/concept/884> .
+	skos:related <http://data.niod.nl/concept/884> .
 
 <http://data.niod.nl/concept/17>
 	a skos:Concept ;
 	skos:altLabel "Aanplakbiljetten" ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Affiches" ;
-	skos:related <Pamfletten> ,
-		     <http://data.niod.nl/concept/884> .
+	skos:related <http://data.niod.nl/concept/884> .
 
 <http://data.niod.nl/concept/170>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Bronnenuitgaven" ;
-	skos:related <Documenten> ,
-		     <http://data.niod.nl/concept/284> .
+	skos:related <http://data.niod.nl/concept/284> .
 
 <http://data.niod.nl/concept/171>
 	a skos:Concept ;
@@ -2141,14 +2178,14 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Burgerlijke stand" ;
-	skos:related <Bevolkingsregisters> ,
-		     <http://data.niod.nl/concept/113> .
+	skos:related <http://data.niod.nl/concept/113> .
 
 <http://data.niod.nl/concept/181>
 	a skos:Concept ;
 	skos:broader <http://data.niod.nl/concept/575> ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Burgermannenkampen" .
+	skos:prefLabel "Burgermannenkampen" ;
+	skos:related <http://data.niod.nl/concept/539> .
 
 <http://data.niod.nl/concept/182>
 	a skos:Concept ;
@@ -2169,7 +2206,8 @@
 	a skos:Concept ;
 	skos:broader <http://data.niod.nl/concept/592> ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Cabaret" .
+	skos:prefLabel "Cabaret" ;
+	skos:related <http://data.niod.nl/concept/592> .
 
 <http://data.niod.nl/concept/186>
 	a skos:Concept ;
@@ -2186,8 +2224,8 @@
 	skos:broader <http://data.niod.nl/concept/514> ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Cartoons" ;
-	skos:related <Stripverhalen> ,
-		     <http://data.niod.nl/concept/1098> .
+	skos:related <http://data.niod.nl/concept/1098> ,
+		     <http://data.niod.nl/concept/579> .
 
 <http://data.niod.nl/concept/19>
 	a skos:Concept ;
@@ -2198,8 +2236,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Castratie" ;
-	skos:related <Sterilisatie> ,
-		     <http://data.niod.nl/concept/1086> .
+	skos:related <http://data.niod.nl/concept/1086> .
 
 <http://data.niod.nl/concept/191>
 	a skos:Concept ;
@@ -2215,8 +2252,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Censuur" ;
-	skos:related <Persvrijheid> ,
-		     <http://data.niod.nl/concept/909> .
+	skos:related <http://data.niod.nl/concept/909> .
 
 <http://data.niod.nl/concept/196>
 	a skos:Concept ;
@@ -2224,13 +2260,14 @@
 		      "Mosterdgas" ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Chemische oorlogvoering" ;
-	skos:related
-		     <http://data.niod.nl/concept/81> .
+	skos:related <http://data.niod.nl/concept/81> .
 
 <http://data.niod.nl/concept/197>
 	a skos:Concept ;
 	skos:broader <http://data.niod.nl/concept/990> ;
 	skos:inScheme concept:thesaurus ;
+	skos:narrower <http://data.niod.nl/concept/1012> ,
+		      <http://data.niod.nl/concept/944> ;
 	skos:prefLabel "Christendom" .
 
 <http://data.niod.nl/concept/198>
@@ -2246,7 +2283,8 @@
 <http://data.niod.nl/concept/2>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Aankomst" .
+	skos:prefLabel "Aankomst" ;
+	skos:related <http://data.niod.nl/concept/1142> .
 
 <http://data.niod.nl/concept/20>
 	a skos:Concept ;
@@ -2254,15 +2292,13 @@
 	skos:inScheme concept:thesaurus ;
 	skos:narrower <http://data.niod.nl/concept/1037> ;
 	skos:prefLabel "Afstammingsonderzoek" ;
-	skos:related <Sibbekunde> ,
-		     <http://data.niod.nl/concept/1037> .
+	skos:related <http://data.niod.nl/concept/1037> .
 
 <http://data.niod.nl/concept/200>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Circulaires" ;
-	skos:related <Pamfletten> ,
-		     <http://data.niod.nl/concept/884> .
+	skos:related <http://data.niod.nl/concept/884> .
 
 <http://data.niod.nl/concept/201>
 	a skos:Concept ;
@@ -2273,22 +2309,19 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Codering" ;
-	skos:related <Decodering> ,
-		     <http://data.niod.nl/concept/242> .
+	skos:related <http://data.niod.nl/concept/242> .
 
 <http://data.niod.nl/concept/203>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Collaborateurs" ;
-	skos:related <Collaboratie> ,
-		     <http://data.niod.nl/concept/204> .
+	skos:related <http://data.niod.nl/concept/204> .
 
 <http://data.niod.nl/concept/204>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Collaboratie" ;
-	skos:related <Collaborateurs> ,
-		     <http://data.niod.nl/concept/203> .
+	skos:related <http://data.niod.nl/concept/203> .
 
 <http://data.niod.nl/concept/205>
 	a skos:Concept ;
@@ -2322,7 +2355,8 @@
 	a skos:Concept ;
 	skos:broader <http://data.niod.nl/concept/1150> ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Aftocht" .
+	skos:prefLabel "Aftocht" ;
+	skos:related <http://data.niod.nl/concept/1150> .
 
 <http://data.niod.nl/concept/210>
 	a skos:Concept ;
@@ -2379,14 +2413,14 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Consulaten" ;
-	skos:related <Diplomatie> ,
-		     <http://data.niod.nl/concept/274> .
+	skos:related <http://data.niod.nl/concept/274> .
 
 <http://data.niod.nl/concept/221>
 	a skos:Concept ;
 	skos:broader <http://data.niod.nl/concept/1062> ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Contraspionage" .
+	skos:prefLabel "Contraspionage" ;
+	skos:related <http://data.niod.nl/concept/1062> .
 
 <http://data.niod.nl/concept/222>
 	a skos:Concept ;
@@ -2410,7 +2444,8 @@
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Crashes" ;
 	skos:related <http://data.niod.nl/concept/1202> ,
-		     <http://data.niod.nl/concept/1324> .
+		     <http://data.niod.nl/concept/1324> ,
+		     <http://data.niod.nl/concept/680> .
 
 <http://data.niod.nl/concept/228>
 	a skos:Concept ;
@@ -2477,21 +2512,20 @@
 <http://data.niod.nl/concept/241>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Dans" .
+	skos:prefLabel "Dans" ;
+	skos:related <http://data.niod.nl/concept/31> .
 
 <http://data.niod.nl/concept/242>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Decodering" ;
-	skos:related <Codering> ,
-		     <http://data.niod.nl/concept/202> .
+	skos:related <http://data.niod.nl/concept/202> .
 
 <http://data.niod.nl/concept/244>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Decreten" ;
-	skos:related <Verordeningen> ,
-		     <http://data.niod.nl/concept/1204> .
+	skos:related <http://data.niod.nl/concept/1204> .
 
 <http://data.niod.nl/concept/245>
 	a skos:Concept ;
@@ -2512,15 +2546,13 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Dekolonisatie" ;
-	skos:related <Kolonialisme> ,
-		     <http://data.niod.nl/concept/603> .
+	skos:related <http://data.niod.nl/concept/603> .
 
 <http://data.niod.nl/concept/249>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Delegaties" ;
-	skos:related <Onderhandelingen> ,
-		     <http://data.niod.nl/concept/802> .
+	skos:related <http://data.niod.nl/concept/802> .
 
 <http://data.niod.nl/concept/250>
 	a skos:Concept ;
@@ -2536,13 +2568,13 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Demilitarisering " ;
-	skos:related <Militarisering> ,
-		     <http://data.niod.nl/concept/730> .
+	skos:related <http://data.niod.nl/concept/730> .
 
 <http://data.niod.nl/concept/254>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Demobilisatie" .
+	skos:prefLabel "Demobilisatie" ;
+	skos:related <http://data.niod.nl/concept/739> .
 
 <http://data.niod.nl/concept/255>
 	a skos:Concept ;
@@ -2552,7 +2584,9 @@
 <http://data.niod.nl/concept/256>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Demografie" .
+	skos:prefLabel "Demografie" ;
+	skos:related <http://data.niod.nl/concept/111> ,
+		     <http://data.niod.nl/concept/112> .
 
 <http://data.niod.nl/concept/257>
 	a skos:Concept ;
@@ -2563,27 +2597,27 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Denazificatie" ;
-	skos:related <Nazificatie> ,
-		     <http://data.niod.nl/concept/777> .
+	skos:related <http://data.niod.nl/concept/777> .
 
 <http://data.niod.nl/concept/259>
 	a skos:Concept ;
 	skos:hasrel "Ministeries, Secretarissen-Generaal" ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Departementen" ;
-	skos:related <http://data.niod.nl/concept/734> .
+	skos:related <http://data.niod.nl/concept/1034> ,
+		     <http://data.niod.nl/concept/734> .
 
 <http://data.niod.nl/concept/26>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Alcoholische dranken" .
+	skos:prefLabel "Alcoholische dranken" ;
+	skos:related <http://data.niod.nl/concept/294> .
 
 <http://data.niod.nl/concept/260>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Deportaties" ;
-	skos:related <Transporten> ,
-		     <http://data.niod.nl/concept/1143> .
+	skos:related <http://data.niod.nl/concept/1143> .
 
 <http://data.niod.nl/concept/261>
 	a skos:Concept ;
@@ -2630,15 +2664,13 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Ambassades" ;
-	skos:related <Diplomatie> ,
-		     <http://data.niod.nl/concept/274> .
+	skos:related <http://data.niod.nl/concept/274> .
 
 <http://data.niod.nl/concept/270>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Dienstweigering" ;
-	skos:related <Gewetensbezwaren> ,
-		     <http://data.niod.nl/concept/433> .
+	skos:related <http://data.niod.nl/concept/433> .
 
 <http://data.niod.nl/concept/271>
 	a skos:Concept ;
@@ -2653,7 +2685,8 @@
 <http://data.niod.nl/concept/273>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Dijken" .
+	skos:prefLabel "Dijken" ;
+	skos:related <http://data.niod.nl/concept/544> .
 
 <http://data.niod.nl/concept/274>
 	a skos:Concept ;
@@ -2661,14 +2694,14 @@
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Diplomatie" ;
 	skos:related <http://data.niod.nl/concept/220> ,
-		     <http://data.niod.nl/concept/27> .
+		     <http://data.niod.nl/concept/27> ,
+		     <http://data.niod.nl/concept/536> .
 
 <http://data.niod.nl/concept/275>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Discriminatie" ;
-	skos:related <Racisme> ,
-		     <http://data.niod.nl/concept/954> .
+	skos:related <http://data.niod.nl/concept/954> .
 
 <http://data.niod.nl/concept/276>
 	a skos:Concept ;
@@ -2676,8 +2709,7 @@
 		      "Ontheemden" ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Displaced Persons" ;
-	skos:related <Volksverhuizingen> ,
-		     <http://data.niod.nl/concept/1262> .
+	skos:related <http://data.niod.nl/concept/1262> .
 
 <http://data.niod.nl/concept/277>
 	a skos:Concept ;
@@ -2690,15 +2722,13 @@
 		      "Onderscheidingstekenen" ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Distinctieven" ;
-	skos:related <Emblemen> ,
-		     <http://data.niod.nl/concept/316> .
+	skos:related <http://data.niod.nl/concept/316> .
 
 <http://data.niod.nl/concept/279>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Distributie" ;
-	skos:related <Bonnen> ,
-		     <http://data.niod.nl/concept/156> .
+	skos:related <http://data.niod.nl/concept/156> .
 
 <http://data.niod.nl/concept/28>
 	a skos:Concept ;
@@ -2714,7 +2744,8 @@
 	a skos:Concept ;
 	skos:altLabel "Stamkaarten" ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Distributiestamkaarten" .
+	skos:prefLabel "Distributiestamkaarten" ;
+	skos:related <http://data.niod.nl/concept/156> .
 
 <http://data.niod.nl/concept/282>
 	a skos:Concept ;
@@ -2729,13 +2760,15 @@
 <http://data.niod.nl/concept/284>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Documenten" .
+	skos:prefLabel "Documenten" ;
+	skos:related <http://data.niod.nl/concept/170> .
 
 <http://data.niod.nl/concept/285>
 	a skos:Concept ;
 	skos:broader <http://data.niod.nl/concept/474> ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Dodenherdenking" .
+	skos:prefLabel "Dodenherdenking" ;
+	skos:related <http://data.niod.nl/concept/474> .
 
 <http://data.niod.nl/concept/286>
 	a skos:Concept ;
@@ -2756,8 +2789,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Doodvonnissen" ;
-	skos:related <Executies> ,
-		     <http://data.niod.nl/concept/340> .
+	skos:related <http://data.niod.nl/concept/340> .
 
 <http://data.niod.nl/concept/29>
 	a skos:Concept ;
@@ -2770,22 +2802,19 @@
 	skos:broader <http://data.niod.nl/concept/575> ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Doorgangskampen" ;
-	skos:related <Concentratiekampen> ,
-		     <http://data.niod.nl/concept/212> .
+	skos:related <http://data.niod.nl/concept/212> .
 
 <http://data.niod.nl/concept/291>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Dorpen" ;
-	skos:related <Steden> ,
-		     <http://data.niod.nl/concept/1082> .
+	skos:related <http://data.niod.nl/concept/1082> .
 
 <http://data.niod.nl/concept/294>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Dranken" ;
-	skos:related 
-		     <http://data.niod.nl/concept/26> .
+	skos:related <http://data.niod.nl/concept/26> .
 
 <http://data.niod.nl/concept/295>
 	a skos:Concept ;
@@ -2796,6 +2825,7 @@
 	a skos:Concept ;
 	skos:broader <http://data.niod.nl/concept/1293> ;
 	skos:inScheme concept:thesaurus ;
+	skos:narrower <http://data.niod.nl/concept/1293> ;
 	skos:prefLabel "Drinkwatervoorziening" .
 
 <http://data.niod.nl/concept/297>
@@ -2861,15 +2891,13 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Economische politiek" ;
-	skos:related <Planeconomie> ,
-		     <http://data.niod.nl/concept/913> .
+	skos:related <http://data.niod.nl/concept/913> .
 
 <http://data.niod.nl/concept/307>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Eedsaflegging" ;
-	skos:related <Zwijgplicht> ,
-		     <http://data.niod.nl/concept/1347> .
+	skos:related <http://data.niod.nl/concept/1347> .
 
 <http://data.niod.nl/concept/308>
 	a skos:Concept ;
@@ -2889,7 +2917,9 @@
 	skos:prefLabel "Amusement" ;
 	skos:related <http://data.niod.nl/concept/1326> ,
 		     <http://data.niod.nl/concept/241> ,
-		     <http://data.niod.nl/concept/761> .
+		     <http://data.niod.nl/concept/761> ,
+		     <http://data.niod.nl/concept/817> ,
+		     <http://data.niod.nl/concept/979> .
 
 <http://data.niod.nl/concept/310>
 	a skos:Concept ;
@@ -2901,6 +2931,9 @@
 	a skos:Concept ;
 	skos:hasnar "Zie ook bij soorten afzonderlijk: Autobiografie�n, Brieven, Dagboeken, Herinneringen, Po�zie" ;
 	skos:inScheme concept:thesaurus ;
+	skos:narrower <http://data.niod.nl/concept/168> ,
+		      <http://data.niod.nl/concept/238> ,
+		      <http://data.niod.nl/concept/476> ;
 	skos:prefLabel "Egodocumenten" .
 
 <http://data.niod.nl/concept/312>
@@ -2927,8 +2960,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Emblemen" ;
-	skos:related <Distinctieven> ,
-		     <http://data.niod.nl/concept/278> .
+	skos:related <http://data.niod.nl/concept/278> .
 
 <http://data.niod.nl/concept/317>
 	a skos:Concept ;
@@ -2942,7 +2974,8 @@
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Emigratie" ;
 	skos:related <http://data.niod.nl/concept/342> ,
-		     <http://data.niod.nl/concept/515> .
+		     <http://data.niod.nl/concept/515> ,
+		     <http://data.niod.nl/concept/720> .
 
 <http://data.niod.nl/concept/319>
 	a skos:Concept ;
@@ -2984,7 +3017,7 @@
 		      "Bisschoppen" ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Episcopaat" ;
-	skos:related <Pausen> ,
+	skos:related <http://data.niod.nl/concept/387> ,
 		     <http://data.niod.nl/concept/900> .
 
 <http://data.niod.nl/concept/326>
@@ -2997,8 +3030,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Ereraden" ;
-	skos:related <Zuivering> ,
-		     <http://data.niod.nl/concept/1343> .
+	skos:related <http://data.niod.nl/concept/1343> .
 
 <http://data.niod.nl/concept/329>
 	a skos:Concept ;
@@ -3009,8 +3041,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Erfelijkheidsleer" ;
-	skos:related <Rassenkunde> ,
-		     <http://data.niod.nl/concept/965> .
+	skos:related <http://data.niod.nl/concept/965> .
 
 <http://data.niod.nl/concept/332>
 	a skos:Concept ;
@@ -3026,22 +3057,19 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Etniciteit" ;
-	skos:related <Minderheden> ,
-		     <http://data.niod.nl/concept/732> .
+	skos:related <http://data.niod.nl/concept/732> .
 
 <http://data.niod.nl/concept/336>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Etnische zuiveringen" ;
-	skos:related <Genocide> ,
-		     <http://data.niod.nl/concept/407> .
+	skos:related <http://data.niod.nl/concept/407> .
 
 <http://data.niod.nl/concept/337>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Eugenetica" ;
-	skos:related <Rassenkunde> ,
-		     <http://data.niod.nl/concept/965> .
+	skos:related <http://data.niod.nl/concept/965> .
 
 <http://data.niod.nl/concept/338>
 	a skos:Concept ;
@@ -3052,8 +3080,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Evacuaties" ;
-	skos:related <Spergebieden> ,
-		     <http://data.niod.nl/concept/1059> .
+	skos:related <http://data.niod.nl/concept/1059> .
 
 <http://data.niod.nl/concept/34>
 	a skos:Concept ;
@@ -3065,15 +3092,14 @@
 	skos:altLabel "Fusillades" ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Executies" ;
-	skos:related <Massa-executies> ,
+	skos:related <http://data.niod.nl/concept/289> ,
 		     <http://data.niod.nl/concept/703> .
 
 <http://data.niod.nl/concept/342>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Exil" ;
-	skos:related <Emigratie> ,
-		     <http://data.niod.nl/concept/318> .
+	skos:related <http://data.niod.nl/concept/318> .
 
 <http://data.niod.nl/concept/343>
 	a skos:Concept ;
@@ -3084,7 +3110,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Expansie" ;
-	skos:related <Lebensraum> ,
+	skos:related <http://data.niod.nl/concept/378> ,
 		     <http://data.niod.nl/concept/642> .
 
 <http://data.niod.nl/concept/346>
@@ -3102,8 +3128,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Extremisme" ;
-	skos:related <Rechts-extremisme> ,
-		     <http://data.niod.nl/concept/971> .
+	skos:related <http://data.niod.nl/concept/971> .
 
 <http://data.niod.nl/concept/349>
 	a skos:Concept ;
@@ -3123,6 +3148,7 @@
 <http://data.niod.nl/concept/351>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
+	skos:narrower <http://data.niod.nl/concept/782> ;
 	skos:prefLabel "Fascisme" .
 
 <http://data.niod.nl/concept/353>
@@ -3148,7 +3174,8 @@
 <http://data.niod.nl/concept/358>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Filosofie" .
+	skos:prefLabel "Filosofie" ;
+	skos:related <http://data.niod.nl/concept/388> .
 
 <http://data.niod.nl/concept/359>
 	a skos:Concept ;
@@ -3226,12 +3253,15 @@
 <http://data.niod.nl/concept/374>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Gasgeneratoren" .
+	skos:prefLabel "Gasgeneratoren" ;
+	skos:related <http://data.niod.nl/concept/322> ,
+		     <http://data.niod.nl/concept/405> .
 
 <http://data.niod.nl/concept/375>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Gaskamers" .
+	skos:prefLabel "Gaskamers" ;
+	skos:related <http://data.niod.nl/concept/212> .
 
 <http://data.niod.nl/concept/377>
 	a skos:Concept ;
@@ -3243,14 +3273,15 @@
 	skos:altLabel "Annexatie" ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Gebiedsuitbreiding" ;
-	skos:related <Expansie> ,
-		     <http://data.niod.nl/concept/344> .
+	skos:related <http://data.niod.nl/concept/344> ,
+		     <http://data.niod.nl/concept/453> .
 
 <http://data.niod.nl/concept/379>
 	a skos:Concept ;
 	skos:altLabel "Deling" ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Gebiedsverdeling" .
+	skos:prefLabel "Gebiedsverdeling" ;
+	skos:related <http://data.niod.nl/concept/453> .
 
 <http://data.niod.nl/concept/380>
 	a skos:Concept ;
@@ -3270,22 +3301,19 @@
 	skos:altLabel "Lieux de m�moire" ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Gedenkplaatsen" ;
-	skos:related <Monumenten> ,
-		     <http://data.niod.nl/concept/748> .
+	skos:related <http://data.niod.nl/concept/748> .
 
 <http://data.niod.nl/concept/385>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Gedwongen prostitutie" ;
-	skos:related <Troostmeisjes> ,
-		     <http://data.niod.nl/concept/1151> .
+	skos:related <http://data.niod.nl/concept/1151> .
 
 <http://data.niod.nl/concept/386>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Geestelijk gehandicapten" ;
-	skos:related 
-		     <http://data.niod.nl/concept/948> .
+	skos:related <http://data.niod.nl/concept/948> .
 
 <http://data.niod.nl/concept/387>
 	a skos:Concept ;
@@ -3308,7 +3336,8 @@
 	a skos:Concept ;
 	skos:altLabel "Jodenhaat" ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Antisemitisme" .
+	skos:prefLabel "Antisemitisme" ;
+	skos:related <http://data.niod.nl/concept/564> .
 
 <http://data.niod.nl/concept/391>
 	a skos:Concept ;
@@ -3322,6 +3351,8 @@
 	a skos:Concept ;
 	skos:hasrel "Bankbiljetten,  Muntgeld,  Noodgeld" ;
 	skos:inScheme concept:thesaurus ;
+	skos:narrower <http://data.niod.nl/concept/758> ,
+		      <http://data.niod.nl/concept/84> ;
 	skos:prefLabel "Geld" ;
 	skos:related <http://data.niod.nl/concept/758> ,
 		     <http://data.niod.nl/concept/787> ,
@@ -3350,7 +3381,8 @@
 <http://data.niod.nl/concept/399>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Gemengd gehuwden" .
+	skos:prefLabel "Gemengd gehuwden" ;
+	skos:related <http://data.niod.nl/concept/506> .
 
 <http://data.niod.nl/concept/40>
 	a skos:Concept ;
@@ -3366,12 +3398,12 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Genealogie" ;
-	skos:related <Sibbekunde> ,
-		     <http://data.niod.nl/concept/1037> .
+	skos:related <http://data.niod.nl/concept/1037> .
 
 <http://data.niod.nl/concept/402>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
+	skos:narrower <http://data.niod.nl/concept/947> ;
 	skos:prefLabel "Geneeskunde" .
 
 <http://data.niod.nl/concept/404>
@@ -3383,8 +3415,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Generatoren" ;
-	skos:related <Gasgeneratoren> ,
-		     <http://data.niod.nl/concept/374> .
+	skos:related <http://data.niod.nl/concept/374> .
 
 <http://data.niod.nl/concept/406>
 	a skos:Concept ;
@@ -3395,7 +3426,8 @@
 	a skos:Concept ;
 	skos:altLabel "Volkenmoord" ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Genocide" .
+	skos:prefLabel "Genocide" ;
+	skos:related <http://data.niod.nl/concept/336> .
 
 <http://data.niod.nl/concept/408>
 	a skos:Concept ;
@@ -3426,7 +3458,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Gerepatrieerden" ;
-	skos:related <Repatri�ring> .
+	skos:related <http://data.niod.nl/concept/991> .
 
 <http://data.niod.nl/concept/413>
 	a skos:Concept ;
@@ -3447,8 +3479,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Geschiedschrijving" ;
-	skos:related <Historiografie> ,
-		     <http://data.niod.nl/concept/481> .
+	skos:related <http://data.niod.nl/concept/481> .
 
 <http://data.niod.nl/concept/417>
 	a skos:Concept ;
@@ -3460,13 +3491,14 @@
 	skos:broader <http://data.niod.nl/concept/1291> ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Geschut" ;
-	skos:related <Machinegeweren> ,
+	skos:related <http://data.niod.nl/concept/1291> ,
 		     <http://data.niod.nl/concept/688> .
 
 <http://data.niod.nl/concept/419>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Geslachtsziekten" .
+	skos:prefLabel "Geslachtsziekten" ;
+	skos:related <http://data.niod.nl/concept/943> .
 
 <http://data.niod.nl/concept/42>
 	a skos:Concept ;
@@ -3497,7 +3529,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Gevangenen" ;
-	skos:related <Ge�nterneerden> .
+	skos:related <http://data.niod.nl/concept/391> .
 
 <http://data.niod.nl/concept/425>
 	a skos:Concept ;
@@ -3509,7 +3541,8 @@
 	skos:altLabel "Patrouilles" ;
 	skos:broader <http://data.niod.nl/concept/845> ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Gevechtshandelingen" .
+	skos:prefLabel "Gevechtshandelingen" ;
+	skos:related <http://data.niod.nl/concept/845> .
 
 <http://data.niod.nl/concept/427>
 	a skos:Concept ;
@@ -3520,7 +3553,8 @@
 	a skos:Concept ;
 	skos:broader <http://data.niod.nl/concept/1241> ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Gevechtsvliegtuigen" .
+	skos:prefLabel "Gevechtsvliegtuigen" ;
+	skos:related <http://data.niod.nl/concept/1241> .
 
 <http://data.niod.nl/concept/429>
 	a skos:Concept ;
@@ -3531,8 +3565,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Apotheken" ;
-	skos:related <Medicijnen> ,
-		     <http://data.niod.nl/concept/710> .
+	skos:related <http://data.niod.nl/concept/710> .
 
 <http://data.niod.nl/concept/430>
 	a skos:Concept ;
@@ -3553,8 +3586,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Gewetensbezwaren" ;
-	skos:related <Dienstweigering> ,
-		     <http://data.niod.nl/concept/270> .
+	skos:related <http://data.niod.nl/concept/270> .
 
 <http://data.niod.nl/concept/434>
 	a skos:Concept ;
@@ -3591,8 +3623,7 @@
 	skos:broader <http://data.niod.nl/concept/575> ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Gijzelaarskampen" ;
-	skos:related <Interneringskampen> ,
-		     <http://data.niod.nl/concept/539> .
+	skos:related <http://data.niod.nl/concept/539> .
 
 <http://data.niod.nl/concept/442>
 	a skos:Concept ;
@@ -3637,12 +3668,15 @@
 <http://data.niod.nl/concept/45>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
+	skos:narrower <http://data.niod.nl/concept/1307> ,
+		      <http://data.niod.nl/concept/300> ;
 	skos:prefLabel "Arbeid" .
 
 <http://data.niod.nl/concept/450>
 	a skos:Concept ;
 	skos:hasrel "Massagraven, Oorlogsgraven" ;
 	skos:inScheme concept:thesaurus ;
+	skos:narrower <http://data.niod.nl/concept/704> ;
 	skos:prefLabel "Graven" ;
 	skos:related <http://data.niod.nl/concept/704> ,
 		     <http://data.niod.nl/concept/826> .
@@ -3687,7 +3721,8 @@
 	skos:broader <http://data.niod.nl/concept/514> ,
 		     <http://data.niod.nl/concept/931> ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Groepsportretten" .
+	skos:prefLabel "Groepsportretten" ;
+	skos:related <http://data.niod.nl/concept/931> .
 
 <http://data.niod.nl/concept/458>
 	a skos:Concept ;
@@ -3698,7 +3733,8 @@
 	a skos:Concept ;
 	skos:broader <http://data.niod.nl/concept/1312> ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Grondwet" .
+	skos:prefLabel "Grondwet" ;
+	skos:related <http://data.niod.nl/concept/1312> .
 
 <http://data.niod.nl/concept/46>
 	a skos:Concept ;
@@ -3709,8 +3745,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Guerrilla's" ;
-	skos:related <Partizanen> ,
-		     <http://data.niod.nl/concept/897> .
+	skos:related <http://data.niod.nl/concept/897> .
 
 <http://data.niod.nl/concept/461>
 	a skos:Concept ;
@@ -3726,7 +3761,8 @@
 <http://data.niod.nl/concept/463>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Halfjoden" .
+	skos:prefLabel "Halfjoden" ;
+	skos:related <http://data.niod.nl/concept/559> .
 
 <http://data.niod.nl/concept/464>
 	a skos:Concept ;
@@ -3782,9 +3818,9 @@
 <http://data.niod.nl/concept/474>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
+	skos:narrower <http://data.niod.nl/concept/285> ;
 	skos:prefLabel "Herdenkingen" ;
-	skos:related <Dodenherdenking> ,
-		     <http://data.niod.nl/concept/285> .
+	skos:related <http://data.niod.nl/concept/285> .
 
 <http://data.niod.nl/concept/475>
 	a skos:Concept ;
@@ -3823,8 +3859,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Historiografie" ;
-	skos:related <Geschiedschrijving> ,
-		     <http://data.niod.nl/concept/416> .
+	skos:related <http://data.niod.nl/concept/416> .
 
 <http://data.niod.nl/concept/482>
 	a skos:Concept ;
@@ -3836,13 +3871,13 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Hogescholen" ;
-	skos:related <Universiteiten> ,
-		     <http://data.niod.nl/concept/1166> .
+	skos:related <http://data.niod.nl/concept/1166> .
 
 <http://data.niod.nl/concept/485>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Homoseksuelen" .
+	skos:prefLabel "Homoseksuelen" ;
+	skos:related <http://data.niod.nl/concept/1035> .
 
 <http://data.niod.nl/concept/486>
 	a skos:Concept ;
@@ -3863,8 +3898,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Hoofdkwartier" ;
-	skos:related <Legerleiding> ,
-		     <http://data.niod.nl/concept/646> .
+	skos:related <http://data.niod.nl/concept/646> .
 
 <http://data.niod.nl/concept/49>
 	a skos:Concept ;
@@ -3874,13 +3908,15 @@
 <http://data.niod.nl/concept/490>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Hoogleraren" .
+	skos:prefLabel "Hoogleraren" ;
+	skos:related <http://data.niod.nl/concept/1166> .
 
 <http://data.niod.nl/concept/491>
 	a skos:Concept ;
 	skos:broader <http://data.niod.nl/concept/1207> ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Hoogverraad" .
+	skos:prefLabel "Hoogverraad" ;
+	skos:related <http://data.niod.nl/concept/1207> .
 
 <http://data.niod.nl/concept/492>
 	a skos:Concept ;
@@ -3969,8 +4005,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Huwelijk" ;
-	skos:related 
-		     <http://data.niod.nl/concept/399> .
+	skos:related <http://data.niod.nl/concept/399> .
 
 <http://data.niod.nl/concept/507>
 	a skos:Concept ;
@@ -3991,16 +4026,14 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Arbeidsinzet" ;
-	skos:related <Dwangarbeid> ,
-		     <http://data.niod.nl/concept/300> .
+	skos:related <http://data.niod.nl/concept/300> .
 
 <http://data.niod.nl/concept/510>
 	a skos:Concept ;
 	skos:altLabel "Paspoorten" ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Identiteitspapieren" ;
-	skos:related <Persoonsbewijzen> ,
-		     <http://data.niod.nl/concept/907> .
+	skos:related <http://data.niod.nl/concept/907> .
 
 <http://data.niod.nl/concept/511>
 	a skos:Concept ;
@@ -4018,13 +4051,21 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Illegaliteit" ;
-	skos:related <Verzet> ,
-		     <http://data.niod.nl/concept/1223> .
+	skos:related <http://data.niod.nl/concept/1223> .
 
 <http://data.niod.nl/concept/514>
 	a skos:Concept ;
 	skos:hasnar "Zie ook bij soorten afzonderlijk: Foto's, Groepsportretten, Kaartmateriaal, Plattegronden, Portretten, Stafkaarten, Tekeningen" ;
 	skos:inScheme concept:thesaurus ;
+	skos:narrower <http://data.niod.nl/concept/1065> ,
+		      <http://data.niod.nl/concept/1072> ,
+		      <http://data.niod.nl/concept/1114> ,
+		      <http://data.niod.nl/concept/189> ,
+		      <http://data.niod.nl/concept/457> ,
+		      <http://data.niod.nl/concept/569> ,
+		      <http://data.niod.nl/concept/579> ,
+		      <http://data.niod.nl/concept/916> ,
+		      <http://data.niod.nl/concept/931> ;
 	skos:prefLabel "Illustraties" .
 
 <http://data.niod.nl/concept/515>
@@ -4032,8 +4073,8 @@
 	skos:broader <http://data.niod.nl/concept/720> ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Immigratie" ;
-	skos:related <Emigratie> ,
-		     <http://data.niod.nl/concept/318> .
+	skos:related <http://data.niod.nl/concept/318> ,
+		     <http://data.niod.nl/concept/720> .
 
 <http://data.niod.nl/concept/516>
 	a skos:Concept ;
@@ -4055,7 +4096,8 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Inboedels" ;
-	skos:related <Meubelen> ,
+	skos:related <http://data.niod.nl/concept/1176> ,
+		     <http://data.niod.nl/concept/1191> ,
 		     <http://data.niod.nl/concept/718> .
 
 <http://data.niod.nl/concept/52>
@@ -4071,8 +4113,7 @@
 <http://data.niod.nl/concept/521>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Industrie�n" ;
-	skos:related <Bedrijven> .
+	skos:prefLabel "Industrie�n" .
 
 <http://data.niod.nl/concept/522>
 	a skos:Concept ;
@@ -4147,7 +4188,8 @@
 <http://data.niod.nl/concept/535>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Interbellum" .
+	skos:prefLabel "Interbellum" ;
+	skos:related <http://data.niod.nl/concept/1267> .
 
 <http://data.niod.nl/concept/536>
 	a skos:Concept ;
@@ -4175,6 +4217,7 @@
 	skos:prefLabel "Interneringskampen" ;
 	skos:related <http://data.niod.nl/concept/1284> ,
 		     <http://data.niod.nl/concept/181> ,
+		     <http://data.niod.nl/concept/391> ,
 		     <http://data.niod.nl/concept/440> ,
 		     <http://data.niod.nl/concept/565> .
 
@@ -4201,14 +4244,14 @@
 <http://data.niod.nl/concept/543>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Intochten" .
+	skos:prefLabel "Intochten" ;
+	skos:related <http://data.niod.nl/concept/1150> .
 
 <http://data.niod.nl/concept/544>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Inundaties" ;
-	skos:related <Dijken> ,
-		     <http://data.niod.nl/concept/273> .
+	skos:related <http://data.niod.nl/concept/273> .
 
 <http://data.niod.nl/concept/546>
 	a skos:Concept ;
@@ -4255,7 +4298,8 @@
 	a skos:Concept ;
 	skos:broader <http://data.niod.nl/concept/761> ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Jazz" .
+	skos:prefLabel "Jazz" ;
+	skos:related <http://data.niod.nl/concept/761> .
 
 <http://data.niod.nl/concept/556>
 	a skos:Concept ;
@@ -4267,8 +4311,7 @@
 	skos:broader <http://data.niod.nl/concept/97> ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Jeugdliteratuur" ;
-	skos:related <Kinderboeken> ,
-		     <http://data.niod.nl/concept/585> .
+	skos:related <http://data.niod.nl/concept/585> .
 
 <http://data.niod.nl/concept/558>
 	a skos:Concept ;
@@ -4306,7 +4349,8 @@
 		      "Holocaust" ,
 		      "Shoah" ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Jodenvervolging" .
+	skos:prefLabel "Jodenvervolging" ;
+	skos:related <http://data.niod.nl/concept/564> .
 
 <http://data.niod.nl/concept/564>
 	a skos:Concept ;
@@ -4320,7 +4364,8 @@
 	a skos:Concept ;
 	skos:broader <http://data.niod.nl/concept/575> ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Jongenskampen" .
+	skos:prefLabel "Jongenskampen" ;
+	skos:related <http://data.niod.nl/concept/539> .
 
 <http://data.niod.nl/concept/566>
 	a skos:Concept ;
@@ -4344,6 +4389,7 @@
 	skos:broader <http://data.niod.nl/concept/514> ;
 	skos:hasrel "Atlassen, Plattegronden, Stafkaarten" ;
 	skos:inScheme concept:thesaurus ;
+	skos:narrower <http://data.niod.nl/concept/72> ;
 	skos:prefLabel "Kaartmateriaal" ;
 	skos:related <http://data.niod.nl/concept/1072> ,
 		     <http://data.niod.nl/concept/72> ,
@@ -4357,7 +4403,9 @@
 <http://data.niod.nl/concept/570>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Kabinetten" .
+	skos:narrower <http://data.niod.nl/concept/735> ;
+	skos:prefLabel "Kabinetten" ;
+	skos:related <http://data.niod.nl/concept/735> .
 
 <http://data.niod.nl/concept/571>
 	a skos:Concept ;
@@ -4367,7 +4415,8 @@
 <http://data.niod.nl/concept/572>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Kampadministratie" .
+	skos:prefLabel "Kampadministratie" ;
+	skos:related <http://data.niod.nl/concept/767> .
 
 <http://data.niod.nl/concept/573>
 	a skos:Concept ;
@@ -4378,6 +4427,15 @@
 	a skos:Concept ;
 	skos:hasnar "Zie ook bij diverse soorten kampen zoals interneringskampen" ;
 	skos:inScheme concept:thesaurus ;
+	skos:narrower <http://data.niod.nl/concept/1203> ,
+		      <http://data.niod.nl/concept/1284> ,
+		      <http://data.niod.nl/concept/1305> ,
+		      <http://data.niod.nl/concept/181> ,
+		      <http://data.niod.nl/concept/212> ,
+		      <http://data.niod.nl/concept/290> ,
+		      <http://data.niod.nl/concept/440> ,
+		      <http://data.niod.nl/concept/539> ,
+		      <http://data.niod.nl/concept/565> ;
 	skos:prefLabel "Kampen" .
 
 <http://data.niod.nl/concept/576>
@@ -4389,7 +4447,8 @@
 	a skos:Concept ;
 	skos:broader <http://data.niod.nl/concept/614> ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Kampkranten" .
+	skos:prefLabel "Kampkranten" ;
+	skos:related <http://data.niod.nl/concept/614> .
 
 <http://data.niod.nl/concept/578>
 	a skos:Concept ;
@@ -4402,15 +4461,14 @@
 	skos:broader <http://data.niod.nl/concept/514> ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Karikaturen" ;
-	skos:related <Cartoons> ,
+	skos:related <http://data.niod.nl/concept/1065> ,
 		     <http://data.niod.nl/concept/189> .
 
 <http://data.niod.nl/concept/58>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Arisering" ;
-	skos:related <Nazificatie> ,
-		     <http://data.niod.nl/concept/777> .
+	skos:related <http://data.niod.nl/concept/777> .
 
 <http://data.niod.nl/concept/580>
 	a skos:Concept ;
@@ -4425,7 +4483,8 @@
 <http://data.niod.nl/concept/585>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Kinderboeken" .
+	skos:prefLabel "Kinderboeken" ;
+	skos:related <http://data.niod.nl/concept/557> .
 
 <http://data.niod.nl/concept/586>
 	a skos:Concept ;
@@ -4467,6 +4526,7 @@
 	a skos:Concept ;
 	skos:hasrel "Cabaret, Vari�t�" ;
 	skos:inScheme concept:thesaurus ;
+	skos:narrower <http://data.niod.nl/concept/185> ;
 	skos:prefLabel "Kleinkunst" ;
 	skos:related <http://data.niod.nl/concept/185> .
 
@@ -4510,8 +4570,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Armoede" ;
-	skos:related <Schaarste> ,
-		     <http://data.niod.nl/concept/1017> .
+	skos:related <http://data.niod.nl/concept/1017> .
 
 <http://data.niod.nl/concept/600>
 	a skos:Concept ;
@@ -4522,7 +4581,10 @@
 	a skos:Concept ;
 	skos:broader <http://data.niod.nl/concept/166> ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Kolen" .
+	skos:narrower <http://data.niod.nl/concept/1083> ;
+	skos:prefLabel "Kolen" ;
+	skos:related <http://data.niod.nl/concept/166> ,
+		     <http://data.niod.nl/concept/250> .
 
 <http://data.niod.nl/concept/602>
 	a skos:Concept ;
@@ -4533,8 +4595,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Kolonialisme" ;
-	skos:related <Dekolonisatie> ,
-		     <http://data.niod.nl/concept/248> .
+	skos:related <http://data.niod.nl/concept/248> .
 
 <http://data.niod.nl/concept/604>
 	a skos:Concept ;
@@ -4599,6 +4660,7 @@
 	skos:broader <http://data.niod.nl/concept/902> ;
 	skos:hasrel "Illegale pers, Kampkranten, Periodieken" ;
 	skos:inScheme concept:thesaurus ;
+	skos:narrower <http://data.niod.nl/concept/577> ;
 	skos:prefLabel "Kranten" ;
 	skos:related <http://data.niod.nl/concept/577> ,
 		     <http://data.niod.nl/concept/902> .
@@ -4664,8 +4726,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Kustgebied" ;
-	skos:related <Spergebieden> ,
-		     <http://data.niod.nl/concept/1059> .
+	skos:related <http://data.niod.nl/concept/1059> .
 
 <http://data.niod.nl/concept/627>
 	a skos:Concept ;
@@ -4702,8 +4763,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Landingen" ;
-	skos:related <Ontschepingen> ,
-		     <http://data.niod.nl/concept/815> .
+	skos:related <http://data.niod.nl/concept/815> .
 
 <http://data.niod.nl/concept/634>
 	a skos:Concept ;
@@ -4737,8 +4797,7 @@
 	skos:inScheme concept:thesaurus ;
 	skos:narrower <http://data.niod.nl/concept/1109> ;
 	skos:prefLabel "Artsen" ;
-	skos:related <Tandartsen> ,
-		     <http://data.niod.nl/concept/1109> .
+	skos:related <http://data.niod.nl/concept/1109> .
 
 <http://data.niod.nl/concept/641>
 	a skos:Concept ;
@@ -4749,15 +4808,13 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Lebensraum" ;
-	skos:related <Expansie> ,
-		     <http://data.niod.nl/concept/344> .
+	skos:related <http://data.niod.nl/concept/344> .
 
 <http://data.niod.nl/concept/644>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Leger" ;
-	skos:related <Militairen> ,
-		     <http://data.niod.nl/concept/729> .
+	skos:related <http://data.niod.nl/concept/729> .
 
 <http://data.niod.nl/concept/645>
 	a skos:Concept ;
@@ -4770,7 +4827,8 @@
 	a skos:Concept ;
 	skos:altLabel "Opperbevel" ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Legerleiding" .
+	skos:prefLabel "Legerleiding" ;
+	skos:related <http://data.niod.nl/concept/489> .
 
 <http://data.niod.nl/concept/65>
 	a skos:Concept ;
@@ -4793,6 +4851,7 @@
 	a skos:Concept ;
 	skos:hasrel "Voedselvoorziening, Zuivelproducten" ;
 	skos:inScheme concept:thesaurus ;
+	skos:narrower <http://data.niod.nl/concept/1238> ;
 	skos:prefLabel "Levensmiddelen" ;
 	skos:related <http://data.niod.nl/concept/1249> ,
 		     <http://data.niod.nl/concept/1342> .
@@ -4876,7 +4935,8 @@
 <http://data.niod.nl/concept/672>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Loopgraven" .
+	skos:prefLabel "Loopgraven" ;
+	skos:related <http://data.niod.nl/concept/1182> .
 
 <http://data.niod.nl/concept/673>
 	a skos:Concept ;
@@ -4924,8 +4984,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Luchtoorlog" ;
-	skos:related <Crashes> ,
-		     <http://data.niod.nl/concept/226> .
+	skos:related <http://data.niod.nl/concept/226> .
 
 <http://data.niod.nl/concept/681>
 	a skos:Concept ;
@@ -4961,8 +5020,7 @@
 	skos:altLabel "Mitrailleurs" ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Machinegeweren" ;
-	skos:related <Geschut> ,
-		     <http://data.niod.nl/concept/418> .
+	skos:related <http://data.niod.nl/concept/418> .
 
 <http://data.niod.nl/concept/689>
 	a skos:Concept ;
@@ -4984,8 +5042,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Manifestaties" ;
-	skos:related <Bijeenkomsten> ,
-		     <http://data.niod.nl/concept/131> .
+	skos:related <http://data.niod.nl/concept/131> .
 
 <http://data.niod.nl/concept/692>
 	a skos:Concept ;
@@ -5013,8 +5070,7 @@
 	skos:broader <http://data.niod.nl/concept/1097> ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Marine" ;
-	skos:related <Admiraliteit> ,
-		     <http://data.niod.nl/concept/12> .
+	skos:related <http://data.niod.nl/concept/12> .
 
 <http://data.niod.nl/concept/697>
 	a skos:Concept ;
@@ -5025,8 +5081,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Maritieme geschiedenis" ;
-	skos:related <Scheepvaart> ,
-		     <http://data.niod.nl/concept/1022> .
+	skos:related <http://data.niod.nl/concept/1022> .
 
 <http://data.niod.nl/concept/699>
 	a skos:Concept ;
@@ -5058,19 +5113,23 @@
 
 <http://data.niod.nl/concept/702>
 	a skos:Concept ;
+	skos:broader <http://data.niod.nl/concept/131> ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Massabijeenkomsten" .
+	skos:prefLabel "Massabijeenkomsten" ;
+	skos:related <http://data.niod.nl/concept/131> .
 
 <http://data.niod.nl/concept/703>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Massa-executies" .
+	skos:prefLabel "Massa-executies" ;
+	skos:related <http://data.niod.nl/concept/340> .
 
 <http://data.niod.nl/concept/704>
 	a skos:Concept ;
 	skos:broader <http://data.niod.nl/concept/450> ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Massagraven" .
+	skos:prefLabel "Massagraven" ;
+	skos:related <http://data.niod.nl/concept/450> .
 
 <http://data.niod.nl/concept/705>
 	a skos:Concept ;
@@ -5081,7 +5140,8 @@
 <http://data.niod.nl/concept/706>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Massapsychologie" .
+	skos:prefLabel "Massapsychologie" ;
+	skos:related <http://data.niod.nl/concept/949> .
 
 <http://data.niod.nl/concept/708>
 	a skos:Concept ;
@@ -5097,7 +5157,8 @@
 	a skos:Concept ;
 	skos:altLabel "Geneesmiddelen" ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Medicijnen" .
+	skos:prefLabel "Medicijnen" ;
+	skos:related <http://data.niod.nl/concept/43> .
 
 <http://data.niod.nl/concept/711>
 	a skos:Concept ;
@@ -5134,8 +5195,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Meubelen" ;
-	skos:related <Inboedels> ,
-		     <http://data.niod.nl/concept/519> .
+	skos:related <http://data.niod.nl/concept/519> .
 
 <http://data.niod.nl/concept/719>
 	a skos:Concept ;
@@ -5147,13 +5207,14 @@
 	skos:broader <http://data.niod.nl/concept/569> ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Atlassen" ;
-	skos:related <Kaartmateriaal> ,
-		     <http://data.niod.nl/concept/569> .
+	skos:related <http://data.niod.nl/concept/569> .
 
 <http://data.niod.nl/concept/720>
 	a skos:Concept ;
 	skos:hasrel "Emigratie, Immigratie, Volksverhuizingen" ;
 	skos:inScheme concept:thesaurus ;
+	skos:narrower <http://data.niod.nl/concept/318> ,
+		      <http://data.niod.nl/concept/515> ;
 	skos:prefLabel "Migratie" ;
 	skos:related <http://data.niod.nl/concept/1262> ,
 		     <http://data.niod.nl/concept/318> ,
@@ -5163,8 +5224,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Mijnbouw" ;
-	skos:related <Delfstoffen> ,
-		     <http://data.niod.nl/concept/250> .
+	skos:related <http://data.niod.nl/concept/250> .
 
 <http://data.niod.nl/concept/722>
 	a skos:Concept ;
@@ -5212,6 +5272,7 @@
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Militairen" ;
 	skos:related <http://data.niod.nl/concept/1056> ,
+		     <http://data.niod.nl/concept/644> ,
 		     <http://data.niod.nl/concept/793> .
 
 <http://data.niod.nl/concept/73>
@@ -5223,7 +5284,8 @@
 	a skos:Concept ;
 	skos:hasrel "Demilitarisering" ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Militarisering" .
+	skos:prefLabel "Militarisering" ;
+	skos:related <http://data.niod.nl/concept/253> .
 
 <http://data.niod.nl/concept/731>
 	a skos:Concept ;
@@ -5247,16 +5309,14 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Ministeries" ;
-	skos:related <Departementen> ,
-		     <http://data.niod.nl/concept/259> .
+	skos:related <http://data.niod.nl/concept/259> .
 
 <http://data.niod.nl/concept/735>
 	a skos:Concept ;
 	skos:broader <http://data.niod.nl/concept/570> ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Ministers" ;
-	skos:related <Kabinetten> ,
-		     <http://data.niod.nl/concept/570> .
+	skos:related <http://data.niod.nl/concept/570> .
 
 <http://data.niod.nl/concept/736>
 	a skos:Concept ;
@@ -5272,15 +5332,15 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Mobilisatie" ;
-	skos:related <Demobilisatie> ,
-		     <http://data.niod.nl/concept/254> .
+	skos:related <http://data.niod.nl/concept/254> .
 
 <http://data.niod.nl/concept/74>
 	a skos:Concept ;
 	skos:altLabel "Kernwapens" ;
 	skos:broader <http://data.niod.nl/concept/1291> ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Atoomwapens" .
+	skos:prefLabel "Atoomwapens" ;
+	skos:related <http://data.niod.nl/concept/1291> .
 
 <http://data.niod.nl/concept/740>
 	a skos:Concept ;
@@ -5310,8 +5370,7 @@
 <http://data.niod.nl/concept/746>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Monarchie�n" ;
-	skos:related <Koningshuizen> .
+	skos:prefLabel "Monarchie�n" .
 
 <http://data.niod.nl/concept/748>
 	a skos:Concept ;
@@ -5324,7 +5383,8 @@
 <http://data.niod.nl/concept/749>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Moordaanslagen" .
+	skos:prefLabel "Moordaanslagen" ;
+	skos:related <http://data.niod.nl/concept/5> .
 
 <http://data.niod.nl/concept/750>
 	a skos:Concept ;
@@ -5335,8 +5395,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Moraal" ;
-	skos:related <Zedelijkheid> ,
-		     <http://data.niod.nl/concept/1328> .
+	skos:related <http://data.niod.nl/concept/1328> .
 
 <http://data.niod.nl/concept/752>
 	a skos:Concept ;
@@ -5358,14 +5417,14 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Munitie" ;
-	skos:related <Wapens> ,
-		     <http://data.niod.nl/concept/1291> .
+	skos:related <http://data.niod.nl/concept/1291> .
 
 <http://data.niod.nl/concept/758>
 	a skos:Concept ;
 	skos:broader <http://data.niod.nl/concept/392> ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Muntgeld" .
+	skos:prefLabel "Muntgeld" ;
+	skos:related <http://data.niod.nl/concept/392> .
 
 <http://data.niod.nl/concept/759>
 	a skos:Concept ;
@@ -5381,15 +5440,16 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Musici" ;
-	skos:related <Orkesten> ,
-		     <http://data.niod.nl/concept/868> .
+	skos:related <http://data.niod.nl/concept/868> .
 
 <http://data.niod.nl/concept/761>
 	a skos:Concept ;
 	skos:hasrel "Jazz, Opera" ;
 	skos:inScheme concept:thesaurus ;
+	skos:narrower <http://data.niod.nl/concept/555> ;
 	skos:prefLabel "Muziek" ;
-	skos:related <http://data.niod.nl/concept/555> ,
+	skos:related <http://data.niod.nl/concept/31> ,
+		     <http://data.niod.nl/concept/555> ,
 		     <http://data.niod.nl/concept/853> .
 
 <http://data.niod.nl/concept/762>
@@ -5401,7 +5461,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Mystiek " ;
-	skos:related <Occultisme> .
+	skos:related <http://data.niod.nl/concept/791> .
 
 <http://data.niod.nl/concept/764>
 	a skos:Concept ;
@@ -5425,8 +5485,7 @@
 	skos:altLabel "Ledenlijsten" ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Namenlijsten" ;
-	skos:related <Kampadministratie> ,
-		     <http://data.niod.nl/concept/572> .
+	skos:related <http://data.niod.nl/concept/572> .
 
 <http://data.niod.nl/concept/768>
 	a skos:Concept ;
@@ -5448,8 +5507,7 @@
 	skos:altLabel "Nazisme" ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Nationaal-Socialisme" ;
-	skos:related <Neonazisme> ,
-		     <http://data.niod.nl/concept/783> .
+	skos:related <http://data.niod.nl/concept/783> .
 
 <http://data.niod.nl/concept/771>
 	a skos:Concept ;
@@ -5460,8 +5518,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Nationaliteiten" ;
-	skos:related <Minderheden> ,
-		     <http://data.niod.nl/concept/732> .
+	skos:related <http://data.niod.nl/concept/732> .
 
 <http://data.niod.nl/concept/773>
 	a skos:Concept ;
@@ -5471,7 +5528,9 @@
 <http://data.niod.nl/concept/775>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Natuurwetenschappen" .
+	skos:prefLabel "Natuurwetenschappen" ;
+	skos:related <http://data.niod.nl/concept/1023> ,
+		     <http://data.niod.nl/concept/1318> .
 
 <http://data.niod.nl/concept/776>
 	a skos:Concept ;
@@ -5500,8 +5559,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Negationisme" ;
-	skos:related <Revisionisme> ,
-		     <http://data.niod.nl/concept/998> .
+	skos:related <http://data.niod.nl/concept/998> .
 
 <http://data.niod.nl/concept/782>
 	a skos:Concept ;
@@ -5512,7 +5570,8 @@
 <http://data.niod.nl/concept/783>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Neonazisme" .
+	skos:prefLabel "Neonazisme" ;
+	skos:related <http://data.niod.nl/concept/770> .
 
 <http://data.niod.nl/concept/784>
 	a skos:Concept ;
@@ -5522,7 +5581,8 @@
 <http://data.niod.nl/concept/785>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Nieuwsberichten" .
+	skos:prefLabel "Nieuwsberichten" ;
+	skos:related <http://data.niod.nl/concept/903> .
 
 <http://data.niod.nl/concept/786>
 	a skos:Concept ;
@@ -5532,17 +5592,20 @@
 <http://data.niod.nl/concept/787>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Noodgeld" .
+	skos:prefLabel "Noodgeld" ;
+	skos:related <http://data.niod.nl/concept/392> .
 
 <http://data.niod.nl/concept/788>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Noodkacheltjes" .
+	skos:prefLabel "Noodkacheltjes" ;
+	skos:related <http://data.niod.nl/concept/1218> .
 
 <http://data.niod.nl/concept/789>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Noodwoningen" .
+	skos:prefLabel "Noodwoningen" ;
+	skos:related <http://data.niod.nl/concept/497> .
 
 <http://data.niod.nl/concept/79>
 	a skos:Concept ;
@@ -5559,7 +5622,8 @@
 	skos:broader <http://data.niod.nl/concept/990> ;
 	skos:hasrel "Mystiek" ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Occultisme" .
+	skos:prefLabel "Occultisme" ;
+	skos:related <http://data.niod.nl/concept/763> .
 
 <http://data.niod.nl/concept/792>
 	a skos:Concept ;
@@ -5570,17 +5634,20 @@
 <http://data.niod.nl/concept/793>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Officieren" .
+	skos:prefLabel "Officieren" ;
+	skos:related <http://data.niod.nl/concept/729> .
 
 <http://data.niod.nl/concept/795>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Olympische Spelen" .
+	skos:prefLabel "Olympische Spelen" ;
+	skos:related <http://data.niod.nl/concept/1064> .
 
 <http://data.niod.nl/concept/796>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Omroep" .
+	skos:prefLabel "Omroep" ;
+	skos:related <http://data.niod.nl/concept/957> .
 
 <http://data.niod.nl/concept/797>
 	a skos:Concept ;
@@ -5591,15 +5658,16 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Onafhankelijkheidsverklaringen" ;
-	skos:related <Soevereiniteitsoverdracht> ,
-		     <http://data.niod.nl/concept/1055> .
+	skos:related <http://data.niod.nl/concept/1055> .
 
 <http://data.niod.nl/concept/8>
 	a skos:Concept ;
 	skos:altLabel "Olie" ;
 	skos:broader <http://data.niod.nl/concept/166> ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Aardolie" .
+	skos:prefLabel "Aardolie" ;
+	skos:related <http://data.niod.nl/concept/166> ,
+		     <http://data.niod.nl/concept/250> .
 
 <http://data.niod.nl/concept/80>
 	a skos:Concept ;
@@ -5611,22 +5679,19 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Onderduik" ;
-	skos:related <Onderduikers> ,
-		     <http://data.niod.nl/concept/801> .
+	skos:related <http://data.niod.nl/concept/801> .
 
 <http://data.niod.nl/concept/801>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Onderduikers" ;
-	skos:related <Onderduik> ,
-		     <http://data.niod.nl/concept/800> .
+	skos:related <http://data.niod.nl/concept/800> .
 
 <http://data.niod.nl/concept/802>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Onderhandelingen" ;
-	skos:related <Delegaties> ,
-		     <http://data.niod.nl/concept/249> .
+	skos:related <http://data.niod.nl/concept/249> .
 
 <http://data.niod.nl/concept/804>
 	a skos:Concept ;
@@ -5641,8 +5706,7 @@
 	skos:altLabel "Leraren" ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Onderwijs" ;
-	skos:related <Scholen> ,
-		     <http://data.niod.nl/concept/1027> .
+	skos:related <http://data.niod.nl/concept/1027> .
 
 <http://data.niod.nl/concept/809>
 	a skos:Concept ;
@@ -5654,8 +5718,7 @@
 	skos:altLabel "Biologische oorlogvoering" ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Bacteriologische oorlogvoering" ;
-	skos:related 
-		     <http://data.niod.nl/concept/196> .
+	skos:related <http://data.niod.nl/concept/196> .
 
 <http://data.niod.nl/concept/811>
 	a skos:Concept ;
@@ -5666,7 +5729,8 @@
 <http://data.niod.nl/concept/813>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Ontmoetingen" .
+	skos:prefLabel "Ontmoetingen" ;
+	skos:related <http://data.niod.nl/concept/131> .
 
 <http://data.niod.nl/concept/814>
 	a skos:Concept ;
@@ -5676,7 +5740,8 @@
 <http://data.niod.nl/concept/815>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Ontschepingen" .
+	skos:prefLabel "Ontschepingen" ;
+	skos:related <http://data.niod.nl/concept/633> .
 
 <http://data.niod.nl/concept/817>
 	a skos:Concept ;
@@ -5731,13 +5796,14 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Oorlogsgetroffenen" ;
-	skos:related <Oorlogsslachtoffers> ,
-		     <http://data.niod.nl/concept/838> .
+	skos:related <http://data.niod.nl/concept/838> .
 
 <http://data.niod.nl/concept/826>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Oorlogsgraven" .
+	skos:prefLabel "Oorlogsgraven" ;
+	skos:related <http://data.niod.nl/concept/450> ,
+		     <http://data.niod.nl/concept/93> .
 
 <http://data.niod.nl/concept/827>
 	a skos:Concept ;
@@ -5754,8 +5820,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Oorlogsmisdaden" ;
-	skos:related <Tribunalen> ,
-		     <http://data.niod.nl/concept/1148> .
+	skos:related <http://data.niod.nl/concept/1148> .
 
 <http://data.niod.nl/concept/83>
 	a skos:Concept ;
@@ -5770,19 +5835,20 @@
 <http://data.niod.nl/concept/831>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Oorlogsmonumenten" .
+	skos:prefLabel "Oorlogsmonumenten" ;
+	skos:related <http://data.niod.nl/concept/748> .
 
 <http://data.niod.nl/concept/832>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Oorlogsmusea" ;
-	skos:related <Verzetsmusea> ,
-		     <http://data.niod.nl/concept/1226> .
+	skos:related <http://data.niod.nl/concept/1226> .
 
 <http://data.niod.nl/concept/833>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Oorlogspleegkinderen" .
+	skos:prefLabel "Oorlogspleegkinderen" ;
+	skos:related <http://data.niod.nl/concept/918> .
 
 <http://data.niod.nl/concept/834>
 	a skos:Concept ;
@@ -5804,15 +5870,15 @@
 <http://data.niod.nl/concept/837>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Oorlogsschulden" .
+	skos:prefLabel "Oorlogsschulden" ;
+	skos:related <http://data.niod.nl/concept/1032> .
 
 <http://data.niod.nl/concept/838>
 	a skos:Concept ;
 	skos:altLabel "Slachtoffers" ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Oorlogsslachtoffers" ;
-	skos:related <Oorlogsgetroffenen> ,
-		     <http://data.niod.nl/concept/825> .
+	skos:related <http://data.niod.nl/concept/825> .
 
 <http://data.niod.nl/concept/839>
 	a skos:Concept ;
@@ -5821,13 +5887,14 @@
 		      "Trauma's" ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Oorlogstrauma�s" ;
-	skos:related <Verwerking> .
+	skos:related <http://data.niod.nl/concept/1219> .
 
 <http://data.niod.nl/concept/84>
 	a skos:Concept ;
 	skos:broader <http://data.niod.nl/concept/392> ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Bankbiljetten" .
+	skos:prefLabel "Bankbiljetten" ;
+	skos:related <http://data.niod.nl/concept/392> .
 
 <http://data.niod.nl/concept/840>
 	a skos:Concept ;
@@ -5837,12 +5904,14 @@
 <http://data.niod.nl/concept/841>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Oorlogsvrijwilligers" .
+	skos:prefLabel "Oorlogsvrijwilligers" ;
+	skos:related <http://data.niod.nl/concept/1281> .
 
 <http://data.niod.nl/concept/842>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Oorlogsweeskinderen" .
+	skos:prefLabel "Oorlogsweeskinderen" ;
+	skos:related <http://data.niod.nl/concept/1299> .
 
 <http://data.niod.nl/concept/844>
 	a skos:Concept ;
@@ -5853,6 +5922,7 @@
 	a skos:Concept ;
 	skos:hasrel "Bacteriologische oorlogvoering, Strategie, Psychologische oorlogvoering, Gevechtshandelingen" ;
 	skos:inScheme concept:thesaurus ;
+	skos:narrower <http://data.niod.nl/concept/426> ;
 	skos:prefLabel "Oorlogvoering" ;
 	skos:related <http://data.niod.nl/concept/1096> ,
 		     <http://data.niod.nl/concept/426> .
@@ -5866,8 +5936,8 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Oostfront" ;
-	skos:related <Westfront> ,
-		     <http://data.niod.nl/concept/1309> .
+	skos:related <http://data.niod.nl/concept/1309> ,
+		     <http://data.niod.nl/concept/369> .
 
 <http://data.niod.nl/concept/848>
 	a skos:Concept ;
@@ -5892,7 +5962,8 @@
 <http://data.niod.nl/concept/851>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Openbaar vervoer" .
+	skos:prefLabel "Openbaar vervoer" ;
+	skos:related <http://data.niod.nl/concept/1140> .
 
 <http://data.niod.nl/concept/852>
 	a skos:Concept ;
@@ -5902,7 +5973,8 @@
 <http://data.niod.nl/concept/853>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Opera" .
+	skos:prefLabel "Opera" ;
+	skos:related <http://data.niod.nl/concept/761> .
 
 <http://data.niod.nl/concept/854>
 	a skos:Concept ;
@@ -5922,7 +5994,8 @@
 <http://data.niod.nl/concept/857>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Opmars" .
+	skos:prefLabel "Opmars" ;
+	skos:related <http://data.niod.nl/concept/1150> .
 
 <http://data.niod.nl/concept/859>
 	a skos:Concept ;
@@ -5969,7 +6042,8 @@
 <http://data.niod.nl/concept/868>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Orkesten" .
+	skos:prefLabel "Orkesten" ;
+	skos:related <http://data.niod.nl/concept/760> .
 
 <http://data.niod.nl/concept/87>
 	a skos:Concept ;
@@ -6000,8 +6074,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Overledenen" ;
-	skos:related <Sterftecijfers> ,
-		     <http://data.niod.nl/concept/1085> .
+	skos:related <http://data.niod.nl/concept/1085> .
 
 <http://data.niod.nl/concept/875>
 	a skos:Concept ;
@@ -6049,7 +6122,8 @@
 <http://data.niod.nl/concept/883>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Paleizen" .
+	skos:prefLabel "Paleizen" ;
+	skos:related <http://data.niod.nl/concept/380> .
 
 <http://data.niod.nl/concept/884>
 	a skos:Concept ;
@@ -6096,7 +6170,8 @@
 <http://data.niod.nl/concept/891>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Parken" .
+	skos:prefLabel "Parken" ;
+	skos:related <http://data.niod.nl/concept/637> .
 
 <http://data.niod.nl/concept/892>
 	a skos:Concept ;
@@ -6112,7 +6187,8 @@
 <http://data.niod.nl/concept/894>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Partijdagen" .
+	skos:prefLabel "Partijdagen" ;
+	skos:related <http://data.niod.nl/concept/131> .
 
 <http://data.niod.nl/concept/895>
 	a skos:Concept ;
@@ -6128,8 +6204,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Partizanen" ;
-	skos:related <Guerrilla's> ,
-		     <http://data.niod.nl/concept/460> .
+	skos:related <http://data.niod.nl/concept/460> .
 
 <http://data.niod.nl/concept/90>
 	a skos:Concept ;
@@ -6141,23 +6216,21 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Pausen" ;
-	skos:related <Episcopaat> ,
-		     <http://data.niod.nl/concept/325> .
+	skos:related <http://data.niod.nl/concept/325> .
 
 <http://data.niod.nl/concept/901>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Pensioenen" ;
-	skos:related <Uitkeringen> ,
-		     <http://data.niod.nl/concept/1159> .
+	skos:related <http://data.niod.nl/concept/1159> .
 
 <http://data.niod.nl/concept/902>
 	a skos:Concept ;
 	skos:altLabel "Tijdschriften" ;
 	skos:inScheme concept:thesaurus ;
+	skos:narrower <http://data.niod.nl/concept/614> ;
 	skos:prefLabel "Periodieken" ;
-	skos:related <Kranten> ,
-		     <http://data.niod.nl/concept/614> .
+	skos:related <http://data.niod.nl/concept/614> .
 
 <http://data.niod.nl/concept/903>
 	a skos:Concept ;
@@ -6188,8 +6261,7 @@
 		      "Legitimatieplicht" ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Persoonsbewijzen" ;
-	skos:related <Identiteitspapieren> ,
-		     <http://data.niod.nl/concept/510> .
+	skos:related <http://data.niod.nl/concept/510> .
 
 <http://data.niod.nl/concept/909>
 	a skos:Concept ;
@@ -6225,8 +6297,7 @@
 		      "Vijfjarenplannen" ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Planeconomie" ;
-	skos:related 
-		     <http://data.niod.nl/concept/305> .
+	skos:related <http://data.niod.nl/concept/305> .
 
 <http://data.niod.nl/concept/914>
 	a skos:Concept ;
@@ -6238,8 +6309,7 @@
 	skos:broader <http://data.niod.nl/concept/514> ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Plattegronden" ;
-	skos:related <Kaartmateriaal> ,
-		     <http://data.niod.nl/concept/569> .
+	skos:related <http://data.niod.nl/concept/569> .
 
 <http://data.niod.nl/concept/917>
 	a skos:Concept ;
@@ -6251,15 +6321,13 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Pleegkinderen" ;
-	skos:related <Oorlogspleegkinderen> ,
-		     <http://data.niod.nl/concept/833> .
+	skos:related <http://data.niod.nl/concept/833> .
 
 <http://data.niod.nl/concept/919>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Plunderingen" ;
-	skos:related <Roof> ,
-		     <http://data.niod.nl/concept/1010> .
+	skos:related <http://data.niod.nl/concept/1010> .
 
 <http://data.niod.nl/concept/92>
 	a skos:Concept ;
@@ -6322,8 +6390,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Begraafplaatsen" ;
-	skos:related <Oorlogsgraven> ,
-		     <http://data.niod.nl/concept/826> .
+	skos:related <http://data.niod.nl/concept/826> .
 
 <http://data.niod.nl/concept/930>
 	a skos:Concept ;
@@ -6337,9 +6404,9 @@
 	a skos:Concept ;
 	skos:broader <http://data.niod.nl/concept/514> ;
 	skos:inScheme concept:thesaurus ;
+	skos:narrower <http://data.niod.nl/concept/457> ;
 	skos:prefLabel "Portretten" ;
-	skos:related <Groepsportretten> ,
-		     <http://data.niod.nl/concept/457> .
+	skos:related <http://data.niod.nl/concept/457> .
 
 <http://data.niod.nl/concept/932>
 	a skos:Concept ;
@@ -6364,7 +6431,8 @@
 <http://data.niod.nl/concept/936>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Predikanten" .
+	skos:prefLabel "Predikanten" ;
+	skos:related <http://data.niod.nl/concept/387> .
 
 <http://data.niod.nl/concept/937>
 	a skos:Concept ;
@@ -6374,7 +6442,8 @@
 <http://data.niod.nl/concept/938>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Priesters" .
+	skos:prefLabel "Priesters" ;
+	skos:related <http://data.niod.nl/concept/387> .
 
 <http://data.niod.nl/concept/939>
 	a skos:Concept ;
@@ -6402,8 +6471,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Propaganda" ;
-	skos:related <Straatpropaganda> ,
-		     <http://data.niod.nl/concept/1093> .
+	skos:related <http://data.niod.nl/concept/1093> .
 
 <http://data.niod.nl/concept/943>
 	a skos:Concept ;
@@ -6440,16 +6508,14 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Psychiatrische inrichtingen" ;
-	skos:related 
-		     <http://data.niod.nl/concept/386> .
+	skos:related <http://data.niod.nl/concept/386> .
 
 <http://data.niod.nl/concept/949>
 	a skos:Concept ;
 	skos:altLabel "Gedragswetenschappen" ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Psychologie" ;
-	skos:related <Massapsychologie> ,
-		     <http://data.niod.nl/concept/706> .
+	skos:related <http://data.niod.nl/concept/706> .
 
 <http://data.niod.nl/concept/95>
 	a skos:Concept ;
@@ -6466,8 +6532,7 @@
 	skos:altLabel "Verschijningsverboden" ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Publicatieverboden" ;
-	skos:related <Persvrijheid> ,
-		     <http://data.niod.nl/concept/909> .
+	skos:related <http://data.niod.nl/concept/909> .
 
 <http://data.niod.nl/concept/952>
 	a skos:Concept ;
@@ -6483,7 +6548,8 @@
 	a skos:Concept ;
 	skos:altLabel "Rassendiscriminatie" ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Racisme" .
+	skos:prefLabel "Racisme" ;
+	skos:related <http://data.niod.nl/concept/275> .
 
 <http://data.niod.nl/concept/955>
 	a skos:Concept ;
@@ -6499,8 +6565,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Radio" ;
-	skos:related <Omroep> ,
-		     <http://data.niod.nl/concept/796> .
+	skos:related <http://data.niod.nl/concept/796> .
 
 <http://data.niod.nl/concept/958>
 	a skos:Concept ;
@@ -6510,7 +6575,8 @@
 <http://data.niod.nl/concept/959>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Radiozenders" .
+	skos:prefLabel "Radiozenders" ;
+	skos:related <http://data.niod.nl/concept/1334> .
 
 <http://data.niod.nl/concept/96>
 	a skos:Concept ;
@@ -6527,8 +6593,7 @@
 	skos:altLabel "Natuurrampen" ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Rampen" ;
-	skos:related <Scheepsrampen> ,
-		     <http://data.niod.nl/concept/1020> .
+	skos:related <http://data.niod.nl/concept/1020> .
 
 <http://data.niod.nl/concept/962>
 	a skos:Concept ;
@@ -6544,8 +6609,9 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Rassenkunde" ;
-	skos:related <Sibbekunde> ,
-		     <http://data.niod.nl/concept/1037> .
+	skos:related <http://data.niod.nl/concept/1037> ,
+		     <http://data.niod.nl/concept/330> ,
+		     <http://data.niod.nl/concept/337> .
 
 <http://data.niod.nl/concept/966>
 	a skos:Concept ;
@@ -6573,6 +6639,7 @@
 <http://data.niod.nl/concept/97>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
+	skos:narrower <http://data.niod.nl/concept/557> ;
 	skos:prefLabel "Bellettrie" .
 
 <http://data.niod.nl/concept/970>
@@ -6583,7 +6650,8 @@
 <http://data.niod.nl/concept/971>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Rechts-extremisme" .
+	skos:prefLabel "Rechts-extremisme" ;
+	skos:related <http://data.niod.nl/concept/348> .
 
 <http://data.niod.nl/concept/972>
 	a skos:Concept ;
@@ -6598,9 +6666,9 @@
 <http://data.niod.nl/concept/974>
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
+	skos:narrower <http://data.niod.nl/concept/100> ;
 	skos:prefLabel "Rechtspraak" ;
-	skos:related <Advocatuur> ,
-		     <http://data.niod.nl/concept/16> .
+	skos:related <http://data.niod.nl/concept/16> .
 
 <http://data.niod.nl/concept/975>
 	a skos:Concept ;
@@ -6696,7 +6764,14 @@
 	skos:altLabel "Godsdienst" ;
 	skos:hasnar "Zie ook bij soorten afzonderlijk: Boeddhisme, Christendom, Islam, Jodendom, Occultisme, Protestantisme, Rooms-Katholicisme" ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Religie" .
+	skos:narrower <http://data.niod.nl/concept/144> ,
+		      <http://data.niod.nl/concept/197> ,
+		      <http://data.niod.nl/concept/550> ,
+		      <http://data.niod.nl/concept/560> ,
+		      <http://data.niod.nl/concept/791> ,
+		      <http://data.niod.nl/concept/944> ;
+	skos:prefLabel "Religie" ;
+	skos:related <http://data.niod.nl/concept/388> .
 
 <http://data.niod.nl/concept/991>
 	a skos:Concept ;
@@ -6711,7 +6786,8 @@
 	skos:altLabel "Vergeldingsacties" ,
 		      "Wraakneming" ;
 	skos:inScheme concept:thesaurus ;
-	skos:prefLabel "Represailles" .
+	skos:prefLabel "Represailles" ;
+	skos:related <http://data.niod.nl/concept/5> .
 
 <http://data.niod.nl/concept/993>
 	a skos:Concept ;
@@ -6734,7 +6810,8 @@
 	skos:hasrel "Roof, Schadeloosstellingen" ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Restitutie" ;
-	skos:related <http://data.niod.nl/concept/1010> .
+	skos:related <http://data.niod.nl/concept/1010> ,
+		     <http://data.niod.nl/concept/1018> .
 
 <http://data.niod.nl/concept/997>
 	a skos:Concept ;
@@ -6745,8 +6822,7 @@
 	a skos:Concept ;
 	skos:inScheme concept:thesaurus ;
 	skos:prefLabel "Revisionisme" ;
-	skos:related <Negationisme> ,
-		     <http://data.niod.nl/concept/780> .
+	skos:related <http://data.niod.nl/concept/780> .
 
 <http://data.niod.nl/concept/999>
 	a skos:Concept ;
