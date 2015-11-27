@@ -1088,6 +1088,7 @@
     skos:topConceptOf concept:thesaurus .
 
 <http://data.niod.nl/concept/133> a skos:Concept ;
+    skos:broader <http://data.niod.nl/concept/768> ;
     skos:inScheme concept:thesaurus ;
     skos:prefLabel "Bijzondere rechtspleging" ;
     skos:topConceptOf concept:thesaurus .
@@ -1272,6 +1273,11 @@
     skos:inScheme concept:thesaurus ;
     skos:prefLabel "Indische Nederlanders" .
 
+<http://data.niod.nl/concept/1511> a skos:Concept ;
+    skos:broader <http://data.niod.nl/concept/1216> ;
+    skos:inScheme concept:thesaurus ;
+    skos:prefLabel "Jehova's Getuigen" .
+	
 <http://data.niod.nl/concept/152> a skos:Concept ;
     skos:broader <http://data.niod.nl/concept/845> ;
     skos:inScheme concept:thesaurus ;
@@ -4212,6 +4218,7 @@
 <http://data.niod.nl/concept/1055> a skos:Concept ;
     skos:inScheme concept:thesaurus ;
     skos:prefLabel "Soevereiniteitsoverdracht" ;
+	skos:broader <http://data.niod.nl/concept/768> ;
     skos:related <http://data.niod.nl/concept/798> ;
     skos:topConceptOf concept:thesaurus .
 
@@ -4980,6 +4987,7 @@
 <http://data.niod.nl/concept/386> a skos:Concept ;
     skos:inScheme concept:thesaurus ;
     skos:prefLabel "Geestelijk gehandicapten" ;
+    skos:broader <http://data.niod.nl/concept/1216>;
     skos:related <http://data.niod.nl/concept/948> ;
     skos:topConceptOf concept:thesaurus .
 
@@ -6559,6 +6567,7 @@
         <http://data.niod.nl/concept/485>,
         <http://data.niod.nl/concept/563>,
         <http://data.niod.nl/concept/69>,
+		<http://data.niod.nl/concept/386>,
         <http://data.niod.nl/concept/927> ;
     skos:prefLabel "Vervolging" ;
     skos:topConceptOf concept:thesaurus .
@@ -6772,7 +6781,6 @@ concept:thesaurus a skos:ConceptScheme ;
         <http://data.niod.nl/concept/1052>,
         <http://data.niod.nl/concept/1053>,
         <http://data.niod.nl/concept/1054>,
-        <http://data.niod.nl/concept/1055>,
         <http://data.niod.nl/concept/1056>,
         <http://data.niod.nl/concept/1057>,
         <http://data.niod.nl/concept/1058>,
